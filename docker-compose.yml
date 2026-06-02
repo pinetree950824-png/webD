@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: duelverse_backend
+    volumes:
+      - sqlite-data:/app/data
+    environment:
+      - PORT=5000
+      - NODE_ENV=production
+      - JWT_SECRET=duelverse_secret_key_2026
+      - DB_PATH=/app/data/db.sqlite
+      - GOOGLE_CLIENT_ID=325492193582-example.apps.googleusercontent.com
+    restart: always
+
+  frontend:
+    build:
+      context: .
+      dockerfile: ./client/Dockerfile
+    container_name: duelverse_frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: always
+
+volumes:
+  sqlite-data:
