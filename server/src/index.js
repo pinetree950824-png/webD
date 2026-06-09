@@ -20,11 +20,15 @@ app.use(cors({
 
 app.use(express.json());
 
-// API Routers
+// API Routers (Supports both direct Express 5000 routing and Nginx /api/ proxying)
 app.use('/auth', authRouter);
+app.use('/api/auth', authRouter);
 app.use('/gacha', gachaRouter);
+app.use('/api/gacha', gachaRouter);
 app.use('/album', albumRouter);
+app.use('/api/album', albumRouter);
 app.use('/market', marketRouter);
+app.use('/api/market', marketRouter);
 
 // Health Check
 app.get('/health', (req, res) => {
