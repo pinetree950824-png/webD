@@ -59,22 +59,13 @@ export default function Card({ card, isUncollected = false, isFaceDown = false, 
   // Determine rarity css class
   const getRarityClass = (rarity) => {
     const r = (rarity || '').toLowerCase().trim();
+    if (r.includes('prismatic secret') || r.includes('prismatic')) return 'prismatic-secret';
+    if (r.includes('collector')) return 'collectors-rare';
+    if (r.includes('secret')) return 'secret-rare';
     if (r.includes('common') || r === 'normal') return 'common';
     if (r === 'rare') return 'rare';
     if (r.includes('super')) return 'super';
     if (r.includes('ultra')) return 'ultra';
-    if (
-      r.includes('secret') || 
-      r.includes('holographic') || 
-      r.includes('ghost') || 
-      r.includes('prismatic') || 
-      r.includes('quarter century') || 
-      r.includes('starlight') || 
-      r.includes('ultimate') || 
-      r.includes('collector')
-    ) {
-      return 'prismatic';
-    }
     if (r.includes('overframe') || r.includes('ace')) {
       return 'overframe';
     }
@@ -113,7 +104,7 @@ export default function Card({ card, isUncollected = false, isFaceDown = false, 
           </div>
         ) : (
           /* Card Front */
-          <div className="card-front" style={{ padding: 0, overflow: 'hidden', height: '100%', borderRadius: 'inherit' }}>
+          <div className="card-front" style={{ padding: 0, overflow: 'hidden', height: '100%', borderRadius: 'inherit', position: 'relative' }}>
             {cachedSrc && (
               <img 
                 src={cachedSrc} 
@@ -126,6 +117,37 @@ export default function Card({ card, isUncollected = false, isFaceDown = false, 
                   display: 'block'
                 }}
               />
+            )}
+            
+            {/* Rarity Overlay Layers */}
+            {!isUncollected && (
+              <>
+                {/* 1. Secret Rare overlays */}
+                {rarityClass === 'secret-rare' && (
+                  <>
+                    <div className="rare-overlay secret-name-glow" />
+                    <div className="rare-overlay secret-glitter-bg" />
+                  </>
+                )}
+                
+                {/* 2. Prismatic Secret Rare overlays */}
+                {rarityClass === 'prismatic-secret' && (
+                  <>
+                    <div className="rare-overlay prismatic-name-glow" />
+                    <div className="rare-overlay prismatic-cross-shimmer" />
+                  </>
+                )}
+                
+                {/* 3. Collector's Rare overlays */}
+                {rarityClass === 'collectors-rare' && (
+                  <>
+                    <div className="rare-overlay collectors-name-glow" />
+                    <div className="rare-overlay collectors-dots-glitter" />
+                    <div className="rare-overlay collectors-illustration-emboss" />
+                    <div className="rare-overlay collectors-frame-jewel" />
+                  </>
+                )}
+              </>
             )}
           </div>
         )}

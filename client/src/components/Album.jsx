@@ -3,22 +3,13 @@ import Card from './Card';
 
 const getRarityClass = (rarity) => {
   const r = (rarity || '').toLowerCase().trim();
+  if (r.includes('prismatic secret') || r.includes('prismatic')) return 'prismatic-secret';
+  if (r.includes('collector')) return 'collectors-rare';
+  if (r.includes('secret')) return 'secret-rare';
   if (r.includes('common') || r === 'normal') return 'common';
   if (r === 'rare') return 'rare';
   if (r.includes('super')) return 'super';
   if (r.includes('ultra')) return 'ultra';
-  if (
-    r.includes('secret') || 
-    r.includes('holographic') || 
-    r.includes('ghost') || 
-    r.includes('prismatic') || 
-    r.includes('quarter century') || 
-    r.includes('starlight') || 
-    r.includes('ultimate') || 
-    r.includes('collector')
-  ) {
-    return 'prismatic';
-  }
   if (r.includes('overframe') || r.includes('ace')) {
     return 'overframe';
   }

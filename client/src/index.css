@@ -29,6 +29,9 @@
   --rarity-ultra: #f77f00;
   --rarity-prismatic: #d62828;
   --rarity-overframe: #ff007f;
+  --rarity-secret-rare: #ff00a0;
+  --rarity-prismatic-secret: #e63946;
+  --rarity-collectors-rare: #00f5d4;
 }
 
 * {
@@ -254,12 +257,26 @@ body {
 .card-3d.rarity-super { border-color: var(--rarity-super); box-shadow: 0 8px 20px rgba(155, 93, 229, 0.2); }
 .card-3d.rarity-ultra { border-color: var(--rarity-ultra); box-shadow: 0 8px 20px rgba(247, 127, 0, 0.25); }
 
+/* Custom Rare types shadows */
+.card-3d.rarity-secret-rare { border-color: var(--rarity-secret-rare); box-shadow: 0 8px 25px rgba(255, 0, 160, 0.35); }
+.card-3d.rarity-prismatic-secret { border-color: var(--rarity-prismatic-secret); box-shadow: 0 8px 25px rgba(230, 57, 70, 0.4); }
+.card-3d.rarity-collectors-rare { border-color: var(--rarity-collectors-rare); box-shadow: 0 8px 25px rgba(0, 245, 212, 0.4); }
+
 /* Prismatic & Overframe Rares feature rainbow colored gloss/glare */
 .card-3d.rarity-prismatic { border-color: var(--rarity-prismatic); box-shadow: 0 8px 25px rgba(214, 40, 40, 0.3); }
 .card-3d.rarity-overframe { border-color: var(--rarity-overframe); box-shadow: 0 8px 25px rgba(255, 0, 127, 0.4); }
 
 .card-3d.rarity-prismatic::after,
-.card-3d.rarity-overframe::after {
+.card-3d.rarity-overframe::after,
+.card-3d.rarity-secret-rare::after,
+.card-3d.rarity-prismatic-secret::after,
+.card-3d.rarity-collectors-rare::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background: linear-gradient(
     115deg,
     rgba(255, 0, 0, 0.1) 0%,
@@ -271,6 +288,18 @@ body {
   background-size: 200% 200%;
   background-position: var(--glare-x, 50%) var(--glare-y, 50%);
   mix-blend-mode: color-dodge;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 5;
+  transition: opacity 0.3s ease;
+}
+
+.card-3d:hover.rarity-prismatic::after,
+.card-3d:hover.rarity-overframe::after,
+.card-3d:hover.rarity-secret-rare::after,
+.card-3d:hover.rarity-prismatic-secret::after,
+.card-3d:hover.rarity-collectors-rare::after {
+  opacity: 1;
 }
 
 /* Card details inner styling */
@@ -1189,4 +1218,194 @@ body {
   .listing-price-tag {
     font-size: 1.25rem;
   }
+}
+
+/* --- Custom Card Rarity Overlays (WOW Effect) --- */
+.rare-overlay {
+  position: absolute;
+  pointer-events: none;
+  z-index: 8;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card-3d:hover .rare-overlay {
+  opacity: 1;
+}
+
+/* 1. Secret Rare (시크릿레어) */
+/* 이름: 무지개빛 광택 */
+.secret-name-glow {
+  top: 3.5%;
+  left: 6%;
+  width: 73%;
+  height: 9.5%;
+  background: linear-gradient(135deg, 
+    rgba(255, 0, 0, 0.5) 0%, 
+    rgba(255, 255, 0, 0.5) 20%, 
+    rgba(0, 255, 0, 0.5) 40%, 
+    rgba(0, 255, 255, 0.5) 60%, 
+    rgba(255, 0, 255, 0.5) 80%, 
+    rgba(255, 0, 0, 0.5) 100%
+  );
+  background-size: 200% 200%;
+  background-position: var(--glare-x, 50%) var(--glare-y, 50%);
+  mix-blend-mode: color-dodge;
+  border-radius: 4px;
+}
+
+/* 일러스트: 세로/사선 빗금 반짝이 + 은은한 무지개 */
+.secret-glitter-bg {
+  top: 19%;
+  left: 9.5%;
+  width: 81%;
+  height: 55%;
+  background: 
+    repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 0px, rgba(255, 255, 255, 0.15) 1.5px, transparent 1.5px, transparent 6px),
+    repeating-linear-gradient(-45deg, rgba(255, 255, 255, 0.08) 0px, rgba(255, 255, 255, 0.08) 1.5px, transparent 1.5px, transparent 6px),
+    linear-gradient(105deg, 
+      rgba(255, 0, 0, 0.25) 0%, 
+      rgba(255, 255, 0, 0.25) 25%, 
+      rgba(0, 255, 255, 0.25) 50%, 
+      rgba(255, 0, 255, 0.25) 75%, 
+      rgba(255, 0, 0, 0.25) 100%
+    );
+  background-size: 200% 200%;
+  background-position: var(--glare-x, 50%) var(--glare-y, 50%);
+  mix-blend-mode: color-dodge;
+  border-radius: 6px;
+}
+
+/* 2. Prismatic Secret Rare (프리즈마틱 시크릿레어) */
+/* 이름: 붉은색 네온 광택 */
+.prismatic-name-glow {
+  top: 3.5%;
+  left: 6%;
+  width: 73%;
+  height: 9.5%;
+  background: radial-gradient(circle at var(--glare-x, 50%) var(--glare-y, 50%), rgba(255, 0, 84, 0.95) 0%, rgba(255, 0, 0, 0.3) 50%, transparent 100%);
+  mix-blend-mode: screen;
+  border-radius: 4px;
+}
+
+/* 십자 시크 + 무지개 빔 */
+.prismatic-cross-shimmer {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.18) 0px, rgba(255, 255, 255, 0.18) 1px, transparent 1px, transparent 20px),
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.18) 0px, rgba(255, 255, 255, 0.18) 1px, transparent 1px, transparent 20px),
+    linear-gradient(135deg, 
+      rgba(255, 0, 0, 0.2) 0%, 
+      rgba(255, 255, 0, 0.2) 20%, 
+      rgba(0, 255, 255, 0.2) 50%, 
+      rgba(255, 0, 255, 0.2) 80%, 
+      rgba(255, 0, 0, 0.2) 100%
+    );
+  background-size: 200% 200%;
+  background-position: var(--glare-x, 50%) var(--glare-y, 50%);
+  mix-blend-mode: color-dodge;
+  border-radius: 12px;
+}
+
+/* 십자 빔 추가 연출 (마우스에 따라 각도 조절) */
+.prismatic-cross-shimmer::after {
+  content: '';
+  position: absolute;
+  top: -50%; left: -50%; width: 200%; height: 200%;
+  background: 
+    linear-gradient(to right, transparent 49.5%, rgba(255,255,255,0.7) 50%, transparent 50.5%),
+    linear-gradient(to bottom, transparent 49.5%, rgba(255,255,255,0.7) 50%, transparent 50.5%);
+  transform: translate(calc(var(--glare-x, 50%) - 50%), calc(var(--glare-y, 50%) - 50%)) rotate(25deg);
+  mix-blend-mode: screen;
+  opacity: 0.35;
+}
+
+/* 3. Collector's Rare (컬렉터즈 레어) */
+/* 이름: 무지개빛 광택 */
+.collectors-name-glow {
+  top: 3.5%;
+  left: 6%;
+  width: 73%;
+  height: 9.5%;
+  background: linear-gradient(135deg, 
+    rgba(255, 0, 0, 0.55) 0%, 
+    rgba(255, 255, 0, 0.55) 20%, 
+    rgba(0, 255, 0, 0.55) 40%, 
+    rgba(0, 255, 255, 0.55) 60%, 
+    rgba(255, 0, 255, 0.55) 80%, 
+    rgba(255, 0, 0, 0.55) 100%
+  );
+  background-size: 200% 200%;
+  background-position: var(--glare-x, 50%) var(--glare-y, 50%);
+  mix-blend-mode: color-dodge;
+  border-radius: 4px;
+}
+
+/* 카드 전체: 점박이 반짝이 */
+.collectors-dots-glitter {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    radial-gradient(circle, rgba(255, 255, 255, 0.6) 1.5px, transparent 1.5px),
+    linear-gradient(105deg, 
+      rgba(255, 0, 0, 0.15) 0%, 
+      rgba(255, 255, 0, 0.15) 25%, 
+      rgba(0, 255, 255, 0.15) 50%, 
+      rgba(255, 0, 255, 0.15) 75%, 
+      rgba(255, 0, 0, 0.15) 100%
+    );
+  background-size: 15px 15px, 200% 200%;
+  background-position: 0 0, var(--glare-x, 50%) var(--glare-y, 50%);
+  mix-blend-mode: screen;
+  border-radius: 12px;
+}
+
+/* 일러스트: 360도 가운데 한 점으로 모이는 집중선 모양 부조 */
+.collectors-illustration-emboss {
+  top: 19%;
+  left: 9.5%;
+  width: 81%;
+  height: 55%;
+  background: 
+    repeating-conic-gradient(from 0deg at 50% 50%, 
+      rgba(255, 255, 255, 0.08) 0deg, 
+      rgba(255, 255, 255, 0.08) 1deg, 
+      transparent 1deg, 
+      transparent 8deg
+    ),
+    radial-gradient(circle at var(--glare-x, 50%) var(--glare-y, 50%), rgba(255,255,255,0.25) 0%, transparent 60%);
+  mix-blend-mode: overlay;
+  border-radius: 6px;
+  box-shadow: inset 0 0 10px rgba(255,255,255,0.15);
+}
+
+/* 카드 프레임: 보석 느낌 레어 효과 (polygon 클리핑) */
+.collectors-frame-jewel {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    repeating-linear-gradient(60deg, rgba(255, 255, 255, 0.12) 0px, rgba(255, 255, 255, 0.12) 3px, rgba(0, 245, 212, 0.08) 3px, rgba(0, 245, 212, 0.08) 6px, rgba(123, 44, 191, 0.08) 6px, rgba(123, 44, 191, 0.08) 9px),
+    linear-gradient(135deg, 
+      rgba(255, 0, 127, 0.2) 0%, 
+      rgba(0, 245, 212, 0.2) 35%, 
+      rgba(123, 44, 191, 0.2) 70%, 
+      rgba(255, 190, 11, 0.2) 100%
+    );
+  background-size: 200% 200%;
+  background-position: var(--glare-x, 50%) var(--glare-y, 50%);
+  mix-blend-mode: color-dodge;
+  border-radius: 12px;
+  /* Clip frame so it doesn't overlap the main illustration (19%-74% H, 9.5%-90.5% W) */
+  clip-path: polygon(
+    0% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 0%,
+    9.5% 19%, 9.5% 74%, 90.5% 74%, 90.5% 19%, 9.5% 19%,
+    0% 0%
+  );
 }
