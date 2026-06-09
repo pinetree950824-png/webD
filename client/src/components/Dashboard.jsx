@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 
 export default function Dashboard({ user, token, setView }) {
   const [stats, setStats] = useState(null);
-  const [feed, setFeed] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -25,14 +24,6 @@ export default function Dashboard({ user, token, setView }) {
     };
 
     fetchStats();
-
-    // Setup initial mock social feed representing user pulls
-    setFeed([
-      { id: 1, text: '듀얼리스트 "세토" 님이 [푸른 눈의 백룡] 오버프레임 레어를 획득했습니다!', type: 'mythic' },
-      { id: 2, text: '듀얼리스트 "유희" 님이 [블랙 매지션] 카드를 획득했습니다!', type: 'rare' },
-      { id: 3, text: '듀얼리스트 "쥬다이" 님이 [엘리멘틀 히어로 네오스] 카드를 획득했습니다!', type: 'legendary' },
-      { id: 4, text: '듀얼리스트 "크로노스" 님이 [No.39 희망황 호프] 카드를 획득했습니다!', type: 'legendary' },
-    ]);
   }, [token]);
 
   if (loading) {
@@ -45,7 +36,7 @@ export default function Dashboard({ user, token, setView }) {
 
   return (
     <div className="dashboard-container">
-      <div className="main-content">
+      <div className="main-content" style={{ width: '100%' }}>
         {/* Welcome Banner */}
         <div className="glass-panel glass-panel-glow" style={{ padding: '2rem' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: 800, marginBottom: '0.5rem' }}>
@@ -117,33 +108,6 @@ export default function Dashboard({ user, token, setView }) {
             ))}
           </div>
         </div>
-      </div>
-
-      {/* Sidebar: Social Activity Feed */}
-      <div className="glass-panel activity-feed">
-        <h3 style={{ fontSize: '1.1rem', fontWeight: 700, borderBottom: '1px solid var(--border-color)', paddingBottom: '0.5rem' }}>
-          실시간 듀얼 월드 피드
-        </h3>
-        <div className="feed-list">
-          {feed.map((item) => (
-            <div 
-              key={item.id} 
-              className={`feed-item ${
-                item.type === 'mythic' ? 'pull-mythic' : 
-                item.type === 'legendary' ? 'pull-legendary' : ''
-              }`}
-            >
-              <p>{item.text}</p>
-            </div>
-          ))}
-        </div>
-        <button 
-          className="btn btn-secondary" 
-          style={{ fontSize: '0.8rem', marginTop: 'auto' }}
-          onClick={() => setView('shop')}
-        >
-          🛒 부스터 상점 바로가기
-        </button>
       </div>
     </div>
   );
