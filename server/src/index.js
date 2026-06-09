@@ -31,6 +31,18 @@ app.get('/health', (req, res) => {
   res.json({ status: 'healthy', timestamp: new Date() });
 });
 
+// Serve frontend static files (Render single container fallback support)
+const path = require('path');
+const fs = require('fs');
+const FRONTEND_DIST = '/usr/share/nginx/html';
+
+if (fs.existsSync(FRONTEND_DIST)) {
+  app.use(express.static(FRONTEND_DIST));
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(FRONTEND_DIST, 'index.html'));
+  });
+}
+
 // Database Auto-Initialization & Bootstrap
 initDB()
   .then(() => {
