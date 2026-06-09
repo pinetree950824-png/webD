@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { getDB } = require('../db');
+const { getDB, getTransactionDB } = require('../db');
 const { authenticateToken } = require('../middleware/auth');
 
 // Available booster packs metadata
@@ -123,23 +123,24 @@ router.post('/draw', authenticateToken, async (req, res) => {
     }
 
     // 4. Save to Database using a Transaction
-    await db.run('BEGIN TRANSACTION');
+    const tx = await getTransactionDB();
+    const txDb = tx.db;
 
     try {
+      await tx.client.query('BEGIN');
+
       // Deduct gold
-      await db.run('UPDATE users SET gold = gold - ? WHERE id = ?', [cost, userId]);
+      await txDb.run('UPDATE users SET gold = gold - ? WHERE id = ?', [cost, userId]);
 
       // Insert drawn cards into user's inventory
-      const stmt = await db.prepare('INSERT INTO user_cards (user_id, card_id) VALUES (?, ?)');
       for (const card of drawnCards) {
-        await stmt.run(userId, card.id);
+        await txDb.run('INSERT INTO user_cards (user_id, card_id) VALUES (?, ?)', [userId, card.id]);
       }
-      await stmt.finalize();
 
-      await db.run('COMMIT');
+      await tx.client.query('COMMIT');
 
       // Get updated gold
-      const updatedUser = await db.get('SELECT gold FROM users WHERE id = ?', [userId]);
+      const updatedUser = await txDb.get('SELECT gold FROM users WHERE id = ?', [userId]);
 
       res.json({
         drawnCards,
@@ -147,9 +148,11 @@ router.post('/draw', authenticateToken, async (req, res) => {
       });
 
     } catch (txError) {
-      await db.run('ROLLBACK');
+      await tx.client.query('ROLLBACK');
       console.error('Transaction failed, rolled back:', txError);
       res.status(500).json({ error: '카드 획득 처리 중 오류가 발생했습니다.' });
+    } finally {
+      tx.release();
     }
 
   } catch (error) {

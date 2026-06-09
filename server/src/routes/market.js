@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { getDB } = require('../db');
+const { getDB, getTransactionDB } = require('../db');
 const { authenticateToken } = require('../middleware/auth');
 
 // GET /listings - Get all active listings
@@ -131,68 +131,77 @@ router.post('/buy', authenticateToken, async (req, res) => {
 
   const db = await getDB();
 
+  // 1. Start Transaction
+  const tx = await getTransactionDB();
+  const txDb = tx.db;
+
   try {
-    // 1. Start SQLite Transaction
-    await db.run('BEGIN TRANSACTION');
+    await tx.client.query('BEGIN');
 
-    try {
-      // Get active listing using SELECT ... FOR UPDATE (in SQLite we do standard select within tx)
-      const listing = await db.get(
-        'SELECT * FROM marketplace WHERE id = ? AND is_active = 1',
-        [listingId]
-      );
+    // Get active listing using SELECT ... FOR UPDATE (in SQLite we do standard select within tx)
+    // In PostgreSQL, FOR UPDATE locks the row
+    const listing = await txDb.get(
+      'SELECT * FROM marketplace WHERE id = ? AND is_active = 1 FOR UPDATE',
+      [listingId]
+    );
 
-      if (!listing) {
-        await db.run('ROLLBACK');
-        return res.status(404).json({ error: '판매 중인 상품이 아니거나 이미 판매된 카드입니다.' });
-      }
-
-      if (listing.seller_id === buyerId) {
-        await db.run('ROLLBACK');
-        return res.status(400).json({ error: '자신이 등록한 카드는 구매할 수 없습니다.' });
-      }
-
-      // Check buyer's gold
-      const buyer = await db.get('SELECT gold FROM users WHERE id = ?', [buyerId]);
-      if (!buyer) {
-        await db.run('ROLLBACK');
-        return res.status(404).json({ error: '구매자 정보를 찾을 수 없습니다.' });
-      }
-
-      if (buyer.gold < listing.price) {
-        await db.run('ROLLBACK');
-        return res.status(400).json({ error: '골드가 부족합니다.' });
-      }
-
-      // 2. Perform Transaction actions
-      // A. Deduct gold from buyer
-      await db.run('UPDATE users SET gold = gold - ? WHERE id = ?', [listing.price, buyerId]);
-
-      // B. Add gold to seller
-      await db.run('UPDATE users SET gold = gold + ? WHERE id = ?', [listing.price, listing.seller_id]);
-
-      // C. Transfer card ownership in inventory
-      await db.run('UPDATE user_cards SET user_id = ? WHERE id = ?', [buyerId, listing.user_card_id]);
-
-      // D. Mark listing as inactive (completed)
-      await db.run('UPDATE marketplace SET is_active = 0 WHERE id = ?', [listingId]);
-
-      await db.run('COMMIT');
-
-      // Fetch buyer's updated gold to return
-      const updatedBuyer = await db.get('SELECT gold FROM users WHERE id = ?', [buyerId]);
-
-      res.json({
-        success: true,
-        message: '카드를 성공적으로 구매했습니다.',
-        updatedGold: updatedBuyer.gold
-      });
-
-    } catch (txError) {
-      await db.run('ROLLBACK');
-      console.error('Buy transaction failed, rolled back:', txError);
-      res.status(500).json({ error: '카드 구매 거래 처리 중 오류가 발생했습니다.' });
+    if (!listing) {
+      await tx.client.query('ROLLBACK');
+      tx.release();
+      return res.status(404).json({ error: '판매 중인 상품이 아니거나 이미 판매된 카드입니다.' });
     }
+
+    if (listing.seller_id === buyerId) {
+      await tx.client.query('ROLLBACK');
+      tx.release();
+      return res.status(400).json({ error: '자신이 등록한 카드는 구매할 수 없습니다.' });
+    }
+
+    // Check buyer's gold
+    const buyer = await txDb.get('SELECT gold FROM users WHERE id = ?', [buyerId]);
+    if (!buyer) {
+      await tx.client.query('ROLLBACK');
+      tx.release();
+      return res.status(404).json({ error: '구매자 정보를 찾을 수 없습니다.' });
+    }
+
+    if (buyer.gold < listing.price) {
+      await tx.client.query('ROLLBACK');
+      tx.release();
+      return res.status(400).json({ error: '골드가 부족합니다.' });
+    }
+
+    // 2. Perform Transaction actions
+    // A. Deduct gold from buyer
+    await txDb.run('UPDATE users SET gold = gold - ? WHERE id = ?', [listing.price, buyerId]);
+
+    // B. Add gold to seller
+    await txDb.run('UPDATE users SET gold = gold + ? WHERE id = ?', [listing.price, listing.seller_id]);
+
+    // C. Transfer card ownership in inventory
+    await txDb.run('UPDATE user_cards SET user_id = ? WHERE id = ?', [buyerId, listing.user_card_id]);
+
+    // D. Mark listing as inactive (completed)
+    await txDb.run('UPDATE marketplace SET is_active = 0 WHERE id = ?', [listingId]);
+
+    await tx.client.query('COMMIT');
+
+    // Fetch buyer's updated gold to return
+    const updatedBuyer = await txDb.get('SELECT gold FROM users WHERE id = ?', [buyerId]);
+    tx.release();
+
+    res.json({
+      success: true,
+      message: '카드를 성공적으로 구매했습니다.',
+      updatedGold: updatedBuyer.gold
+    });
+
+  } catch (txError) {
+    await tx.client.query('ROLLBACK');
+    tx.release();
+    console.error('Buy transaction failed, rolled back:', txError);
+    res.status(500).json({ error: '카드 구매 거래 처리 중 오류가 발생했습니다.' });
+  }
 
   } catch (error) {
     console.error('Buy card API error:', error);
