@@ -294,7 +294,7 @@ export default function Album({ token, user, refreshUser, addNotification }) {
               </div>
               
               {/* Right Column: Glass Details Panel */}
-              <div className="modal-content glass-panel glass-panel-glow" style={{ width: '480px', margin: 0, padding: '2.2rem' }}>
+              <div className="modal-content glass-panel glass-panel-glow" style={{ width: '700px', margin: 0, padding: '2.2rem' }}>
                 <div className="modal-header">
                   <h3 style={{ fontSize: '1.8rem', fontWeight: 800 }}>카드 상세 보기</h3>
                   <button className="modal-close-btn" onClick={() => { setSelectedCard(null); setIsSellingMode(false); }}>×</button>
