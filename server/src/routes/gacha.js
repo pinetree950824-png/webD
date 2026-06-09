@@ -12,7 +12,7 @@ const BOOSTER_PACKS = [
     description: "카오스 솔저와 종언의 드래곤 등 강력한 광암 카오스 테마 수록!",
     cost_single: 100,
     cost_ten: 1000,
-    cover_image: "https://images.ygoprodeck.com/images/cards/72869073.jpg" // Chaos Soldier image as cover
+    cover_image: "/images/pack_chaos_origins.jpg" // Chaos Soldier image as cover
   },
   {
     id: "limit_heroes",
@@ -21,7 +21,7 @@ const BOOSTER_PACKS = [
     description: "역대 주인공들의 에이스 카드와 초고화질 오버프레임 레어 수록!",
     cost_single: 100,
     cost_ten: 1000,
-    cover_image: "https://images.ygoprodeck.com/images/cards/28754358.jpg" // Neos image as cover
+    cover_image: "/images/pack_limit_heroes.jpg" // Neos image as cover
   },
   {
     id: "limit_rivals",
@@ -30,7 +30,7 @@ const BOOSTER_PACKS = [
     description: "푸른 눈의 백룡과 레드 데몬즈 등 숙명의 라이벌 카드 및 오버프레임 수록!",
     cost_single: 100,
     cost_ten: 1000,
-    cover_image: "https://images.ygoprodeck.com/images/cards/89631139.jpg" // Blue-Eyes image as cover
+    cover_image: "/images/pack_limit_rivals.jpg" // Blue-Eyes image as cover
   }
 ];
 
