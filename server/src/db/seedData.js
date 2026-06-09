@@ -1,8 +1,8 @@
 // Auto-generated Card Seed Data via crawler
 const seedCards = [
   {
-    "name": "A Bao A Qu, the Lightless Shadow",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "빛 없는 그림자 아＝바오 아 쿠",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/4731783.jpg",
     "card_type": "Monster",
@@ -10,11 +10,11 @@ const seedCards = [
     "attribute": "DARK",
     "attack": 2800,
     "defense": null,
-    "description": "2+ monsters, including a Fiend monster\r\nDuring the Main Phase (Quick Effect): You can discard 1 card, then activate 1 of these effects;\r\n● Destroy 1 card on the field.\r\n● Banish this card (until the End Phase), and if you do, Special Summon 1 LIGHT or DARK monster from your GY.\r\nDuring your Standby Phase: You can draw cards equal to the number of different Monster Types in your GY, then place cards from your hand on the bottom of the Deck in any order, equal to the number of cards you drew. You can only use each effect of \"A Bao A Qu, the Lightless Shadow\" once per turn."
+    "description": "악마족 몬스터를 포함하는 몬스터 2장 이상\n이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 / 상대의 메인 페이즈에, 패를 1장 버리고, 이하의 효과에서 1개를 선택하여 발동할 수 있다. ●필드의 카드 1장을 파괴한다. ●이 카드를 엔드 페이즈까지 제외하고, 자신 묘지에서 빛 / 어둠 속성 몬스터 1장을 특수 소환한다. ②: 자신 스탠바이 페이즈에 발동할 수 있다. 자신 묘지의 몬스터 종족의 종류의 수만큼 자신은 드로우한다. 그 후, 드로우한 수만큼 자신의 패를 골라 좋아하는 순서대로 덱 아래로 되돌린다."
   },
   {
-    "name": "Ancient Chant",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "고대의 주문",
+    "rarity": "Collector s Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/78665705.jpg",
     "card_type": "Spell",
@@ -22,11 +22,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "Add 1 \"The Winged Dragon of Ra\" from your Deck or GY to your hand, and if you do, you can Tribute Summon 1 monster during your Main Phase this turn, in addition to your Normal Summon/Set. (You can only gain this effect once per turn.) You can banish this card from your GY: If you Tribute Summon \"The Winged Dragon of Ra\" this turn, its original ATK/DEF become the combined original ATK/DEF of the monsters Tributed for its Summon. You can only activate 1 \"Ancient Chant\" per turn."
+    "description": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 자신의 덱 / 묘지에서 \"라의 익신룡\" 1장을 패에 넣고, 이 턴에 자신은 통상 소환 외에도 1번만, 자신 메인 페이즈에 어드밴스 소환할 수 있다. ②: 묘지의 이 카드를 제외하고 발동할 수 있다. 발동 후, 이 턴 중에 자신이 \"라의 익신룡\"을 어드밴스 소환했을 경우, 그 원래의 공격력 / 수비력은, 그 어드밴스 소환을 위해 릴리스한 몬스터의 원래의 공격력 / 수비력을 각각 합계한 수치가 된다."
   },
   {
     "name": "Cyberse Contract Witch",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/37458564.jpg",
     "card_type": "Monster",
@@ -37,8 +37,8 @@ const seedCards = [
     "description": "2 monsters with the same Type\r\nIf this card is Link Summoned, or a monster(s) is Special Summoned to a zone(s) this card points to: You can send 1 Spell from your hand or face-up field to the GY; add 1 Ritual Monster from your Deck to your hand. You can target 1 Ritual, Fusion, Synchro, or Xyz Monster this card points to; Special Summon 1 monster from your GY with the same Type but a different card type (Ritual, Fusion, Synchro, or Xyz). You can only use each effect of \"Cyberse Contract Witch\" once per turn."
   },
   {
-    "name": "Cyberse Wicckid",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "사이버스 위키드",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/52698008.jpg",
     "card_type": "Monster",
@@ -46,11 +46,11 @@ const seedCards = [
     "attribute": "DARK",
     "attack": 800,
     "defense": null,
-    "description": "2 Cyberse monsters\r\nThis Link Summoned card cannot be destroyed by battle or card effects. Cyberse monsters this card points to cannot be destroyed by card effects. If a monster(s) is Special Summoned to a zone(s) this card points to while you control this monster (except during the Damage Step): You can banish 1 Cyberse monster from your GY; add 1 Cyberse Tuner from your Deck to your hand. You can only use this effect of \"Cyberse Wicckid\" once per turn."
+    "description": "사이버스족 몬스터 2장\n이 카드명의 ③의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 링크 소환한 이 카드는 전투 / 효과로는 파괴되지 않는다. ②: 이 카드의 링크 앞의 사이버스족 몬스터는 효과로는 파괴되지 않는다. ③: 이 카드가 몬스터 존에 존재하는 상태에서, 이 카드의 링크 앞에 몬스터가 특수 소환되었을 경우, 자신 묘지에서 사이버스족 몬스터 1장을 제외하고 발동할 수 있다. 덱에서 사이버스족 튜너 1장을 패에 넣는다."
   },
   {
-    "name": "Dark Cavalry",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "초마법 기사 블랙 카발리",
+    "rarity": "Collector s Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/73452089.jpg",
     "card_type": "Monster",
@@ -58,11 +58,11 @@ const seedCards = [
     "attribute": "DARK",
     "attack": 2800,
     "defense": 2300,
-    "description": "\"Dark Magician\" + 1 Warrior monster\r\nGains 100 ATK for each Spell/Trap on the field and in the GYs. If this card attacks a Defense Position monster, inflict piercing battle damage. When a card or effect is activated that targets a card on the field (Quick Effect): You can discard 1 card; negate the activation, and if you do, destroy it."
+    "description": "\"블랙 매지션\" ＋ 전사족 몬스터\n①: 이 카드의 공격력은, 서로의 필드 / 묘지의 마법 / 함정 카드의 수 × 100 올린다. ②: 이 카드가 수비 표시 몬스터를 공격했을 경우, 그 수비력을 공격력이 넘은 만큼만 상대에게 전투 데미지를 준다. ③: 필드의 카드를 대상으로 하는 마법 / 함정 / 몬스터의 효과가 발동했을 때, 패를 1장 버리고 발동할 수 있다. 그 발동을 무효로 하고 파괴한다."
   },
   {
     "name": "Dark Magician, the Pharaoh's Servant",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/88570003.jpg",
     "card_type": "Monster",
@@ -73,8 +73,8 @@ const seedCards = [
     "description": "This card's name becomes \"Dark Magician\" while on the field or in the GY. You can only use 1 of the following effects of \"Dark Magician, the Pharaoh's Servant\" per turn, and only once that turn. If this card is in your hand: You can reveal 1 Spell in your hand; Special Summon this card, then you can Set 1 Spell/Trap that mentions \"Dark Magician\" from your Deck. (Quick Effect): You can discard 1 Spell; destroy all Spells/Traps your opponent controls."
   },
   {
-    "name": "Dark Ruler No More",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "명왕결계파",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/54693926.jpg",
     "card_type": "Spell",
@@ -82,11 +82,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "Negate the effects of all face-up monsters your opponent currently controls, until the end of this turn, also, for the rest of this turn after this card resolves, your opponent takes no damage. Neither player can activate monster effects in response to this card's activation."
+    "description": "이 카드의 발동에 대하여 몬스터의 효과는 발동할 수 없다. ①: 상대 필드의 모든 앞면 표시 몬스터의 효과는 턴 종료시까지 무효화된다. 이 카드의 발동 후, 턴 종료시까지 상대가 받는 모든 데미지는 0 이 된다."
   },
   {
     "name": "Decode Talker Integration",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/74665150.jpg",
     "card_type": "Monster",
@@ -97,8 +97,8 @@ const seedCards = [
     "description": "2+ Effect Monsters\r\nWhile this card is in the Extra Monster Zone, it gains 500 ATK for every other Link Monster in the field and the GYs, also your opponent cannot target it with card effects. (Quick Effect): You can Tribute 1 monster this card points to; send 1 Cyberse monster from your Extra Deck to the GY, also this card can make up to 2 attacks on monsters during each Battle Phase this turn. You can only use this effect of \"Decode Talker Integration\" once per turn."
   },
   {
-    "name": "Diabellstar the Black Witch",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "흑마녀 디아벨스타",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/72270339.jpg",
     "card_type": "Monster",
@@ -106,11 +106,11 @@ const seedCards = [
     "attribute": "DARK",
     "attack": 2500,
     "defense": 2000,
-    "description": "You can Special Summon this card (from your hand) by sending 1 card from your hand or field to the GY. You can only Special Summon \"Diabellstar the Black Witch\" once per turn this way. You can only use each of the following effects of \"Diabellstar the Black Witch\" once per turn. If this card is Normal or Special Summoned: You can Set 1 \"Sinful Spoils\" Spell/Trap directly from your Deck. During your opponent's turn, if this card is sent from its owner's hand or field to the GY: You can send 1 card from your hand or field to the GY, and if you do, Special Summon this card."
+    "description": "이 카드명의, ①의 방법에 의한 특수 소환은 1턴에 1번밖에 할 수 없으며, ②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드는 자신의 패 / 필드의 카드 1장을 묘지로 보내고, 패에서 특수 소환할 수 있다. ②: 이 카드를 일반 소환 / 특수 소환했을 경우에 발동할 수 있다. 덱에서 \"죄보\" 마법 / 함정 카드 1장을 자신 필드에 세트한다. ③: 이 카드가 상대 턴에 패 / 필드에서 묘지로 보내졌을 경우에 발동할 수 있다. 자신의 패 / 필드에서 카드 1장을 묘지로 보내고, 이 카드를 특수 소환한다."
   },
   {
-    "name": "EM:P Meowmine",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "이엠:피 그레냐드",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/48017189.jpg",
     "card_type": "Monster",
@@ -118,11 +118,11 @@ const seedCards = [
     "attribute": "DARK",
     "attack": 800,
     "defense": 0,
-    "description": "If a Link Monster is on the field or in either GY, you can Special Summon this card (from your hand). You can only Special Summon \"EM:P Meowmine\" once per turn this way. If a Link-2 monster you control is sent to the GY or banished face-up (except during the Damage Step): You can banish this card from your GY (if it was there when the monster was sent or banished) or hand (even if not), then target 1 card your opponent controls; return it to the hand. You can only use this effect of \"EM:P Meowmine\" once per turn."
+    "description": "이 카드명의, ①의 방법에 의한 특수 소환은 1턴에 1번밖에 할 수 없으며, ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 자신이나 상대의 필드나 묘지에 링크 몬스터가 존재할 경우, 이 카드는 패에서 특수 소환할 수 있다. ②: 자신 필드의 링크 2 몬스터가 묘지로 보내졌을 경우 또는 앞면으로 제외되었을 경우, 패 / 묘지의 이 카드를 제외하고, 상대 필드의 카드 1장을 대상으로 하여 발동할 수 있다. 그 카드를 패로 되돌린다."
   },
   {
-    "name": "Evil HERO Sinister Necrom",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "이블 히어로 시니스터 네크롬",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/45659520.jpg",
     "card_type": "Monster",
@@ -130,11 +130,11 @@ const seedCards = [
     "attribute": "DARK",
     "attack": 1600,
     "defense": 1800,
-    "description": "You can banish this card from your GY; Special Summon 1 \"Evil HERO\" monster from your hand or Deck, except \"Evil HERO Sinister Necrom\". You can only use this effect of \"Evil HERO Sinister Necrom\" once per turn."
+    "description": "이 카드명의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 묘지의 이 카드를 제외하고 발동할 수 있다. 패 / 덱에서 \"이블 히어로 시니스터 네크롬\" 이외의 \"이블 히어로\" 몬스터 1장을 특수 소환한다."
   },
   {
-    "name": "Evolzar Dolkka",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "에볼카이저 돌카",
+    "rarity": "Collector s Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/42752141.jpg",
     "card_type": "Monster",
@@ -142,11 +142,11 @@ const seedCards = [
     "attribute": "FIRE",
     "attack": 2300,
     "defense": 1700,
-    "description": "2 Level 4 Dinosaur-Type monsters\nDuring either player's turn, when a monster effect activates: You can detach 1 Xyz Material from this card; negate the activation, and if you do, destroy that monster."
+    "description": "공룡족 레벨 4 몬스터 × 2\n①: 이 카드 이외의 몬스터의 효과가 발동했을 때, 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 그 발동을 무효로 하고 파괴한다."
   },
   {
     "name": "Favorite HERO Flame Wingman",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/13243124.jpg",
     "card_type": "Monster",
@@ -158,7 +158,7 @@ const seedCards = [
   },
   {
     "name": "Favorite HERO Shining Flare Wingman",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/87758525.jpg",
     "card_type": "Monster",
@@ -169,8 +169,8 @@ const seedCards = [
     "description": "1 Fusion Monster + 1 face-up monster on the field\r\n(This card is always treated as an \"Elemental HERO\" card.)\r\nIf this card is Special Summoned from the Extra Deck: You can shuffle 5 monsters from your GY into the Deck, then draw 2 cards, and if you do, this card gains 1000 ATK. You can only use this effect of \"Favorite HERO Shining Flare Wingman\" once per turn. If this card destroys a monster by battle: Inflict damage to your opponent equal to that monster's original ATK."
   },
   {
-    "name": "Fiendsmith Engraver",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "마를 새기는 데먼스미스",
+    "rarity": "Collector s Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/60764609.jpg",
     "card_type": "Monster",
@@ -178,11 +178,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 1800,
     "defense": 2400,
-    "description": "You can discard this card; add 1 \"Fiendsmith\" Spell/Trap from your Deck to your hand. You can target 1 \"Fiendsmith\" Equip Card you control and 1 monster on the field; send them to the GY. If this card is in your GY: You can shuffle 1 other LIGHT Fiend monster from your GY into the Deck/Extra Deck; Special Summon this card. You can only use each effect of \"Fiendsmith Engraver\" once per turn."
+    "description": "이 카드명의 ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 패에서 버리고 발동할 수 있다. 덱에서 \"데먼스미스\" 마법 / 함정 카드 1장을 패에 넣는다. ②: 자신 필드의 \"데먼스미스\" 장착 카드 1장과 필드의 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 카드를 묘지로 보낸다. ③: 이 카드가 묘지에 존재할 경우, 자신 묘지에서 다른 악마족 / 빛 속성 몬스터 1장을 덱 / 엑스트라 덱으로 되돌리고 발동할 수 있다. 이 카드를 특수 소환한다."
   },
   {
-    "name": "Fiendsmith's Sequence",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "데먼스미스 세퀜티아",
+    "rarity": "Collector s Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/49867899.jpg",
     "card_type": "Monster",
@@ -190,11 +190,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 1200,
     "defense": null,
-    "description": "2 monsters, including a LIGHT Fiend monster\r\nDuring your Main Phase: You can Fusion Summon 1 Fiend Fusion Monster from your Extra Deck, by shuffling its materials from your GY into the Deck. You can target 1 LIGHT non-Link Fiend monster you control; equip this card from your field or GY to that monster you control as an Equip Spell with the following effect.\r\n● Your opponent cannot target the equipped monster with card effects.\r\nYou can only use each effect of \"Fiendsmith's Sequence\" once per turn."
+    "description": "악마족 / 빛 속성 몬스터를 포함하는 몬스터 2장\n이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 메인 페이즈에 발동할 수 있다. 자신 묘지의 몬스터를 융합 소재로서 덱으로 되돌리고, 악마족 융합 몬스터 1장을 융합 소환한다. ②: 링크 몬스터 이외의 자신 필드의 악마족 / 빛 속성 몬스터 1장을 대상으로 하고 발동할 수 있다. 자신의 필드 / 묘지에서 이 카드를 이하의 효과를 가지는 장착 마법 카드로 취급하여 그 자신의 몬스터에 장착한다. ●상대는 장착 몬스터를 효과의 대상으로 할 수 없다."
   },
   {
-    "name": "Fiendsmith's Tract",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "데먼스미스 트락투스",
+    "rarity": "Collector s Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/98567237.jpg",
     "card_type": "Spell",
@@ -202,11 +202,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "Add 1 LIGHT Fiend monster from your Deck to your hand, then discard 1 card. You can banish this card from your GY; Fusion Summon 1 \"Fiendsmith\" Fusion Monster from your Extra Deck, using monsters from your hand or field. You can only use each effect of \"Fiendsmith's Tract\" once per turn."
+    "description": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 덱에서 악마족 / 빛 속성 몬스터 1장을 패에 넣는다. 그 후, 자신의 패를 1장 고르고 버린다. ②: 묘지의 이 카드를 제외하고 발동할 수 있다. 자신의 패 / 필드의 몬스터를 융합 소재로 하고, \"데먼스미스\" 융합 몬스터 1장을 융합 소환한다."
   },
   {
-    "name": "G Golem Crystal Heart",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "G골렘 크리스탈하트",
+    "rarity": "Collector s Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/61668670.jpg",
     "card_type": "Monster",
@@ -214,11 +214,11 @@ const seedCards = [
     "attribute": "WATER",
     "attack": 0,
     "defense": null,
-    "description": "2 Cyberse monsters\r\nYou can target 1 EARTH Link Monster in your GY; Special Summon it to your zone this card points to, and if you do, place 1 GG Counter on this card. You can only use this effect of \"G Golem Crystal Heart\" once per turn. EARTH monsters co-linked to this card gain 600 ATK for each GG Counter on this card, can make a second attack during each Battle Phase, also if they attack a Defense Position monster, inflict piercing battle damage to your opponent."
+    "description": "사이버스족 몬스터 2장\n이 카드명의 ①의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 자신 묘지의 땅 속성 링크 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 이 카드의 링크 앞이 되는 자신 필드에 특수 소환하고, 이 카드에 GG(G골렘) 카운터를 1개 놓는다. ②: 이 카드의 상호 링크 앞의 땅 속성 몬스터는, 공격력을 이 카드의 GG(G골렘) 카운터의 수 × 600 올리고, 1번의 배틀 페이즈 중에 2회 공격할 수 있으며, 수비 표시 몬스터를 공격했을 경우, 그 수비력을 공격력이 넘은 만큼만 상대에게 전투 데미지를 준다."
   },
   {
     "name": "Gagaga Girl - Cell Phone Subtraction",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/48393693.jpg",
     "card_type": "Monster",
@@ -230,7 +230,7 @@ const seedCards = [
   },
   {
     "name": "Gagaga Magician - Gagaga Magic",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/12908094.jpg",
     "card_type": "Monster",
@@ -241,8 +241,8 @@ const seedCards = [
     "description": "If this card is in your hand: You can Special Summon both it and 1 other \"Zubaba\", \"Gagaga\", \"Gogogo\", or \"Dododo\" monster from your hand or GY, except \"Gagaga Magician - Gagaga Magic\", and if you do, immediately after this effect resolves, Xyz Summon 1 \"Zubaba\", \"Gagaga\", \"Gogogo\", \"Dododo\", \"Djinn\", \"Heroic Champion\", \"Number\", \"ZW -\", or \"ZS -\" Xyz Monster using only those 2 monsters. When you do, treat the Level of 1 of the monsters the same as the other monster's. You can only use this effect of \"Gagaga Magician - Gagaga Magic\" once per turn."
   },
   {
-    "name": "Guardian Slime",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "가디언 슬라임",
+    "rarity": "Collector s Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/15771991.jpg",
     "card_type": "Monster",
@@ -250,11 +250,11 @@ const seedCards = [
     "attribute": "WATER",
     "attack": 0,
     "defense": 0,
-    "description": "If you take battle or effect damage: You can Special Summon this card from your hand. During damage calculation, if this card battles an opponent's monster (Quick Effect): You can make this card gain DEF equal to that opponent's monster's ATK during that damage calculation only. If this card is sent from the hand or field to the GY: You can add 1 Spell/Trap from your Deck to your hand that specifically lists the card \"The Winged Dragon of Ra\" in its text. You can only use each effect of \"Guardian Slime\" once per turn."
+    "description": "이 카드명의 ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신이 전투 / 효과로 데미지를 받았을 경우에 발동할 수 있다. 이 카드를 패에서 특수 소환한다. ②: 이 카드가 상대 몬스터와 전투를 실행하는 자신 / 상대 턴의 데미지 계산시에 발동할 수 있다. 이 카드의 수비력은 그 데미지 계산시에만, 그 상대 몬스터의 공격력만큼 올린다. ③: 이 카드가 패 / 필드에서 묘지로 보내졌을 경우에 발동할 수 있다. 덱에서 \"라의 익신룡\"의 카드명이 쓰여진 마법 / 함정 카드 1장을 패에 넣는다."
   },
   {
-    "name": "Heavy Polymerization",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "다층융합",
+    "rarity": "Collector s Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/58570206.jpg",
     "card_type": "Spell",
@@ -262,11 +262,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "Fusion Summon 1 Fusion Monster from your Extra Deck, using 3 or more monsters from your hand or field as material. You can also banish monsters from your Extra Deck as material, up to the number of monsters your opponent controls, but you lose LP equal to the total ATK of monsters banished this way, when the monster is Fusion Summoned."
+    "description": "①: 자신의 패 / 필드의 몬스터를 융합 소재로 하고, 융합 몬스터 1장을 융합 소환한다(융합 소재 몬스터는 3장 이상이어야 한다). 상대 필드에 몬스터가 존재할 경우, 그 수까지 자신의 엑스트라 덱의 몬스터를 제외하고 융합 소재로 할 수도 있다. 그 경우, 융합 소환했을 때에 자신은 그 제외한 몬스터의 공격력의 합계만큼의 LP를 상실한다."
   },
   {
-    "name": "I:P Masquerena",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "아이:피 마스카레나",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/65741786.jpg",
     "card_type": "Monster",
@@ -274,11 +274,11 @@ const seedCards = [
     "attribute": "DARK",
     "attack": 800,
     "defense": null,
-    "description": "2 non-Link Monsters\r\nDuring your opponent's Main Phase, you can (Quick Effect): Immediately after this effect resolves, Link Summon 1 Link Monster using materials you control, including this card. You can only use this effect of \"I:P Masquerena\" once per turn. A Link Monster that used this card as material cannot be destroyed by your opponent's card effects."
+    "description": "링크 몬스터 이외의 몬스터 2장\n이 카드명의 ①의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 상대 메인 페이즈에 발동할 수 있다. 이 카드를 포함하는 자신 필드의 몬스터를 소재로서 링크 소환을 실행한다. ②: 이 카드를 링크 소재로 한 링크 몬스터는 상대 효과로는 파괴되지 않는다."
   },
   {
-    "name": "Junk Anchor",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "정크 앵커",
+    "rarity": "Collector s Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/25148255.jpg",
     "card_type": "Monster",
@@ -286,11 +286,11 @@ const seedCards = [
     "attribute": "EARTH",
     "attack": 0,
     "defense": 0,
-    "description": "For a Synchro Summon, you can substitute this card for any 1 \"Synchron\" Tuner monster. Once per turn: You can discard 1 card, then target 1 non-Tuner \"Junk\" monster in your Graveyard; Special Summon that target, and if you do, immediately after this effect resolves, Synchro Summon 1 Synchro Monster that lists a \"Synchron\" monster as a Tuner, using that monster and this card only. These Synchro Materials are banished instead of being sent to the Graveyard."
+    "description": "이 카드는 \"싱크론\" 튜너 대신 싱크로 소재로 할 수 있다. ①: 1턴에 1번, 패를 1장 버리고, 튜너 이외의 자신 묘지의 \"정크\" 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터를 특수 소환한다. 그 후, 그 몬스터와 이 카드만을 소재로서, \"싱크론\" 튜너를 소재로 하는 싱크로 몬스터 1장의 싱크로 소환을 실행한다. 그 시기에, 싱크로 소재 몬스터는 묘지로는 가지 않으며 제외된다."
   },
   {
     "name": "Kuriboh - Multiply!",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/14965712.jpg",
     "card_type": "Monster",
@@ -301,8 +301,8 @@ const seedCards = [
     "description": "When your opponent activates a monster effect, or an opponent's monster declares an attack (Quick Effect): You can Special Summon this card from your hand. You can only use this effect of \"Kuriboh - Multiply!\" once per turn. Once per turn, when your opponent activates a monster effect on the field, or during damage calculation, when an opponent's monster attacks (Quick Effect): You can add to your hand, or Special Summon, 1 \"Dark Magician\" or 1 monster with 300 ATK/200 DEF from your Deck or GY, then you can change that opponent's monster's ATK to 0."
   },
   {
-    "name": "Lacrima the Crimson Tears",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "홍루의 마 라크리모사",
+    "rarity": "Collector s Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/28803166.jpg",
     "card_type": "Monster",
@@ -310,11 +310,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 1200,
     "defense": 1200,
-    "description": "(This card is always treated as a \"Fiendsmith\" card.)\r\nIf this card is Normal or Special Summoned: You can send 1 \"Fiendsmith\" card from your Deck to the GY, except \"Lacrima the Crimson Tears\". During your opponent's turn, if this card is in your GY (Quick Effect): You can target 1 \"Fiendsmith\" Link Monster in your GY; shuffle this card into the Deck, and if you do, Special Summon that monster. You can only use each effect of \"Lacrima the Crimson Tears\" once per turn."
+    "description": "이 카드명은 룰상 \"데먼스미스\" 카드로도 취급한다. 이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 일반 소환 / 특수 소환했을 경우에 발동할 수 있다. 덱에서 \"홍루의 마 라크리모사\" 이외의 \"데먼스미스\" 카드 1장을 묘지로 보낸다. ②: 상대 턴에, 이 카드가 묘지에 존재할 경우, 자신 묘지의 \"데먼스미스\" 링크 몬스터 1장을 대상으로 하고 발동할 수 있다. 이 카드를 덱으로 되돌리고, 대상 몬스터를 특수 소환한다."
   },
   {
-    "name": "Lunalight Sabre Dancer",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "문라이트 사벨 댄서",
+    "rarity": "Collector s Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/88753594.jpg",
     "card_type": "Monster",
@@ -322,11 +322,11 @@ const seedCards = [
     "attribute": "DARK",
     "attack": 3000,
     "defense": 2600,
-    "description": "3 \"Lunalight\" monsters\r\nMust be Fusion Summoned. Gains 200 ATK for each Beast-Warrior monster that is banished or in the GYs. Your opponent cannot target this card with card effects. During your Main Phase, except the turn this card was sent to the GY: You can banish this card from your GY, then target 1 Fusion Monster you control; it gains 3000 ATK until the end of this turn. You can only use this effect of \"Lunalight Sabre Dancer\" once per turn."
+    "description": "\"문라이트\" 몬스터 × 3\n이 카드는 융합 소환으로밖에 특수 소환할 수 없다. 이 카드명의 ③의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드의 공격력은, 서로의 묘지 / 제외 상태인 야수전사족 몬스터의 수 × 200 올린다. ②: 상대는 필드의 이 카드를 효과의 대상으로 할 수 없다. ③: 이 턴에 묘지로 보내져 있지 않은 이 카드를 묘지에서 제외하고, 자신 필드의 융합 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터의 공격력은 턴 종료시까지 3000 올린다."
   },
   {
     "name": "Master Spirit Tech Force - Pendulum Ruler",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/68508433.jpg",
     "card_type": "Monster",
@@ -337,8 +337,8 @@ const seedCards = [
     "description": "[ Pendulum Effect ] \nDuring your Main Phase: You can return this card to the Extra Deck, then you can add 1 Level 7 Pendulum Monster from your Deck or face-up Extra Deck to your hand. You can only use this effect of \"Master Spirit Tech Force - Pendulum Ruler\" once per turn.\n\n[ Monster Effect ] \n[ Pendulum Effect ] During your Main Phase: You can return this card to the Extra Deck, then you can add 1 Level 7 Pendulum Monster from your Deck or face-up Extra Deck to your hand. You can only use this effect of \"Master Spirit Tech Force - Pendulum Ruler\" once per turn.\n[ Monster Effect ] 1 Level 7 or higher Pendulum Monster + 1 Pendulum Monster\r\nCannot be destroyed by card effects. Your opponent's monsters cannot attack, except Pendulum Monsters without a Level. You can Tribute 1 monster, then target 1 card your opponent controls; destroy it, and if you do, inflict 1600 damage to your opponent. You can only use this effect of \"Master Spirit Tech Force - Pendulum Ruler\" twice per turn. Once per turn: You can place this card in your Pendulum Zone."
   },
   {
-    "name": "Mekk-Knight Crusadia Avramax",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "잭나이츠 파라디온 아스트람",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/21887175.jpg",
     "card_type": "Monster",
@@ -346,11 +346,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 3000,
     "defense": null,
-    "description": "2+ monsters Special Summoned from the Extra Deck\r\nWhile this Link Summoned card is on the field, your opponent cannot target this card with card effects, also their monsters cannot target monsters for attacks, except this one. Once per battle, during damage calculation, if this card battles a Special Summoned monster (Quick Effect): You can make this card gain ATK equal to that opponent's monster's ATK during that damage calculation only. If this Link Summoned card you control is sent to your GY by an opponent's card: You can shuffle 1 card on the field into the Deck."
+    "description": "엑스트라 덱에서 특수 소환된 몬스터 2장 이상\n①: 링크 소환한 이 카드가 몬스터 존에 존재하는 한, 상대 몬스터는 다른 몬스터를 공격 대상으로 선택할 수 없으며, 상대는 이 카드를 효과의 대상으로 할 수 없다. ②: 이 카드가 특수 소환된 상대 몬스터와 전투를 실행하는 데미지 계산시에 1번, 발동할 수 있다. 이 카드의 공격력은 그 데미지 계산시에만, 그 상대 몬스터의 공격력만큼 올린다. ③: 링크 소환한 이 카드가 상대에 의해 묘지로 보내졌을 경우에 발동할 수 있다. 필드의 카드 1장을 덱으로 되돌린다."
   },
   {
-    "name": "Mulcharmy Fuwalos",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "마루챠미 후와로스",
+    "rarity": "Collector s Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/42141493.jpg",
     "card_type": "Monster",
@@ -358,11 +358,11 @@ const seedCards = [
     "attribute": "WIND",
     "attack": 100,
     "defense": 600,
-    "description": "If you control no cards (Quick Effect): You can discard this card; apply these effects this turn.\r\n● Each time your opponent Special Summons a monster(s) from the Deck and/or Extra Deck, immediately draw 1 card.\r\n● Once, during this End Phase, if the number of cards in your hand is more than the number of cards your opponent controls +6, you must randomly shuffle cards from your hand into the Deck so the number in your hand equals the number your opponent controls +6.\r\nYou can only activate 1 other \"Mulcharmy\" monster effect, the turn you activate this effect."
+    "description": "이 카드의 효과를 발동하는 턴에, 자신은 이 카드 이외의 \"마루챠미\" 몬스터의 효과를 1번밖에 발동할 수 없다. ①: 자신 / 상대 턴에, 자신 필드에 카드가 존재하지 않을 경우, 이 카드를 패에서 버리고 발동할 수 있다. 이 턴 중에, 이하의 효과를 적용한다. ●상대가 덱 / 엑스트라 덱에서 몬스터를 특수 소환할 때마다, 자신은 1장 드로우한다. ●엔드 페이즈에, 자신의 패가 상대 필드의 카드의 수 ＋ 6장보다 많을 경우, 그 차의 수만큼 자신의 패를 무작위로 덱으로 되돌린다."
   },
   {
-    "name": "Mulcharmy Meowls",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "마루챠미 냐루스",
+    "rarity": "Collector s Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/87126721.jpg",
     "card_type": "Monster",
@@ -370,11 +370,11 @@ const seedCards = [
     "attribute": "EARTH",
     "attack": 100,
     "defense": 600,
-    "description": "If you control no cards (Quick Effect): You can discard this card; apply these effects this turn.\r\n● Each time your opponent Special Summons a monster(s) from any GY(s) or banishment, immediately draw 1 card.\r\n● Once, during this End Phase, if the number of cards in your hand is more than the number of cards your opponent controls +6, you must randomly shuffle cards from your hand into the Deck so the number in your hand equals the number your opponent controls +6.\r\nYou can only activate 1 other \"Mulcharmy\" monster effect, the turn you activate this effect."
+    "description": "이 카드의 효과를 발동하는 턴에, 자신은 이 카드 이외의 \"마루챠미\" 몬스터의 효과를 1번밖에 발동할 수 없다. ①: 자신 / 상대 턴에, 자신 필드에 카드가 존재하지 않을 경우, 이 카드를 패에서 버리고 발동할 수 있다. 이 턴 중에, 이하의 효과를 적용한다. ●상대가 묘지 / 제외 상태인 몬스터를 특수 소환할 때마다, 자신은 1장 드로우한다. ●엔드 페이즈에, 자신의 패가 상대 필드의 카드의 수 ＋ 6장보다 많을 경우, 그 차의 수만큼 자신의 패를 무작위로 덱으로 되돌린다."
   },
   {
-    "name": "Mulcharmy Purulia",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "마루챠미 푸루리아",
+    "rarity": "Collector s Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/84192580.jpg",
     "card_type": "Monster",
@@ -382,11 +382,11 @@ const seedCards = [
     "attribute": "WATER",
     "attack": 100,
     "defense": 600,
-    "description": "If you control no cards (Quick Effect): You can discard this card; apply these effects this turn.\r\n● Each time your opponent Normal or Special Summons a monster(s) from the hand, immediately draw 1 card.\r\n● Once, during this End Phase, if the number of cards in your hand is more than the number of cards your opponent controls +6, you must randomly shuffle cards from your hand into the Deck so the number in your hand equals the number your opponent controls +6.\r\nYou can only activate 1 other \"Mulcharmy\" monster effect, the turn you activate this effect."
+    "description": "이 카드의 효과를 발동하는 턴에, 자신은 이 카드 이외의 \"마루챠미\" 몬스터의 효과를 1번밖에 발동할 수 없다. ①: 자신 / 상대 턴에, 자신 필드에 카드가 존재하지 않을 경우, 이 카드를 패에서 버리고 발동할 수 있다. 이 턴 중에, 이하의 효과를 적용한다. ●상대가 패에서 몬스터를 일반 소환 / 특수 소환할 때마다, 자신은 1장 드로우한다. ●엔드 페이즈에, 자신의 패가 상대 필드의 카드의 수 ＋ 6장보다 많을 경우, 그 차의 수만큼 자신의 패를 무작위로 덱으로 되돌린다."
   },
   {
-    "name": "Number 29: Mannequin Cat",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "No.29 마네킹캣",
+    "rarity": "Collector s Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/54191698.jpg",
     "card_type": "Monster",
@@ -394,11 +394,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 2000,
     "defense": 900,
-    "description": "2 Level 2 monsters\r\nOnce per turn: You can detach 1 material from this card, then target 1 monster in your opponent's GY; Special Summon it to your opponent's field. If a monster(s) is Special Summoned to your opponent's field, while you control this monster (except during the Damage Step): You can target 1 face-up monster your opponent controls; Special Summon 1 monster with the same Type or Attribute from your hand, Deck, or GY. You can only use this effect of \"Number 29: Mannequin Cat\" once per turn."
+    "description": "레벨 2 몬스터 × 2\n이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 1턴에 1번, 이 카드의 엑시즈 소재를 1개 제거하고, 상대 묘지의 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터를 상대 필드에 특수 소환한다. ②: 이 카드가 몬스터 존에 존재하는 상태에서, 상대 필드에 몬스터가 특수 소환되었을 경우, 상대 필드의 앞면 표시 몬스터 1장을 대상으로 하고 발동할 수 있다. 종족이나 속성이 그 몬스터와 같은 몬스터 1장을 자신의 패 / 덱 / 묘지에서 특수 소환한다."
   },
   {
     "name": "Orichalcos Sword of Sealing",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/847217.jpg",
     "card_type": "Spell",
@@ -409,8 +409,8 @@ const seedCards = [
     "description": "The equipped monster's effects are negated. If you have a card in your Field Zone: You can target 1 Effect Monster you control; that Effect Monster gains this effect until the end of your opponent's turn. You can only use the previous effect of \"Orichalcos Sword of Sealing\" once per turn.\r\n● Once per turn (Quick Effect): You can send 1 card from your hand to the GY, then target 1 face-up card on the field; destroy that target."
   },
   {
-    "name": "Piercing the Darkness",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "베어진 어둠",
+    "rarity": "Collector s Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/21862633.jpg",
     "card_type": "Spell",
@@ -418,11 +418,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "If you Normal or Special Summon a non-Token Normal Monster(s) (except during the Damage Step): You can draw 1 card. When an attack is declared involving an opponent's monster and a monster you control that is a Level 5 or higher Normal Monster, or was Ritual Summoned using a Normal Monster, or was Fusion, Synchro, or Xyz Summoned using a Normal Monster as material: You can make that monster you control gain ATK equal to that opponent's monster's ATK, until the end of this turn. You can only use each effect of \"Piercing the Darkness\" once per turn."
+    "description": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신이 토큰 이외의 일반 몬스터를 일반 소환 / 특수 소환했을 경우에 발동할 수 있다. 자신은 1장 드로우한다. ②: 이하의 어느 자신 몬스터가 상대 몬스터와 전투를 실행하는 공격 선언시에 발동할 수 있다. 그 자신 몬스터의 공격력은 턴 종료시까지, 그 상대 몬스터의 공격력만큼 올린다.\n●레벨 5 이상의 일반 몬스터\n●일반 몬스터를 사용하여 의식 소환한 몬스터\n●일반 몬스터를 소재로서 융합 / 싱크로 / 엑시즈 소환한 몬스터"
   },
   {
-    "name": "Pillar of the Future - Cyanos",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "미래의 주－키아노스",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/20357457.jpg",
     "card_type": "Monster",
@@ -430,11 +430,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 500,
     "defense": 1500,
-    "description": "(This card is always treated as a \"Sky Striker\" card.)\r\nYou can discard 1 Spell; Special Summon this card from your hand. If this card is Normal or Special Summoned: You can Special Summon 1 \"Sky Striker Ace - Roze\" from your Deck or GY, also you cannot Special Summon from the Extra Deck for the rest of this turn, except Machine monsters. You can banish this card from your GY; take 1 of your \"Sky Striker Ace - Roze\" that is banished or in your GY, and either add it to your hand or Special Summon it. You can only use each effect of \"Pillar of the Future - Cyanos\" once per turn."
+    "description": "이 카드명은 룰상 \"섬도\" 카드로도 취급한다. 이 카드명의 ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 패에서 마법 카드 1장을 버리고 발동할 수 있다. 이 카드를 패에서 특수 소환한다. ②: 이 카드를 일반 소환 / 특수 소환했을 경우에 발동할 수 있다. 자신의 덱 / 묘지에서 \"섬도희－로제\" 1장을 특수 소환한다. 이 턴에, 자신은 기계족 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다. ③: 묘지의 이 카드를 제외하고 발동할 수 있다. 자신의 묘지 / 제외 상태인 \"섬도희－로제\" 1장을 고르고, 패에 넣거나 특수 소환한다."
   },
   {
-    "name": "Platinum Gadget",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "플라티나 가제트",
+    "rarity": "Collector s Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/40216089.jpg",
     "card_type": "Monster",
@@ -442,11 +442,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 1600,
     "defense": null,
-    "description": "2 Machine monsters\r\nCannot be used as Link Material the turn it is Link Summoned. During your Main Phase: You can Special Summon 1 Level 4 or lower Machine monster from your hand to your zone this card points to. If this card is destroyed by battle or card effect: You can Special Summon 1 Level 4 \"Gadget\" monster from your Deck. You can only use each effect of \"Platinum Gadget\" once per turn."
+    "description": "기계족 몬스터 2장\n이 카드는 링크 소환된 턴에는 링크 소재로 할 수 없다. 이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 메인 페이즈에 발동할 수 있다. 패에서 레벨 4 이하의 기계족 몬스터 1장을 이 카드의 링크 앞이 되는 자신 필드에 특수 소환한다. ②: 이 카드가 전투 / 효과로 파괴되었을 경우에 발동할 수 있다. 덱에서 레벨 4 의 \"가제트\" 몬스터 1장을 특수 소환한다."
   },
   {
-    "name": "Power Tool Braver Dragon",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "파워 툴 브레이버 드래곤",
+    "rarity": "Collector s Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/63265554.jpg",
     "card_type": "Monster",
@@ -454,11 +454,11 @@ const seedCards = [
     "attribute": "EARTH",
     "attack": 2500,
     "defense": 2300,
-    "description": "1 Tuner + 1+ non-Tuner monsters\r\nIf this card is Special Summoned: You can equip up to 3 Equip Spells with different names from your Deck and/or GY to this card. During the Main Phase (Quick Effect): You can send 1 of your Equip Spells equipped to this card to the GY, then target 1 Effect Monster on the field; either change its battle position, or until the end of this turn, negate its effects. You can only use each effect of \"Power Tool Braver Dragon\" once per turn."
+    "description": "튜너 ＋ 튜너 이외의 몬스터 1장 이상\n이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 특수 소환했을 경우에 발동할 수 있다. 이 카드에 장착 가능한 장착 마법 카드를 3장까지 자신의 덱 / 묘지에서 장착한다(같은 이름의 카드는 1장까지). ②: 자신 / 상대의 메인 페이즈에, 이 카드가 장착하고 있는 자신 필드의 장착 마법 카드 1장을 묘지로 보내고, 필드의 효과 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터의 표시 형식을 변경하거나, 그 효과를 턴 종료시까지 무효로 한다."
   },
   {
-    "name": "Rivalry of Warlords",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "군웅할거",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/90846359.jpg",
     "card_type": "Trap",
@@ -466,11 +466,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "Each player can only control 1 Type of monster. Send all other face-up monsters they control to the GY."
+    "description": "①: 이 카드가 마법 & 함정 존에 존재하는 한, 서로의 필드에 각각 1종류의 종족의 몬스터밖에 앞면 표시로 존재할 수 없다. 양쪽 플레이어는 자신 필드의 앞면 표시 몬스터의 종족이 2종류 이상일 경우에는 1종류가 되도록 묘지로 보내야 한다."
   },
   {
-    "name": "S:P Little Knight",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "에스:피 리틀나이트",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/29301450.jpg",
     "card_type": "Monster",
@@ -478,11 +478,11 @@ const seedCards = [
     "attribute": "DARK",
     "attack": 1600,
     "defense": null,
-    "description": "2 Effect Monsters\r\nIf this card is Link Summoned using a Fusion, Synchro, Xyz, or Link Monster as material: You can target 1 card on the field or in either GY; banish it, also your monsters cannot attack directly this turn. When your opponent activates a card or effect (Quick Effect): You can target 2 face-up monsters on the field, including a monster you control; banish both until the End Phase. You can only use each effect of \"S:P Little Knight\" once per turn."
+    "description": "효과 몬스터 2장\n이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 융합 / 싱크로 / 엑시즈 / 링크 몬스터 중 어느 것을 소재로서 링크 소환했을 경우, 자신이나 상대의 필드 / 묘지의 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 제외한다. 이 턴에, 자신 몬스터는 직접 공격할 수 없다. ②: 상대의 효과가 발동했을 때, 자신 필드의 몬스터를 포함하는 필드의 앞면 표시 몬스터 2장을 대상으로 하고 발동할 수 있다. 그 몬스터 2장을 엔드 페이즈까지 제외한다."
   },
   {
-    "name": "Soul Crossing",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "교차하는 혼",
+    "rarity": "Collector s Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/5253985.jpg",
     "card_type": "Spell",
@@ -490,11 +490,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "During the Main Phase: Immediately after this effect resolves, Tribute Summon 1 Divine-Beast monster. When you do, you can Tribute a monster(s) your opponent controls, even though you do not control them, but if you Tribute Summon this way, apply this effect.\r\n● Until the end of the next turn after this card resolves, you can only activate 1 card or effect per turn, not counting the effects of Divine-Beast monsters.\r\nYou can only activate 1 \"Soul Crossing\" per turn."
+    "description": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 자신 / 상대의 메인 페이즈에 발동할 수 있다. 환신야수족 몬스터 1장의 어드밴스 소환을 실행한다. 그 시기에, 자신 필드의 몬스터 대신에 상대 필드의 몬스터를 릴리스할 수도 있다. 상대 필드의 몬스터를 릴리스하고 어드밴스 소환했을 경우, 이하의 효과를 적용한다. ●이 카드의 발동 후, 다음 턴의 종료시까지 자신은 환신야수족 몬스터 이외의 마법 / 함정 / 몬스터의 효과를 1턴에 1번밖에 발동할 수 없다."
   },
   {
-    "name": "Statue of Anguish Pattern",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "고문양의 토상",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/23626223.jpg",
     "card_type": "Trap",
@@ -502,11 +502,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "Special Summon this card as an Effect Monster (Rock-Type/EARTH/Level 7/ATK 0/DEF 2500). (This card is also still a Trap Card.) If Summoned this way, this card cannot be targeted by an opponent's card effects while you control another Trap Card that is a monster. If a card is Special Summoned from your Spell & Trap Zone to the Monster Zone while this card is a monster: You can target 1 card on the field; destroy it."
+    "description": "①: 이 카드는 발동 후, 효과 몬스터(암석족 / 땅 / 레벨 7 / 공 0 / 수 2500)가 되고, 몬스터 존에 특수 소환한다(함정 카드로도 취급한다). ②: 이 카드 이외의 몬스터 취급의 함정 카드가 몬스터 존에 존재하는 한, 상대는 이 카드의 효과로 특수 소환한 이 카드를 효과의 대상으로 할 수 없다. ③: 이 카드의 효과로 특수 소환한 이 카드가 존재하는 상태에서, 자신의 마법 & 함정 존의 카드가 몬스터 존에 특수 소환될 때마다, 필드의 카드 1장을 대상으로 하여 발동할 수 있다. 그 카드를 파괴한다."
   },
   {
-    "name": "Subterror Guru",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "서브테러의 도사",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/16428514.jpg",
     "card_type": "Monster",
@@ -514,11 +514,11 @@ const seedCards = [
     "attribute": "EARTH",
     "attack": 1600,
     "defense": 1800,
-    "description": "FLIP: You can add 1 \"Subterror\" card from your Deck to your hand, except \"Subterror Guru\". You can target 1 other face-up monster on the field; change that monster, also this card, to face-down Defense Position. This is a Quick Effect if you control another \"Subterror\" card. You can only use each effect of \"Subterror Guru\" once per turn."
+    "description": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 리버스했을 경우에 발동할 수 있다. 덱에서 \"서브테러의 도사\" 이외의 \"서브테러\" 카드 1장을 패에 넣는다. ②: 필드의 다른 앞면 표시 몬스터 1장을 대상으로 하고 발동할 수 있다(자신 필드에 다른 \"서브테러\" 카드가 존재할 경우, 이 효과는 상대 턴에도 발동할 수 있다). 그 몬스터와 이 카드를 뒷면 수비 표시로 한다."
   },
   {
-    "name": "Tri-Brigade Fraktall",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "트라이브리게이드 프랙탈",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/87209160.jpg",
     "card_type": "Monster",
@@ -526,11 +526,11 @@ const seedCards = [
     "attribute": "FIRE",
     "attack": 1900,
     "defense": 1600,
-    "description": "You can send this card from your hand or field to the GY; send 1 Level 3 or lower Beast, Beast-Warrior, or Winged Beast monster from your Deck to the GY. You can banish any number of Beast, Beast-Warrior, and/or Winged Beast monsters in your GY; Special Summon 1 Beast, Beast-Warrior, or Winged Beast Link Monster from your Extra Deck, with Link Rating equal to the number banished, also you can only use Beast, Beast-Warrior, and Winged Beast monsters as Link Material for the rest of this turn. You can only use each effect of \"Tri-Brigade Fraktall\" once per turn."
+    "description": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 패 / 필드의 이 카드를 묘지로 보내고 발동할 수 있다. 덱에서 레벨 3 이하의 야수족 / 야수전사족 / 비행야수족 몬스터 1장을 묘지로 보낸다. ②: 자신 묘지에서 야수족 / 야수전사족 / 비행야수족 몬스터를 임의의 수만큼 제외하고 발동할 수 있다. 제외한 수와 같은 수의 링크 마커를 가지는, 야수족 / 야수전사족 / 비행야수족 링크 몬스터 1장을 엑스트라 덱에서 특수 소환한다. 이 효과의 발동 후, 턴 종료시까지 자신은 야수족 / 야수전사족 / 비행야수족 몬스터밖에 링크 소재로 할 수 없다."
   },
   {
-    "name": "Trident Dragion",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "트라이든트 드라기온",
+    "rarity": "Collector s Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/39402797.jpg",
     "card_type": "Monster",
@@ -538,11 +538,11 @@ const seedCards = [
     "attribute": "FIRE",
     "attack": 3000,
     "defense": 2800,
-    "description": "1 Dragon-Type Tuner + 1 or more non-Tuner Dragon-Type monsters\nMust be Synchro Summoned, and cannot be Special Summoned by other ways. When this card is Synchro Summoned: You can target up to 2 other cards you control; destroy those targets, and if you do, for each destroyed card, this card gains 1 additional attack during each Battle Phase this turn."
+    "description": "드래곤족 튜너 ＋ 튜너 이외의 드래곤족 몬스터 1장 이상\n이 카드는 싱크로 소환으로밖에 특수 소환할 수 없다. ①: 이 카드를 싱크로 소환했을 때, 자신 필드의 다른 카드를 2장까지 대상으로 하고 발동할 수 있다. 그 자신의 카드를 파괴한다. 이 카드는 이 턴에, 일반 공격 외에도, 이 효과로 파괴한 카드의 수까지 1번의 배틀 페이즈 중에 공격할 수 있다."
   },
   {
     "name": "Underworld Circle",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/73443672.jpg",
     "card_type": "Spell",
@@ -554,7 +554,7 @@ const seedCards = [
   },
   {
     "name": "W:P Fancy Ball",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/4993187.jpg",
     "card_type": "Monster",
@@ -565,8 +565,8 @@ const seedCards = [
     "description": "2+ Effect Monsters\r\nWhen your opponent activates a monster effect on the field or GY (Quick Effect): You can banish this card that was Special Summoned this turn until the End Phase; negate that effect, and if you do, banish it. During your opponent's Main Phase, you can (Quick Effect): Immediately after this effect resolves, Link Summon 1 Link Monster, and if this card you control would be used as material for that Link Summon, you can also use 1 Link-2 or lower monster your opponent controls. Neither player can activate the effects of Link Monsters in response to this effect's activation. You can only use each effect of \"W:P Fancy Ball\" once per turn."
   },
   {
-    "name": "Wandering Gryphon Rider",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "방랑의 그리폰라이더",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/2563463.jpg",
     "card_type": "Monster",
@@ -574,11 +574,11 @@ const seedCards = [
     "attribute": "WIND",
     "attack": 2000,
     "defense": 2800,
-    "description": "During the Main Phase, if you control no monsters, or control an \"Adventurer Token\" (Quick Effect): You can Special Summon this card from your hand. When a card or effect is activated while you control an \"Adventurer Token\" (Quick Effect): You can shuffle this card into the Deck, and if you do, negate that activation, and if you do that, destroy that card. You can only use each effect of \"Wandering Gryphon Rider\" once per turn."
+    "description": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 / 상대의 메인 페이즈에, 자신 필드에 몬스터가 존재하지 않을 경우 또는 \"용사 토큰\"이 존재할 경우에 발동할 수 있다. 이 카드를 패에서 특수 소환한다. ②: 자신 필드에 \"용사 토큰\"이 존재하고, 마법 / 함정 / 몬스터의 효과가 발동했을 때에 발동할 수 있다. 필드의 이 카드를 덱으로 되돌리고, 그 발동을 무효로 하여 파괴한다."
   },
   {
     "name": "Winged Kuriboh Sabatiel LV10",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/40237839.jpg",
     "card_type": "Monster",
@@ -589,8 +589,8 @@ const seedCards = [
     "description": "You can reveal this card in your hand and pay half your LP; add 1 \"Polymerization\" Spell or \"Fusion\" Spell from your Deck to your hand, and if you do, shuffle this card into the Deck, also you cannot Special Summon from the Extra Deck for the rest of this turn, except \"HERO\" monsters. During your opponent's turn, if your LP are 1000 or less (Quick Effect): You can Special Summon this card from your hand, then you can inflict damage to your opponent equal to the highest ATK among the monsters they control (your choice, if tied). You can only use each effect of \"Winged Kuriboh Sabatiel LV10\" once per turn."
   },
   {
-    "name": "Witchcrafter Madame Verre",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "위치크래프트마스터 베르",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/21522601.jpg",
     "card_type": "Monster",
@@ -598,11 +598,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 1000,
     "defense": 2800,
-    "description": "During damage calculation, if your Spellcaster monster battles an opponent's monster (Quick Effect): You can reveal any number of Spells with different names in your hand, and if you do, your battling monster gains 1000 ATK/DEF for each card revealed, until the end of this turn. (Quick Effect): You can discard 1 Spell; negate the effects of all face-up monsters your opponent currently controls, until the end of this turn. You can only use each effect of \"Witchcrafter Madame Verre\" once per turn."
+    "description": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신의 마법사족 몬스터가 상대 몬스터와 전투를 실행하는 자신 / 상대 턴의 데미지 계산시에 발동할 수 있다. 카드명이 다른 패의 마법 카드를 임의의 수만큼 상대에게 보여주고, 그 자신 몬스터의 공격력 / 수비력을 턴 종료시까지, 보여준 수 × 1000 올린다. ②: 자신 / 상대 턴에, 패에서 마법 카드 1장을 버리고 발동할 수 있다. 상대 필드의 모든 앞면 표시 몬스터의 효과는 턴 종료시까지 무효화된다."
   },
   {
     "name": "Assault Blackwing - Kusanagi the Gathering Storm",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/31114334.jpg",
     "card_type": "Monster",
@@ -614,7 +614,7 @@ const seedCards = [
   },
   {
     "name": "Astrograph Sorcerer, the Starfrost Magician",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/48171151.jpg",
     "card_type": "Monster",
@@ -625,8 +625,8 @@ const seedCards = [
     "description": "[ Pendulum Effect ] \nDuring your Main Phase: You can destroy this card, and if you do, place 1 Pendulum Monster whose Pendulum Scale is 1 from your hand or Deck in your Pendulum Zone, except \"Astrograph Sorcerer, the Starfrost Magician\", but it cannot activate its Pendulum Effects this turn. You can only use this effect of \"Astrograph Sorcerer, the Starfrost Magician\" once per turn.\n\n[ Monster Effect ] \nIf a face-up Monster Card(s) you control is destroyed by battle or card effect: You can Special Summon this card from your hand, then you can Special Summon 1 of those destroyed monsters from your GY or face-up Extra Deck. During the Main Phase (Quick Effect): You can Tribute this card, then you can Fusion Summon 1 Dragon Fusion Monster from your Extra Deck, by shuffling its materials from your field and/or face-up Extra Deck into the Deck. You can only use each effect of \"Astrograph Sorcerer, the Starfrost Magician\" once per turn."
   },
   {
-    "name": "Book of Eclipse",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "개기일식의 서",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/35480699.jpg",
     "card_type": "Spell",
@@ -634,11 +634,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "Change all face-up monsters on the field to face-down Defense Position. During the End Phase of this turn, change as many face-down Defense Position monsters your opponent controls as possible to face-up Defense Position, then your opponent draws cards equal to the number of monsters changed face-up by this effect."
+    "description": "①: 필드의 앞면 표시 몬스터를 전부 뒷면 수비 표시로 한다. 이 턴의 엔드 페이즈에, 상대 필드의 뒷면 수비 표시 몬스터를 전부 앞면 수비 표시로 하고, 그 후, 이 효과로 앞면 수비 표시로 한 몬스터의 수만큼 상대는 드로우한다."
   },
   {
     "name": "Cyberse Code Magician",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/64865.jpg",
     "card_type": "Monster",
@@ -650,7 +650,7 @@ const seedCards = [
   },
   {
     "name": "Dark Magical Curtain",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/41350417.jpg",
     "card_type": "Spell",
@@ -661,8 +661,8 @@ const seedCards = [
     "description": "Each player can Special Summon 1 DARK Spellcaster monster from their hand or Deck (but neither player can activate their effects this turn), then if you Special Summoned a monster whose original name is \"Dark Magician\" or \"Dark Magician Girl\", you can add 1 Spell/Trap that mentions \"Dark Magician\" from your Deck to your hand, except \"Dark Magical Curtain\". You can only activate 1 \"Dark Magical Curtain\" per turn."
   },
   {
-    "name": "Divine Arsenal AA-ZEUS - Sky Thunder",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "네가로기어 아제우스",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/90448279.jpg",
     "card_type": "Monster",
@@ -670,11 +670,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 3000,
     "defense": 3000,
-    "description": "2 Level 12 monsters\r\nOnce per turn, if an Xyz Monster battled this turn, you can also Xyz Summon \"Divine Arsenal AA-ZEUS - Sky Thunder\" by using 1 Xyz Monster you control as material. (Transfer its materials to this card.) (Quick Effect): You can detach 2 materials from this card; send all other cards from the field to the GY. Once per turn, if another card(s) you control is destroyed by battle or an opponent's card effect: You can attach 1 card from your hand, Deck, or Extra Deck to this card as material."
+    "description": "레벨 12 몬스터 × 2\n\"네가로기어 아제우스\"는, 엑시즈 몬스터가 전투를 실행한 턴에 1번, 자신 필드의 엑시즈 몬스터 위에 겹쳐 엑시즈 소환할 수도 있다. ①: 자신 / 상대 턴에, 이 카드의 엑시즈 소재를 2개 제거하고 발동할 수 있다. 필드의 다른 카드를 전부 묘지로 보낸다. ②: 1턴에 1번, 자신 필드의 다른 카드가 전투 또는 상대 효과로 파괴되었을 경우에 발동할 수 있다. 패 / 덱 / 엑스트라 덱에서 카드 1장을 이 카드의 엑시즈 소재로 한다."
   },
   {
-    "name": "Eclipse Twins",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "이클립스의 쌍둥이",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/45852939.jpg",
     "card_type": "Monster",
@@ -682,11 +682,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 2500,
     "defense": 1200,
-    "description": "2 Level 4 monsters\r\nFor this card's Xyz Summon, you can treat Rank 4 monsters you control as Level 4 monsters for material. You can detach 1 material from this card; this card can make up to 2 attacks on monsters during each Battle Phase this turn. If this card is sent to the GY: You can target 2 other Rank 4 or lower Xyz Monsters in your GY; Special Summon 1 of them and attach the other to it as material. You can only use this effect of \"Eclipse Twins\" once per turn."
+    "description": "레벨 4 몬스터 × 2\n이 카드를 엑시즈 소환할 경우, 자신 필드의 랭크 4 몬스터를 레벨 4 몬스터로 하고 소재로 할 수 있다. 이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 이 턴에, 이 카드는 1번의 배틀 페이즈 중에 2회까지 몬스터에 공격할 수 있다. ②: 이 카드가 묘지로 보내졌을 경우, 자신 묘지의 다른 랭크 4 이하의 엑시즈 몬스터 2장을 대상으로 하고 발동할 수 있다. 그 2장 중 1장을 특수 소환하고, 나머지 1장을 그 엑시즈 소재로 한다."
   },
   {
-    "name": "Exosisters Magnifica",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "엑소시스터즈 마니피카",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/59242457.jpg",
     "card_type": "Monster",
@@ -694,11 +694,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 2800,
     "defense": 2800,
-    "description": "2 Rank 4 \"Exosister\" Xyz Monsters\r\nMust be Xyz Summoned with the above materials. Can make a second attack during each Battle Phase. Once per turn (Quick Effect): You can detach 1 material from this card; banish 1 card your opponent controls. When your opponent activates a card or effect (Quick Effect): You can return 1 Xyz Monster you own attached to this card to your Extra Deck, then you can Special Summon that monster from your Extra Deck, by using this card you control as material. (This is treated as an Xyz Summon. Transfer this card's materials to the Summoned monster.)"
+    "description": "랭크 4 \"엑소시스터\" 엑시즈 몬스터 × 2\n이 카드는 상기의 카드를 엑시즈 소재로 한 엑시즈 소환으로만 특수 소환할 수 있다. ①: 이 카드는 1번의 배틀 페이즈 중에 2회 공격할 수 있다. ②: 자신 / 상대 턴에 1번, 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 상대 필드의 카드 1장을 제외한다. ③: 상대가 효과를 발동했을 때에 발동할 수 있다(동일한 체인 위에서는 1번까지). 이 카드가 엑시즈 소재로 하고 있는 자신의 엑시즈 몬스터 1장을 엑스트라 덱으로 되돌린다. 그 후, 그 몬스터를 자신 필드의 이 카드 위에 겹쳐 엑시즈 소환으로 취급하고 특수 소환할 수 있다."
   },
   {
-    "name": "Gallant Granite",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "어영지사",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/32530043.jpg",
     "card_type": "Monster",
@@ -706,11 +706,11 @@ const seedCards = [
     "attribute": "EARTH",
     "attack": 2300,
     "defense": 1800,
-    "description": "2 Level 4 monsters\r\nYou can detach 1 material from this card, then activate 1 of these effects;\r\n● Add 1 Rock monster from your Deck to your hand.\r\n● Special Summon 1 Rock monster from your hand in face-down Defense Position.\r\nYou can only use this effect of \"Gallant Granite\" once per turn."
+    "description": "레벨 4 몬스터 × 2\n이 카드명의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드의 엑시즈 소재를 1개 제거하고, 이하의 효과에서 1개를 선택하여 발동할 수 있다.\n●덱에서 암석족 몬스터 1장을 패에 넣는다.\n●패에서 암석족 몬스터 1장을 뒷면 수비 표시로 특수 소환한다."
   },
   {
     "name": "Horoscope Sorcerer, the Stargazer Magician",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/1186447.jpg",
     "card_type": "Monster",
@@ -721,8 +721,8 @@ const seedCards = [
     "description": "[ Pendulum Effect ] \nWhen a Spell Card or effect activated by your opponent resolves, if you control a \"Magician\" Pendulum Monster or \"Odd-Eyes\" monster, you can negate that effect, then destroy this card. You can only use this effect of \"Horoscope Sorcerer, the Stargazer Magician\" once per turn.\n\n[ Monster Effect ] \n[ Pendulum Effect ] When a Spell Card or effect activated by your opponent resolves, if you control a \"Magician\" Pendulum Monster or \"Odd-Eyes\" monster, you can negate that effect, then destroy this card. You can only use this effect of \"Horoscope Sorcerer, the Stargazer Magician\" once per turn.\n[ Monster Effect ] You can discard 1 other \"Magician\" Pendulum Monster, \"Performapal\" monster, or \"Odd-Eyes\" monster; Special Summon this card from your hand. If this card is Special Summoned: You can add 1 Pendulum Monster with 2500 ATK from your Deck to your hand. You can target 1 Pendulum Monster Card you control; destroy it, then you can add 1 face-up Pendulum Monster from your Extra Deck to your hand. You can only use each effect of \"Horoscope Sorcerer, the Stargazer Magician\" once per turn."
   },
   {
-    "name": "Ib the World Chalice Justiciar",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "성잔의 신자 이브",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/94677445.jpg",
     "card_type": "Monster",
@@ -730,11 +730,11 @@ const seedCards = [
     "attribute": "WATER",
     "attack": 1800,
     "defense": 2100,
-    "description": "1 Tuner + 1+ non-Tuner monsters\r\nFor this card's Synchro Summon, you can treat 1 \"World Chalice\" Normal Monster you control as a Tuner. You can only use each of the following effects of \"Ib the World Chalice Justiciar\" once per turn.\r\n● If this card is Synchro Summoned: You can add 1 \"World Legacy\" card from your Deck to your hand.\r\n● If this Synchro Summoned card is sent from the field to the GY: You can Special Summon 1 \"World Chalice\" monster from your Deck or GY, except \"Ib the World Chalice Justiciar\"."
+    "description": "튜너 ＋ 튜너 이외의 몬스터 1장 이상\n이 카드를 싱크로 소환할 경우, 자신 필드의 \"성잔\" 일반 몬스터 1장을 튜너로서 취급할 수 있다. 이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 싱크로 소환했을 경우에 발동할 수 있다. 덱에서 \"성유물\" 카드 1장을 패에 넣는다. ②: 싱크로 소환한 이 카드가 묘지로 보내졌을 경우에 발동할 수 있다. 자신의 덱 / 묘지에서 \"성잔의 신자 이브\" 이외의 \"성잔\" 몬스터 1장을 특수 소환한다."
   },
   {
-    "name": "Jack-In-The-Hand",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "잭 인 더 핸드",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/51697825.jpg",
     "card_type": "Spell",
@@ -742,11 +742,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "Reveal 3 Level 1 monsters with different names from your Deck, your opponent adds 1 to their hand, you add 1 to your hand, and you shuffle the third into the Deck. You can only activate 1 \"Jack-In-The-Hand\" per turn."
+    "description": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 덱에서 카드명이 다른 레벨 1 몬스터 3장을 상대에게 보여주고, 상대는 그 중에서 1장을 골라 자신의 패에 넣고, 자신은 남은 몬스터 중에서 1장을 골라 패에 넣고, 나머지를 덱으로 되돌린다."
   },
   {
-    "name": "King of the Feral Imps",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "킹그렘린",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/11398059.jpg",
     "card_type": "Monster",
@@ -754,11 +754,11 @@ const seedCards = [
     "attribute": "DARK",
     "attack": 2300,
     "defense": 2000,
-    "description": "2 Level 4 monsters\nOnce per turn: You can detach 1 Xyz Material from this card; add 1 Reptile-Type monster from your Deck to your hand."
+    "description": "레벨 4 몬스터 × 2\n①: 1턴에 1번, 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 덱에서 파충류족 몬스터 1장을 패에 넣는다."
   },
   {
     "name": "Malefic Force",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/68721020.jpg",
     "card_type": "Trap",
@@ -770,7 +770,7 @@ const seedCards = [
   },
   {
     "name": "Malefic Paradigm Shift",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/5125629.jpg",
     "card_type": "Trap",
@@ -781,8 +781,8 @@ const seedCards = [
     "description": "You can activate this card from your hand by paying half your LP. Add to your hand, or place face-up in your Field Zone, 1 \"Malefic World\" from your Deck or GY, then Special Summon 1 \"Malefic\" monster from your Deck or Extra Deck in Defense Position, ignoring its Summoning conditions, then if your opponent controls a monster with 2500 or more ATK, all face-up monsters they currently control lose 2500 ATK until the end of this turn. You can only activate 1 \"Malefic Paradigm Shift\" per turn."
   },
   {
-    "name": "Mask Change II",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "마스크 체인지 세컨드",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/93600443.jpg",
     "card_type": "Spell",
@@ -790,11 +790,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "Discard 1 card, then target 1 face-up monster you control that has a Level; send it to the Graveyard, also, after that, if it left the field by this effect, Special Summon from your Extra Deck, 1 \"Masked HERO\" monster with the same Attribute, but a higher Level than, the Attribute/Level the monster had when it was on the field (its original Attribute/Level, if face-down. This Special Summon is treated as a Special Summon with \"Mask Change\"). You can only activate 1 \"Mask Change II\" per turn."
+    "description": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 패를 1장 버리고, 자신 필드의 앞면 표시 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터의 속성 / 레벨을 확인하고, 묘지로 보낸다. 이 효과로 그 몬스터가 필드에서 벗어났을 경우, 추가로 그 몬스터보다 레벨이 높고 같은 속성을 가지는 \"마스크드 히어로\" 몬스터 1장을, \"마스크 체인지\"의 효과로 취급하여 엑스트라 덱에서 특수 소환한다."
   },
   {
-    "name": "Metamorphosis",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "마요괴변생",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/46411259.jpg",
     "card_type": "Spell",
@@ -802,11 +802,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "Tribute 1 monster. Special Summon 1 Fusion Monster from your Extra Deck with the same Level as the Tributed monster."
+    "description": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없으며, 이 카드를 발동하는 턴에, 자신은 \"마요괴\" 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다. ①: 패를 1장 버리고, 자신 묘지의 몬스터 및 제외되어 있는 자신 몬스터 중에서, \"마요괴\" 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터를 특수 소환한다. 이 효과로 특수 소환한 몬스터는, 이 턴에 상대 효과의 대상이 되지 않는다."
   },
   {
     "name": "Number 39: Utopia, Emissary of Light",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/76504386.jpg",
     "card_type": "Monster",
@@ -818,7 +818,7 @@ const seedCards = [
   },
   {
     "name": "Odd-Eyes Pendulum Dragon of the Four Heavenly Dragons",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/75787708.jpg",
     "card_type": "Monster",
@@ -829,8 +829,8 @@ const seedCards = [
     "description": "[ Pendulum Effect ] \nDuring your Main Phase: You can destroy this card, and if you do, add 1 Pendulum Monster with 1500 or less ATK from your Deck to your hand, also for the rest of this turn, unless you Pendulum Summon after this effect resolves, you cannot activate monster effects on the field. You can only use this effect of \"Odd-Eyes Pendulum Dragon of the Four Heavenly Dragons\" once per turn.\n\n[ Monster Effect ] \nThis Pendulum Summoned card gains these effects.\r\n● Gains ATK equal to the difference between the Pendulum Scales of the 2 cards in your Pendulum Zones x 300.\r\n● Any battle damage your opponent takes from battles involving this card is doubled.\r\nIf this card in the Monster Zone is destroyed by battle or card effect: You can add this card to your hand, then if it was destroyed by your opponent, you can Special Summon it. You can only use this effect of \"Odd-Eyes Pendulum Dragon of the Four Heavenly Dragons\" once per turn."
   },
   {
-    "name": "Pilgrim Reaper",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "필그림리퍼",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/45742626.jpg",
     "card_type": "Monster",
@@ -838,11 +838,11 @@ const seedCards = [
     "attribute": "DARK",
     "attack": -1,
     "defense": -1,
-    "description": "2 Level 6 monsters\r\nGains 200 ATK/DEF for each DARK monster in the GYs. You can detach 1 material from this card; each player sends the top 5 cards from their Deck to the GY (or their entire Deck, if less than 5). You can only use this effect of \"Pilgrim Reaper\" once per turn."
+    "description": "레벨 6 몬스터 × 2\n이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드의 공격력 / 수비력은, 서로의 묘지의 어둠 속성 몬스터의 수 × 200 올린다. ②: 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 서로의 덱 위에서 카드를 5장 묘지로 보낸다."
   },
   {
     "name": "Rainbow Bridge Bifrost",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/32236916.jpg",
     "card_type": "Spell",
@@ -853,8 +853,8 @@ const seedCards = [
     "description": "(This card is not treated as a \"Rainbow Bridge\" card.)\r\nBanish 3 Level 10 or higher monsters from your Extra Deck, including a LIGHT Synchro Monster; add 1 Field Spell from your Deck to your hand. You can only activate 1 \"Rainbow Bridge Bifrost\" per turn."
   },
   {
-    "name": "Rite of Aramesir",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "아라메시아의 의",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/3285551.jpg",
     "card_type": "Spell",
@@ -862,11 +862,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "If you control no \"Adventurer Token\": Special Summon 1 \"Adventurer Token\" (Fairy/EARTH/Level 4/ATK 2000/DEF 2000), then if you do not control \"Fateful Adventure\", you can place 1 \"Fateful Adventure\" from your Deck face-up in your Spell & Trap Zone. You cannot activate the effects of monsters on the field the turn you activate this card, except Special Summoned monsters'. You can only activate 1 \"Rite of Aramesir\" per turn."
+    "description": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없으며, 이 카드를 발동하는 턴에, 자신은 특수 소환된 몬스터 이외의 필드의 몬스터의 효과를 발동할 수 없다. ①: 자신 필드에 \"용사 토큰\"이 존재하지 않을 경우에 발동할 수 있다. 자신 필드에 \"용사 토큰\"(천사족 / 땅 / 레벨 4 / 공 2000 / 수 2000) 1장을 특수 소환한다. 자신 필드에 \"운명의 여로\"가 존재하지 않을 경우, 추가로 덱에서 \"운명의 여로\" 1장을 자신의 마법 & 함정 존에 앞면 표시로 놓을 수 있다."
   },
   {
-    "name": "Sky Striker Mobilize - Engage!",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "섬도기동－인게이지",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/63166095.jpg",
     "card_type": "Spell",
@@ -874,11 +874,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "If you control no monsters in your Main Monster Zone: Add 1 \"Sky Striker\" card from your Deck to your hand, except \"Sky Striker Mobilize - Engage!\", then, if you have 3 or more Spells in your GY, you can draw 1 card."
+    "description": "①: 자신 메인 몬스터 존에 몬스터가 존재하지 않을 경우에 발동할 수 있다. 덱에서 \"섬도기동－인게이지\" 이외의 \"섬도\" 카드 1장을 패에 넣는다. 그 후, 자신 묘지에 마법 카드가 3장 이상 존재할 경우, 자신은 1장 드로우할 수 있다."
   },
   {
-    "name": "Slash Draw",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "일격필살! 슬래시 드로우",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/71344451.jpg",
     "card_type": "Spell",
@@ -886,11 +886,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "Discard 1 card; send cards from the top of your Deck to the GY, equal to the number of cards your opponent controls, then draw 1 card and show it. Then, if it was \"Slash Draw\", send it to the GY, and if you do, destroy as many cards on the field as possible, then inflict 2000 damage to your opponent for each card destroyed and sent to the GY by this effect. If the card you drew was not \"Slash Draw\", shuffle cards from your GY into your Deck, equal to the number of cards sent from your Deck to the GY by this effect. You can only activate 1 \"Slash Draw\" per turn."
+    "description": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 패를 1장 버리고 발동할 수 있다. 상대 필드의 카드의 수만큼 자신의 덱 위에서 카드를 묘지로 보낸다. 그 후, 자신은 1장 드로우하고, 서로 확인한다. 그것이 \"일격필살! 슬래시 드로우\"였을 경우, 추가로 그것을 묘지로 보내고, 필드의 카드를 전부 파괴한다. 그 후, 이 효과로 파괴되어 묘지로 보내진 카드의 수 × 2000 데미지를 상대에게 준다. 다를 경우, 추가로 자신은 이 효과로 덱에서 묘지로 보낸 카드의 수만큼, 자신 묘지의 카드를 덱으로 되돌린다."
   },
   {
     "name": "Stardust Dragon - Victim Sanctuary",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/76636978.jpg",
     "card_type": "Monster",
@@ -902,7 +902,7 @@ const seedCards = [
   },
   {
     "name": "Starjunk Synchron",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/13021682.jpg",
     "card_type": "Monster",
@@ -914,7 +914,7 @@ const seedCards = [
   },
   {
     "name": "Synchro Emergency",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/49415281.jpg",
     "card_type": "Trap",
@@ -925,8 +925,8 @@ const seedCards = [
     "description": "If only your opponent controls a monster, you can activate this card from your hand. Special Summon 1 monster from your hand (but negate its effects), then if your opponent controls a monster Special Summoned from the Extra Deck, you can Special Summon 1 \"Synchron\" monster from your Deck. Until the end of the next turn after this card resolves, you cannot Special Summon from the Extra Deck, except Synchro Monsters. You can banish this card from your GY; immediately after this effect resolves, Synchro Summon 1 Synchro Monster. You can only activate 1 \"Synchro Emergency\" per turn."
   },
   {
-    "name": "Toadally Awesome",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "떡 깨구리",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/90809975.jpg",
     "card_type": "Monster",
@@ -934,11 +934,11 @@ const seedCards = [
     "attribute": "WATER",
     "attack": 2200,
     "defense": 0,
-    "description": "2 Level 2 Aqua-Type monsters\nOnce per turn, during the Standby Phase: You can detach 1 Xyz Material from this card; Special Summon 1 \"Frog\" monster from your Deck. Once per turn, during either player's turn, when your opponent activates a Spell/Trap Card, or monster effect: You can send 1 Aqua-Type monster from your hand or face-up from your field to the Graveyard; negate the activation, and if you do, destroy that card, then you can Set it to your field. If this card is sent to the Graveyard: You can target 1 WATER monster in your Graveyard; add it to your hand."
+    "description": "물족 레벨 2 몬스터 × 2\n①: 서로의 스탠바이 페이즈에, 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 덱에서 \"개구리\" 몬스터 1장을 특수 소환한다. ②: 1턴에 1번, 상대가 몬스터의 효과 / 마법 / 함정 카드를 발동했을 때, 자신의 패 / 필드(앞면 표시)에서 물족 몬스터 1장을 묘지로 보내고 발동할 수 있다. 그 발동을 무효로 하고 파괴한다. 그 후, 파괴한 카드를 자신 필드에 세트할 수 있다. ③: 이 카드가 묘지로 보내졌을 경우, 자신 묘지의 물 속성 몬스터 1장을 대상으로 하고 발동할 수 있다. 그것을 패에 넣는다."
   },
   {
-    "name": "Visas Samsara",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "비서스＝삼사라",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/14391625.jpg",
     "card_type": "Monster",
@@ -946,11 +946,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 1500,
     "defense": 2100,
-    "description": "This card's name becomes \"Visas Starfrost\" while on the field or in the GY. You can target any number of your \"Visas\" monsters that are banished, in your GY, and/or on your field; shuffle those \"Visas\" monsters into the Deck, and if you do, Special Summon this card from your hand, and if you do that, it gains 400 ATK for each monster you shuffled with a different original name. You can only use this effect of \"Visas Samsara\" once per turn. If this card you control would be used as Synchro Material, you can treat it as a non-Tuner."
+    "description": "이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드의 카드명은, 필드 / 묘지에 존재하는 한 \"비서스＝스타프로스트\"로 취급한다. ②: 자신의 필드 / 묘지 / 제외 상태인 \"비서스\" 몬스터를 임의의 수만큼 대상으로 하고 발동할 수 있다. 그 \"비서스\" 몬스터를 덱으로 되돌리고, 이 카드를 패에서 특수 소환한다. 이 카드의 공격력은, 이 효과로 되돌린 종류 × 400 올린다. ③: 자신 필드의 이 카드를 싱크로 소재로 할 경우, 이 카드를 튜너 이외의 몬스터로 취급할 수 있다."
   },
   {
-    "name": "WANTED: Seeker of Sinful Spoils",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "“죄보사냥의 악마”",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE HEROES-",
     "image_url": "https://images.ygoprodeck.com/images/cards/80845034.jpg",
     "card_type": "Spell",
@@ -958,11 +958,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "Add 1 \"Diabellstar\" monster from your Deck or GY to your hand. During your Main Phase: You can banish this card from your GY, then target 1 of your \"Sinful Spoils\" Spells/Traps that is banished or in your GY, except \"WANTED: Seeker of Sinful Spoils\"; place it on the bottom of the Deck, then draw 1 card. You can only use each effect of \"WANTED: Seeker of Sinful Spoils\" once per turn."
+    "description": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신의 덱 / 묘지에서 \"디아벨스타\" 몬스터 1장을 패에 넣는다. ②: 자신 메인 페이즈에 묘지의 이 카드를 제외하고, \"“죄보사냥의 악마”\" 이외의 자신의 묘지 / 제외 상태인 \"죄보\" 마법 / 함정 카드 1장을 대상으로 하여 발동할 수 있다. 그 카드를 덱 맨 아래로 되돌린다. 그 후, 자신은 1장 드로우한다."
   },
   {
-    "name": "Arianna the Labrynth Servant",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "라뷰린스 서번츠 아리안나",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/1225009.jpg",
     "card_type": "Monster",
@@ -970,11 +970,11 @@ const seedCards = [
     "attribute": "DARK",
     "attack": 1600,
     "defense": 2100,
-    "description": "If this card is Normal or Special Summoned: You can add 1 \"Labrynth\" card from your Deck to your hand, except \"Arianna the Labrynth Servant\". If another monster(s) leaves the field by your Normal Trap effect (except during the Damage Step): You can draw 1 card, then you can apply this effect.\r\n● From your hand, either Special Summon 1 Fiend monster, or Set 1 Spell/Trap.\r\nYou can only use 1 \"Arianna the Labrynth Servant\" effect per turn, and only once that turn."
+    "description": "이 카드명의 ①②의 효과는 1턴에 1번, 어느 쪽이든 1개밖에 사용할 수 없다. ①: 이 카드를 일반 소환 / 특수 소환했을 경우에 발동할 수 있다. 덱에서 \"라뷰린스 서번츠 아리안나\" 이외의 \"라뷰린스\" 카드 1장을 패에 넣는다. ②: 자신의 일반 함정 카드의 효과로 몬스터가 필드에서 벗어났을 경우에 발동할 수 있다. 자신은 1장 드로우한다. 그 후, 이하의 효과를 적용할 수 있다. ●패에서, 악마족 몬스터 1장을 특수 소환하거나, 마법 / 함정 카드 1장을 세트한다."
   },
   {
     "name": "Blue-Eyes White Dragon, the White Phantom Beast",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/30397786.jpg",
     "card_type": "Monster",
@@ -986,7 +986,7 @@ const seedCards = [
   },
   {
     "name": "Borreload Liberator Dragon",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/27096833.jpg",
     "card_type": "Monster",
@@ -997,8 +997,8 @@ const seedCards = [
     "description": "3+ Effect Monsters\r\nYou can only Special Summon \"Borreload Liberator Dragon(s)\" once per turn. Once per turn, during the Battle Phase (Quick Effect): You can place 1 monster your opponent controls in a zone this card points to and take control of it. Your opponent cannot activate cards or effects in response to this effect's activation. Once per Chain, if this card is in your GY (Quick Effect): You can target 1 monster you control; destroy it, and if you do, Special Summon this card."
   },
   {
-    "name": "Chaos Allure Queen",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "혼돈의 얼루어 퀸",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/29925614.jpg",
     "card_type": "Monster",
@@ -1006,11 +1006,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 1500,
     "defense": 1500,
-    "description": "You can discard 1 other LIGHT or DARK monster; Special Summon this card from your hand. You can target 1 monster in either GY; equip it to this card as an Equip Spell, and if you do, this card's name becomes that equipped monster's name (until the End Phase), then if you equipped a LIGHT or DARK Monster Card by this effect, you can Special Summon 1 DARK \"Allure Queen\" monster from your Deck or GY. You can only use each effect of \"Chaos Allure Queen\" once per turn."
+    "description": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 패에서 다른 빛 / 어둠 속성 몬스터 1장을 버리고 발동할 수 있다. 이 카드를 패에서 특수 소환한다. ②: 자신이나 상대 묘지의 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 장착 마법 카드로 취급하고 이 카드에 장착한다. 이 카드는 엔드 페이즈까지, 이 효과로 장착한 몬스터와 같은 이름의 카드로 취급한다. 이 효과로 빛 / 어둠 속성의 몬스터 카드를 장착했을 경우, 추가로 자신의 덱 / 묘지에서 어둠 속성의 \"얼루어 퀸\" 몬스터 1장을 특수 소환할 수 있다."
   },
   {
     "name": "Chaos End Ruler - Ruler of the Beginning and the End",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/41424250.jpg",
     "card_type": "Monster",
@@ -1021,8 +1021,8 @@ const seedCards = [
     "description": "Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by banishing 1 LIGHT Warrior and 1 DARK Fiend monster from your GY. This card's Special Summon cannot be negated. Neither player can activate cards or effects when this card is Special Summoned. If you control this card that was Summoned its own way: You can pay 1000 LP; banish as many cards from your opponent's field and GY as possible, then inflict 500 damage to your opponent for each card banished by this effect. You can only use this effect of \"Chaos End Ruler - Ruler of the Beginning and the End\" once per turn."
   },
   {
-    "name": "Chaotic Elements",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "카오틱 엘리멘츠",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/92221402.jpg",
     "card_type": "Spell",
@@ -1030,11 +1030,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "Add 1 Level 5 or higher monster (LIGHT or DARK, Pyro or Aqua) from your Deck or GY to your hand, then if you have 3 or more Pyro and/or Aqua monsters in your GY, you can destroy 1 card on the field. If your opponent controls a monster (LIGHT or DARK, Pyro or Aqua): You can banish this card from your GY, then target 1 monster your opponent controls; take control of it until the End Phase. You can only use each effect of \"Chaotic Elements\" once per turn."
+    "description": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신의 덱 / 묘지에서 레벨 5 이상이고 빛 / 어둠 속성의 화염족 / 물족 몬스터 1장을 패에 넣는다. 그 후, 자신 묘지에 화염족 / 물족 몬스터가 3장 이상 존재할 경우, 필드의 카드 1장을 파괴할 수 있다. ②: 상대 필드에 빛 / 어둠 속성의 화염족 / 물족 몬스터가 존재할 경우, 묘지의 이 카드를 제외하고, 상대 필드의 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터의 컨트롤을 엔드 페이즈까지 얻는다."
   },
   {
     "name": "Cyber End Dragon the Decisive Strike Dragon",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/30275298.jpg",
     "card_type": "Monster",
@@ -1045,8 +1045,8 @@ const seedCards = [
     "description": "3 Machine monsters with 2100 or more ATK\r\nMust be Fusion Summoned. If this card is Fusion Summoned using only LIGHT monsters: You can pay 4000 LP; add 1 \"Limiter Removal\" from your Deck to your hand. You can only use this effect of \"Cyber End Dragon the Decisive Strike Dragon\" once per turn. If this card attacks a Defense Position monster, inflict piercing battle damage to your opponent. This card whose current ATK is higher than its original ATK can make up to 3 attacks during each Battle Phase."
   },
   {
-    "name": "Cyber Eternity Dragon",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "사이버 이터니티 드래곤",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/82315403.jpg",
     "card_type": "Monster",
@@ -1054,11 +1054,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 2800,
     "defense": 4000,
-    "description": "1 \"Cyber Dragon\" monster + 2 Machine monsters\r\nIf you have a Machine Fusion Monster(s) in your GY, your opponent cannot target this card with card effects, also it cannot be destroyed by your opponent's card effects. If this Fusion Summoned card you control is sent to your GY by an opponent's card: You can Special Summon 1 \"Cyber Dragon\" from your hand, Deck, or GY. You can banish this card from your GY; this turn, your opponent cannot target Fusion Monsters you control with card effects, also they cannot be destroyed by your opponent's card effects."
+    "description": "\"사이버 드래곤\" 몬스터 ＋ 기계족 몬스터 × 2\n①: 자신 묘지에 기계족 융합 몬스터가 존재하는 한, 이 카드는 상대 효과로는 파괴되지 않으며, 상대는 이 카드를 효과의 대상으로 할 수 없다. ②: 융합 소환한 이 카드가 상대에 의해 묘지로 보내졌을 경우에 발동할 수 있다. 자신의 패 / 덱 / 묘지에서 \"사이버 드래곤\" 1장을 특수 소환한다. ③: 묘지의 이 카드를 제외하고 발동할 수 있다. 이 턴 중에, 자신 필드의 융합 몬스터는 상대 효과로는 파괴되지 않으며, 상대는 그 카드들을 효과의 대상으로 할 수 없다."
   },
   {
-    "name": "Dark Creator",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "다크 크리에이터",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/52768390.jpg",
     "card_type": "Monster",
@@ -1066,11 +1066,11 @@ const seedCards = [
     "attribute": "DARK",
     "attack": 3000,
     "defense": 1000,
-    "description": "You can Special Summon this card (from your hand) by Tributing 2 Fiend and/or Fairy monsters. Cannot be destroyed by battle. Once per turn: You can Special Summon as many \"Dark Creator Tokens\" (Fiend/DARK/Level 10/ATK 3000/DEF 1000) as possible, but they cannot attack directly or be destroyed by battle, destroy them when this card is destroyed, also you cannot Special Summon for the rest of this turn. If a monster(s) is destroyed by battle: Inflict 700 damage to your opponent."
+    "description": "이 카드는 일반 소환/세트할 수 없다. 자신의 묘지에 어둠 속성 몬스터가 5장 이상 존재하고, 자신 필드 위에 몬스터가 존재하지 않을 경우에 특수 소환할 수 있다. 자신 묘지의 어둠 속성 몬스터 1장을 게임에서 제외하는 것으로, 자신 묘지의 어둠 속성 몬스터 1장을 특수 소환한다. 이 효과는 1턴에 1번밖에 사용할 수 없다."
   },
   {
-    "name": "Deck Lockdown",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "덱 로크",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/1149109.jpg",
     "card_type": "Spell",
@@ -1078,11 +1078,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "Neither player can add cards from the Deck to their hand except by drawing them. Monsters cannot be Special Summoned from the Main Deck. Destroy this card during your 2nd Standby Phase after activation."
+    "description": "이 카드는 발동 후, 2회째의 자신 스탠바이 페이즈에 파괴된다. ①: 이 카드가 마법 & 함정 존에 존재하는 한, 서로 드로우 이외의 방법으로 덱에서 카드를 패에 넣을 수 없으며, 덱에서 몬스터를 특수 소환할 수도 없다."
   },
   {
     "name": "Deep-Eyes White Dragon, the Blue Abyss",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/67886895.jpg",
     "card_type": "Monster",
@@ -1094,7 +1094,7 @@ const seedCards = [
   },
   {
     "name": "Demiurge Ema",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/26364381.jpg",
     "card_type": "Monster",
@@ -1105,8 +1105,8 @@ const seedCards = [
     "description": "You can send 4 monsters with 2400 or more ATK and 1000 DEF from your hand, Deck, and/or face-up field to the GY; Special Summon this card from your hand. You can target 1 Spell/Trap on each field; destroy them, then Special Summon 1 \"Homunculus Token\" (Fairy/LIGHT/Level 2/ATK 800/DEF 800) to both players' fields in Defense Position, and if you do, this card gains 1600 ATK. You can only use each effect of \"Demiurge Ema\" once per turn."
   },
   {
-    "name": "Diabellze the Original Sinkeeper",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "원죄의 디아벨제",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/53765052.jpg",
     "card_type": "Monster",
@@ -1114,11 +1114,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 2500,
     "defense": 2000,
-    "description": "If a \"Sinful Spoils\" card is in either player's GY, you can Special Summon this card (from your hand). You can only Special Summon \"Diabellze the Original Sinkeeper\" once per turn this way. Your opponent must Set Spell/Trap Cards before activating them. If a Spell/Trap becomes Set on the field, while this card is in the Monster Zone (except during the Damage Step): You can target 1 card you control and 1 card your opponent controls; destroy them. You can only use this effect of \"Diabellze the Original Sinkeeper\" once per turn."
+    "description": "이 카드명의, ①의 방법에 의한 특수 소환은 1턴에 1번밖에 할 수 없으며, ③의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 자신이나 상대 묘지에 \"죄보\" 카드가 존재할 경우, 이 카드는 패에서 특수 소환할 수 있다. ②: 이 카드가 몬스터 존에 존재하는 한, 상대는 세트되어 있지 않은 마법 / 함정 카드를 발동할 수 없다. ③: 이 카드가 몬스터 존에 존재하는 상태에서, 필드에 마법 / 함정 카드가 세트되었을 경우, 자신 및 상대 필드의 카드를 1장씩 대상으로 하고 발동할 수 있다. 그 카드를 파괴한다."
   },
   {
-    "name": "Eclipse Wyvern",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "이클립스 와이반",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/51858306.jpg",
     "card_type": "Monster",
@@ -1126,11 +1126,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 1600,
     "defense": 1000,
-    "description": "If this card is sent to the Graveyard: Banish 1 Level 7 or higher LIGHT or DARK Dragon-Type monster from your Deck. If this card is banished from your Graveyard: You can add the monster banished by this card's effect to your hand."
+    "description": "①: 이 카드가 묘지로 보내졌을 경우에 발동한다. 덱에서 레벨 7 이상이고 빛 / 어둠 속성인 드래곤족 몬스터 1장을 제외한다. ②: 묘지의 이 카드가 제외되었을 경우에 발동할 수 있다. 이 카드의 ①의 효과로 제외되어 있는 몬스터를 패에 넣는다."
   },
   {
-    "name": "Elzette of the White Forest",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "하얀 숲의 리제트",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/61980241.jpg",
     "card_type": "Monster",
@@ -1138,11 +1138,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 0,
     "defense": 0,
-    "description": "You can send 1 Spell/Trap from your hand or field to the GY; Special Summon this card from your hand, then add 1 \"White Forest\" monster from your Deck to your hand, except \"Elzette of the White Forest\". During your opponent's turn, if a LIGHT Spellcaster Tuner is Special Summoned to your field, while this card is in your GY (except during the Damage Step): You can add this card to your hand. You can only use each effect of \"Elzette of the White Forest\" once per turn."
+    "description": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 패에 존재할 경우, 자신의 패 / 필드에서 마법 / 함정 카드 1장을 묘지로 보내고 발동할 수 있다. 이 카드를 특수 소환한다. 그 후, 덱에서 \"하얀 숲의 리제트\" 이외의 \"하얀 숲\" 몬스터 1장을 패에 넣는다. ②: 이 카드가 묘지에 존재하는 상태에서, 상대 턴에 자신 필드에 마법사족 / 빛 속성 튜너가 특수 소환되었을 경우에 발동할 수 있다. 이 카드를 패에 넣는다."
   },
   {
-    "name": "Fallen of Albaz",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "알버스의 낙윤",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/68468459.jpg",
     "card_type": "Monster",
@@ -1150,11 +1150,11 @@ const seedCards = [
     "attribute": "DARK",
     "attack": 1800,
     "defense": 0,
-    "description": "If this card is Normal or Special Summoned (except during the Damage Step): You can discard 1 card; Fusion Summon 1 Fusion Monster from your Extra Deck, using monsters on either field as Fusion Material, including this card, but you cannot use other monsters you control as Fusion Material. You can only use this effect of \"Fallen of Albaz\" once per turn."
+    "description": "이 카드명의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 일반 소환 / 특수 소환했을 경우, 패를 1장 버리고 발동할 수 있다. 이 카드를 포함하는 자신 / 상대 필드의 몬스터를 융합 소재로 하고, 융합 몬스터 1장을 융합 소환한다. 그 시기에, 자신 필드의 다른 몬스터를 융합 소재로 할 수 없다."
   },
   {
     "name": "Future Fusion Nova",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/92058902.jpg",
     "card_type": "Spell",
@@ -1166,7 +1166,7 @@ const seedCards = [
   },
   {
     "name": "Galaxy Defense Robot Orbital 7",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/91714772.jpg",
     "card_type": "Monster",
@@ -1178,7 +1178,7 @@ const seedCards = [
   },
   {
     "name": "Galaxy-Eyes Photon Change Dragon",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/54725177.jpg",
     "card_type": "Monster",
@@ -1190,7 +1190,7 @@ const seedCards = [
   },
   {
     "name": "Gatling Ogre",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/88931417.jpg",
     "card_type": "Monster",
@@ -1201,8 +1201,8 @@ const seedCards = [
     "description": "You can send any number of face-down cards from your Spell & Trap Zone to the GY; inflict 800 damage to your opponent for each, also your opponent takes no damage from non-Fiend monsters' effects for the rest of this turn. You can only use this effect of \"Gatling Ogre\" thrice per turn. Once per turn, when this card is targeted for an attack: You can inflict 500 damage to your opponent for each Attack Position monster they control, then end the Battle Phase."
   },
   {
-    "name": "Ghost Fairy Elfobia",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "이괴의 요정 엘포비아",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/44663232.jpg",
     "card_type": "Monster",
@@ -1210,11 +1210,11 @@ const seedCards = [
     "attribute": "WIND",
     "attack": 900,
     "defense": 500,
-    "description": "Once per turn: You can reveal 1 WIND monster in your hand; until the end of your opponent's next Main Phase 1, monsters with a Level higher than the revealed monster cannot activate their effects."
+    "description": "①: 1턴에 1번, 패의 바람 속성 몬스터 1장을 상대에게 보여주고 발동할 수 있다. 다음 상대 메인 페이즈 1 종료시까지, 보여준 몬스터보다 레벨이 높은 몬스터의 효과를 서로 발동할 수 없다."
   },
   {
-    "name": "Gozen Match",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "어전시합",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/53334471.jpg",
     "card_type": "Trap",
@@ -1222,11 +1222,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "Each player can only control 1 Attribute of monster. Send all other face-up monsters they control to the GY."
+    "description": "①: 이 카드가 마법 & 함정 존에 존재하는 한, 서로의 필드에 각각 1종류의 속성의 몬스터밖에 앞면 표시로 존재할 수 없다. 양쪽 플레이어는 자신 필드의 앞면 표시 몬스터의 속성이 2종류 이상일 경우에는 1종류가 되도록 묘지로 보내야 한다."
   },
   {
-    "name": "Gravekeeper's Inscription",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "묘지기의 각인",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/59494222.jpg",
     "card_type": "Spell",
@@ -1234,11 +1234,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "At the start of your Main Phase 1: Apply 1 of the following effects until the end of your opponent's turn.\r\n● Neither player can activate card effects in the GY.\r\n● Neither player can banish cards from the GY.\r\n● Neither player can Special Summon monsters from the GYs."
+    "description": "①: 자신 메인 페이즈 1 개시시에 발동할 수 있다. 이하의 효과에서 1개를 고르고, 상대 턴 종료시까지 적용한다.\n●서로 묘지의 카드 효과를 발동할 수 없다.\n●서로 묘지의 카드를 제외할 수 없다.\n●서로 묘지의 몬스터를 특수 소환할 수 없다."
   },
   {
     "name": "Hyper-Rank-Up-Magic Ultimate Force",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/87818869.jpg",
     "card_type": "Spell",
@@ -1249,8 +1249,8 @@ const seedCards = [
     "description": "Target 1 Rank 9 or lower \"Utopia\" or \"Utopic\" Xyz Monster you control whose original Attribute is LIGHT; Special Summon 1 Rank 10 or higher \"Number\" Xyz Monster from your Extra Deck, by using that Xyz Monster you control (this is treated as an Xyz Summon, transfer its materials), and if you do, attach this card to it. A \"Number 99\" Xyz Monster that has this card as material gains this effect.\r\n● Once per Chain, when your opponent activates a monster effect during the Battle Phase (Quick Effect): Detach all materials from this card, and if you do, destroy all monsters your opponent controls."
   },
   {
-    "name": "Infernity Archfiend",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "인페르니티 데몬",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/99177923.jpg",
     "card_type": "Monster",
@@ -1258,11 +1258,11 @@ const seedCards = [
     "attribute": "DARK",
     "attack": 1800,
     "defense": 1200,
-    "description": "When you draw this card, if you have no other cards in your hand: You can reveal this card; Special Summon this card from your hand. When this card is Special Summoned: You can add 1 \"Infernity\" card from your Deck to your hand. You must have no cards in your hand to activate and to resolve this effect."
+    "description": "①: 자신의 패가 0장인 상태에서, 이 카드를 드로우했을 때, 이 카드를 상대에게 보여주고 발동할 수 있다. 이 카드를 특수 소환한다. ②: 이 카드를 특수 소환했을 때에 발동할 수 있다(이 효과는 자신의 패가 0장일 경우에 발동과 처리를 할 수 있다). 덱에서 \"인페르니티\" 카드 1장을 패에 넣는다."
   },
   {
     "name": "Infernity Doom Slinger",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/14425515.jpg",
     "card_type": "Monster",
@@ -1273,8 +1273,8 @@ const seedCards = [
     "description": "During your Main Phase: You can Special Summon 1 Fiend monster from your hand. If you have no cards in your hand (Quick Effect): You can banish this card from your GY; your opponent chooses 1 of these effects for you to apply.\r\n● Reveal the top card of your Deck, and if it is a monster, your opponent takes any effect damage you would have taken this turn instead. Otherwise, you take 4000 damage.\r\n● You take no effect damage this turn.\r\nYou can only use each effect of \"Infernity Doom Slinger\" once per turn."
   },
   {
-    "name": "Infernity Necromancer",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "인페르니티 네크로맨서",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/56209279.jpg",
     "card_type": "Monster",
@@ -1282,11 +1282,11 @@ const seedCards = [
     "attribute": "DARK",
     "attack": 0,
     "defense": 2000,
-    "description": "When this card is Normal Summoned, it is changed to Defense Position. If you have no cards in your hand, this card gains the following effect: Once per turn, you can select 1 \"Infernity\" monster in your Graveyard, except \"Infernity Necromancer\", and Special Summon it."
+    "description": "①: 이 카드를 일반 소환했을 경우에 발동한다. 이 카드를 수비 표시로 한다. ②: 1턴에 1번, 자신의 패가 0장일 경우, \"인페르니티 네크로맨서\" 이외의 자신 묘지의 \"인페르니티\" 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 특수 소환한다."
   },
   {
-    "name": "Keldo the Sacred Protector",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "숙신상 켈도",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/63542003.jpg",
     "card_type": "Monster",
@@ -1294,11 +1294,11 @@ const seedCards = [
     "attribute": "EARTH",
     "attack": 1200,
     "defense": 1600,
-    "description": "You can discard 1 other EARTH Fairy monster; Special Summon this card from your hand, then add 1 \"Exchange of the Spirit\" or 1 card that mentions it from your Deck to your hand. (Quick Effect): You can banish this card from your field or GY, then target up to 3 cards in any GY(s), or up to 5 if \"Exchange of the Spirit\" is on your field or in your GY; shuffle them into the Deck. You can only use each effect of \"Keldo the Sacred Protector\" once per turn."
+    "description": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 패에서 다른 천사족 / 땅 속성 몬스터 1장을 버리고 발동할 수 있다. 이 카드를 패에서 특수 소환한다. 그 후, \"현세와 명계의 역전\" 또는 그 카드명이 쓰여진 카드 1장을 덱에서 패에 넣는다. ②: 자신 / 상대 턴에, 필드 / 묘지의 이 카드를 제외하고, 자신 / 상대 묘지의 카드를 합계 3장까지 대상으로 하여 발동할 수 있다(자신의 필드나 묘지에 \"현세와 명계의 역전\"이 존재할 경우, 이 효과의 대상은 5장까지가 된다). 그 카드를 덱으로 되돌린다."
   },
   {
-    "name": "Knightmare Cerberus",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "트로이메어 케로베로스",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/75452921.jpg",
     "card_type": "Monster",
@@ -1306,11 +1306,11 @@ const seedCards = [
     "attribute": "EARTH",
     "attack": 1600,
     "defense": null,
-    "description": "2 monsters with different names\r\nIf this card is Link Summoned: You can discard 1 card, then target 1 Special Summoned monster in your opponent's Main Monster Zone; destroy it, then, if this card was co-linked when this effect was activated, you can draw 1 card. You can only use this effect of \"Knightmare Cerberus\" once per turn. Co-linked monsters you control cannot be destroyed by card effects."
+    "description": "카드명이 다른 몬스터 2장\n이 카드명의 ①의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 링크 소환했을 경우, 패를 1장 버리고, 상대 메인 몬스터 존의 특수 소환된 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터를 파괴한다. 이 효과의 발동시에 이 카드가 상호 링크 상태였을 경우, 추가로 자신은 1장 드로우할 수 있다. ②: 이 카드가 몬스터 존에 존재하는 한, 자신 필드의 상호 링크 상태의 몬스터는 효과로는 파괴되지 않는다."
   },
   {
-    "name": "Knightmare Phoenix",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "트로이메어 피닉스",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/2857636.jpg",
     "card_type": "Monster",
@@ -1318,11 +1318,11 @@ const seedCards = [
     "attribute": "FIRE",
     "attack": 1900,
     "defense": null,
-    "description": "2 monsters with different names\r\nIf this card is Link Summoned: You can discard 1 card, then target 1 Spell/Trap your opponent controls; destroy it, then, if this card was co-linked when this effect was activated, you can draw 1 card. You can only use this effect of \"Knightmare Phoenix\" once per turn. Co-linked monsters you control cannot be destroyed by battle."
+    "description": "카드명이 다른 몬스터 2장\n이 카드명의 ①의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 링크 소환했을 경우, 패를 1장 버리고, 상대 필드의 마법 / 함정 카드 1장을 대상으로 하여 발동할 수 있다. 그 카드를 파괴한다. 이 효과의 발동시에 이 카드가 상호 링크 상태였을 경우, 추가로 자신은 1장 드로우할 수 있다. ②: 이 카드가 몬스터 존에 존재하는 한, 상호 링크 상태의 자신 몬스터는 전투로는 파괴되지 않는다."
   },
   {
     "name": "Lightning Crash",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/89753095.jpg",
     "card_type": "Spell",
@@ -1333,8 +1333,8 @@ const seedCards = [
     "description": "Add 1 Thunder monster from your Deck to your hand, but you cannot Normal Summon/Set monsters with its name until the end of the next turn after this card resolves. You can only activate 1 \"Lightning Crash\" per turn."
   },
   {
-    "name": "Lovely Labrynth of the Silver Castle",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "백은 성의 라뷰린스",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/2347656.jpg",
     "card_type": "Monster",
@@ -1342,11 +1342,11 @@ const seedCards = [
     "attribute": "DARK",
     "attack": 2900,
     "defense": 1900,
-    "description": "Your opponent cannot activate monster effects in response to the activation of your Normal Trap Cards. You can only use each of the following effects of \"Lovely Labrynth of the Silver Castle\" once per turn. You can target 1 Normal Trap in your GY; Set it to your field, but it cannot be activated unless you control a Fiend monster. If another monster(s) leaves the field by your Normal Trap effect (except during the Damage Step): You can destroy 1 card in your opponent's hand (at random) or their field."
+    "description": "이 카드명의 ②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신의 일반 함정 카드의 발동에 대하여, 상대는 몬스터의 효과를 발동할 수 없다. ②: 자신 묘지의 일반 함정 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 자신 필드에 세트한다. 이 효과로 세트한 카드는, 자신 필드에 악마족 몬스터가 존재하지 않을 경우에는 발동할 수 없다. ③: 자신의 일반 함정 카드의 효과로 몬스터가 필드에서 벗어났을 경우에 발동할 수 있다. 상대의 패 / 필드의 카드 1장을 파괴한다(패에서는 무작위로 고른다)."
   },
   {
-    "name": "Maliss in Underground",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "M∀LICE IN UNDERGROUND",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/68337209.jpg",
     "card_type": "Spell",
@@ -1354,11 +1354,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "When this card is activated: You can banish 1 \"Maliss\" card from your hand, Deck, or GY. While 3 or more of your \"Maliss\" Traps with different names are banished, \"Maliss\" Link Monsters you control gain 3000 ATK. While you control a \"Maliss\" Link Monster, your opponent's monsters can only target \"Maliss\" Link Monsters for attacks. You can only activate 1 \"Maliss in Underground\" per turn."
+    "description": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 이 카드의 발동시의 효과 처리로서, 자신의 패 / 덱 / 묘지에서 \"M∀LICE(맬리스)\" 카드 1장을 제외할 수 있다. ②: 자신의 제외 상태인 \"M∀LICE(맬리스)\" 함정 카드가 3종류 이상 존재하는 한, 자신 필드의 \"M∀LICE(맬리스)\" 링크 몬스터의 공격력은 3000 올린다. ③: 자신 필드에 \"M∀LICE(맬리스)\" 링크 몬스터가 존재하는 한, 상대 몬스터는 \"M∀LICE(맬리스)\" 링크 몬스터밖에 공격 대상으로 선택할 수 없다."
   },
   {
-    "name": "Mudora the Sword Oracle",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "검신관 무도라",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/99937011.jpg",
     "card_type": "Monster",
@@ -1366,11 +1366,11 @@ const seedCards = [
     "attribute": "EARTH",
     "attack": 1500,
     "defense": 1800,
-    "description": "You can discard 1 other EARTH Fairy monster; Special Summon this card from your hand, then you can place 1 \"Gravekeeper's Trap\" from your Deck face-up in your Spell & Trap Zone. (Quick Effect): You can banish this card from your field or GY, then target up to 3 cards in any GY(s), or up to 5 if \"Exchange of the Spirit\" is on your field or in your GY; shuffle them into the Deck. You can only use each effect of \"Mudora the Sword Oracle\" once per turn."
+    "description": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 패에서 다른 천사족 / 땅 속성 몬스터 1장을 버리고 발동할 수 있다. 이 카드를 패에서 특수 소환한다. 그 후, 덱에서 \"묘지기의 함정\" 1장을 자신의 마법 & 함정 존에 앞면 표시로 놓을 수 있다. ②: 자신 / 상대 턴에, 필드 / 묘지의 이 카드를 제외하고, 자신 / 상대 묘지의 카드를 합계 3장까지 대상으로 하여 발동할 수 있다(자신의 필드나 묘지에 \"현세와 명계의 역전\"이 존재할 경우, 이 효과의 대상은 5장까지가 된다). 그 카드를 덱으로 되돌린다."
   },
   {
-    "name": "Nemeses Corridor",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "네메시스 코리도",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/72090076.jpg",
     "card_type": "Monster",
@@ -1378,11 +1378,11 @@ const seedCards = [
     "attribute": "WIND",
     "attack": 1900,
     "defense": 600,
-    "description": "You can target 1 of your banished monsters, except \"Nemeses Corridor\"; Special Summon this card from your hand, and if you do, shuffle that target into the Deck. You can target 1 of your banished \"Nemeses\" monsters, except \"Nemeses Corridor\"; add it to your hand. You can only use each effect of \"Nemeses Corridor\" once per turn."
+    "description": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 패에 존재할 경우, \"네메시스 코리도\" 이외의 자신의 제외 상태인 몬스터 1장을 대상으로 하고 발동할 수 있다. 이 카드를 특수 소환하고, 대상 몬스터를 덱으로 되돌린다. ②: \"네메시스 코리도\" 이외의 자신의 제외 상태인 \"네메시스\" 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 패에 넣는다."
   },
   {
-    "name": "Nemeses Flag",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "네메시스 플래그",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/19211362.jpg",
     "card_type": "Monster",
@@ -1390,11 +1390,11 @@ const seedCards = [
     "attribute": "FIRE",
     "attack": 1100,
     "defense": 200,
-    "description": "You can target 1 of your banished monsters, except \"Nemeses Flag\"; Special Summon this card from your hand, and if you do, shuffle that target into the Deck. During your Main Phase: You can add 1 \"Nemeses\" monster from your Deck to your hand, except \"Nemeses Flag\". You can only use each effect of \"Nemeses Flag\" once per turn."
+    "description": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드가 패에 존재할 경우, \"네메시스 플래그\" 이외의 자신의 제외 상태인 몬스터 1장을 대상으로 하고 발동할 수 있다. 이 카드를 특수 소환하고, 대상 몬스터를 덱으로 되돌린다. ②: 자신 메인 페이즈에 발동할 수 있다. 덱에서 \"네메시스 플래그\" 이외의 \"네메시스\" 몬스터 1장을 패에 넣는다."
   },
   {
     "name": "Perfectron Hydradrive Dragon",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/13203964.jpg",
     "card_type": "Monster",
@@ -1405,8 +1405,8 @@ const seedCards = [
     "description": "1+ Link Monsters\r\nIf this card is Link Summoned, or at the end of the Damage Step if this card battled: Destroy as many monsters your opponent controls as possible, then inflict 300 damage to your opponent for each Link Monster in your GY. While face-up on the field, this card is also LIGHT, WATER, FIRE, and WIND-Attribute. Unaffected by the activated effects of monsters that share an Attribute with this card. If this card with 1000 or more ATK would be destroyed by battle or card effect, you can make its ATK become reduced by 1000 instead."
   },
   {
-    "name": "Primite Dragon Ether Beryl",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "원석룡 어나더 베릴",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/63198739.jpg",
     "card_type": "Monster",
@@ -1414,11 +1414,11 @@ const seedCards = [
     "attribute": "EARTH",
     "attack": 1600,
     "defense": 0,
-    "description": "If this card is Normal Summoned: You can Set 1 \"Primite\" Spell/Trap from your Deck. You can only use each of the following effects of \"Primite Dragon Ether Beryl\" once per turn. You can Tribute this card; send 1 Normal Monster from your Deck to the GY. During your Standby Phase, if you have a Normal Monster in your field or GY: You can add this card from the GY to your hand."
+    "description": "이 카드명의 ②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 일반 소환했을 경우에 발동할 수 있다. 덱에서 \"원석\" 마법 / 함정 카드 1장을 자신 필드에 세트한다. ②: 이 카드를 릴리스하고 발동할 수 있다. 덱에서 일반 몬스터 1장을 묘지로 보낸다. ③: 자신 스탠바이 페이즈에, 이 카드가 묘지에 존재하고, 자신의 필드나 묘지에 일반 몬스터가 존재할 경우에 발동할 수 있다. 이 카드를 패에 넣는다."
   },
   {
-    "name": "Primite Lordly Lode",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "원석의 황맥",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/56506740.jpg",
     "card_type": "Spell",
@@ -1426,11 +1426,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "When this card is activated: Add 1 \"Primite\" card from your Deck to your hand, except \"Primite Lordly Lode\". You can declare 1 Normal Monster Card name; Special Summon 1 declared Normal Monster from your hand, Deck, or GY in Defense Position, also you cannot activate the effects of Special Summoned monsters on the field this turn. You can only use each effect of \"Primite Lordly Lode\" once per turn. Normal Monsters and \"Primite\" monsters you control gain 300 ATK for each Normal Monster with different names in your GY."
+    "description": "이 카드명의 ①③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드의 발동시의 효과 처리로서, 덱에서 \"원석의 황맥\" 이외의 \"원석\" 카드 1장을 패에 넣는다. ②: 자신 필드의 일반 몬스터 및 \"원석\" 몬스터의 공격력은, 자신 묘지의 일반 몬스터의 종류 × 300 올린다. ③: 일반 몬스터의 카드명을 1개 선언하고 발동할 수 있다. 선언한 일반 몬스터 1장을 자신의 패 / 덱 / 묘지에서 수비 표시로 특수 소환한다. 이 턴에, 자신은 특수 소환된 필드의 몬스터의 효과를 발동할 수 없다."
   },
   {
-    "name": "Psi-Blocker",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "사이킥 블로커",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/29417188.jpg",
     "card_type": "Monster",
@@ -1438,11 +1438,11 @@ const seedCards = [
     "attribute": "WIND",
     "attack": 1200,
     "defense": 300,
-    "description": "Once per turn: You can declare 1 card name; cards with that name, and their effects, cannot be used until the end of your opponent's next turn."
+    "description": "①: 1턴에 1번, 카드명을 1개 선언하고 발동할 수 있다. 상대 턴 종료시까지 동안, 선언된 카드명을 원래 카드명으로 하는 서로의 카드에 이하를 적용한다. ●필드에 낼 수 없다. ●카드의 발동 및 효과의 발동과 적용을 할 수 없다. ●통상 소환 / 반전 소환 / 특수 소환할 수 없다. ●공격 및 표시 형식의 변경을 할 수 없다. ●소재를 필요로 하는 특수 소환을 위한 소재로 할 수 없다."
   },
   {
-    "name": "PSY-Frame Driver",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "PSY프레임 드라이버",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/49036338.jpg",
     "card_type": "Monster",
@@ -1450,11 +1450,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 2500,
     "defense": 0,
-    "description": "A Psychic soldier that rides into battle against the Security Forces on currents of lightning, using an autonomic amplifier called \"PSY-Frame\"."
+    "description": "전격을 조종하는 사이킥 전사. 자율형 증폭기 \"PSY(싸이)프레임\"을 구사하여, 시큐리티 포스에 습격을 강행한다. 그 모습은, 정말로 전광석화와 같다."
   },
   {
     "name": "Red Dragon Archfiend's Chain",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/92936364.jpg",
     "card_type": "Trap",
@@ -1465,8 +1465,8 @@ const seedCards = [
     "description": "You can activate this card the turn it was Set, by revealing 1 \"Red Dragon Archfiend\" in your Extra Deck. Activate this card by revealing any number of monsters in your hand, then target Effect Monsters your opponent controls equal to the number of Tuners revealed +1; they lose 100 ATK for each card you revealed in the hand to activate this card, also their effects are negated. If the last of those monsters is not on the field, destroy this card. You can only activate 1 \"Red Dragon Archfiend's Chain\" per turn."
   },
   {
-    "name": "Rescue-ACE Turbulence",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "R－ACE 터뷸런스",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/37495766.jpg",
     "card_type": "Monster",
@@ -1474,11 +1474,11 @@ const seedCards = [
     "attribute": "FIRE",
     "attack": 3000,
     "defense": 3000,
-    "description": "You can banish 2 \"Rescue-ACE\" cards from your GY; Special Summon this card from your hand. During your Main Phase: You can Set up to 4 \"Rescue-ACE\" Quick-Play Spells / Normal Traps, with different names, directly from your Deck. If another card(s) you control leaves the field by an opponent's card effect (except during the Damage Step): You can target 1 card on the field; destroy it. You can only use each effect of \"Rescue-ACE Turbulence\" once per turn."
+    "description": "이 카드명의 ①②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 자신 묘지에서 \"R－ACE(레스큐 에이스)\" 카드 2장을 제외하고 발동할 수 있다. 이 카드를 패에서 특수 소환한다. ②: 자신 메인 페이즈에 발동할 수 있다. 덱에서 \"R－ACE(레스큐 에이스)\" 속공 마법 / 일반 함정 카드를 4장까지 자신 필드에 세트한다(같은 이름의 카드는 1장까지). ③: 자신 필드의 다른 카드가 상대 효과로 필드에서 벗어났을 경우, 필드의 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 파괴한다."
   },
   {
-    "name": "Retaliating \"C\"",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "응전의 G",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/46502744.jpg",
     "card_type": "Monster",
@@ -1486,11 +1486,11 @@ const seedCards = [
     "attribute": "EARTH",
     "attack": 1400,
     "defense": 1400,
-    "description": "During either player's turn, when your opponent activates a Spell Card that includes an effect that Special Summons a monster(s): You can Special Summon this card from your hand. If Summoned this way, while this card is face-up on the field, any card sent to the Graveyard is banished instead. If this card is sent from the field to the Graveyard: You can add 1 EARTH Insect-Type monster with 1500 or less ATK from your Deck to your hand, except \"Retaliating \"C\"\"."
+    "description": "①: 몬스터를 특수 소환하는 효과를 포함하는 마법 카드를 상대가 발동했을 때에 발동할 수 있다. 이 카드를 패에서 특수 소환한다. ②: 이 카드의 ①의 효과로 특수 소환한 이 카드가 몬스터 존에 존재하는 한, 묘지로 보내지는 카드는 묘지로는 가지 않으며 제외된다. ③: 이 카드가 필드에서 묘지로 보내졌을 경우에 발동할 수 있다. \"응전의 G\"가 아닌, 공격력 1500 이하의 곤충족 / 땅 속성 몬스터 1장을 덱에서 패에 넣는다."
   },
   {
     "name": "Revolution Cyber Dragon",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/66664203.jpg",
     "card_type": "Monster",
@@ -1502,7 +1502,7 @@ const seedCards = [
   },
   {
     "name": "Rokket Barrage",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/53481938.jpg",
     "card_type": "Monster",
@@ -1513,8 +1513,8 @@ const seedCards = [
     "description": "You can send 1 DARK Dragon monster from your Deck to the GY, except a Level 5 monster; Special Summon this card from your hand, also you cannot Special Summon from the Extra Deck for the rest of this turn, except DARK monsters. When a Link Monster's effect is activated that targets this card on the field (Quick Effect): You can destroy this card, then Special Summon up to 1 \"Rokket\" monster each from your hand, Deck, GY, and/or banishment, except \"Rokket Barrage\". You can only use each effect of \"Rokket Barrage\" once per turn."
   },
   {
-    "name": "Samsara Dragon",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "윤회룡 삼사라",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/33750025.jpg",
     "card_type": "Monster",
@@ -1522,11 +1522,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 0,
     "defense": 0,
-    "description": "This card can be treated as 2 Tributes for the Tribute Summon of a Dragon monster. You can banish this card from your GY, then target 1 Level 5 or higher Dragon monster in your GY; add it to your hand, then immediately after this effect resolves, you can Tribute Summon it. You can only use this effect of \"Samsara Dragon\" once per turn."
+    "description": "이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 드래곤족 몬스터를 어드밴스 소환할 경우, 이 카드는 2장만큼의 릴리스로 할 수 있다. ②: 묘지의 이 카드를 제외하고, 자신 묘지의 레벨 5 이상의 드래곤족 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터를 패에 넣는다. 그 후, 그 몬스터의 어드밴스 소환을 실행할 수 있다."
   },
   {
     "name": "Starving Venom Fusion Dragon of the Four Heavenly Dragons",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/27118421.jpg",
     "card_type": "Monster",
@@ -1537,8 +1537,8 @@ const seedCards = [
     "description": "2 DARK monsters on the field\r\n(This card is always treated as a \"Predaplant\" card.)\r\nIf this card is Special Summoned: You can target 1 other face-up monster on the field; change its ATK to 0, negate its effects, also it becomes DARK. When your opponent activates a card or effect (Quick Effect): You can Fusion Summon 1 DARK Fusion Monster from your Extra Deck, using DARK monsters on either field, including this card. You can only use each effect of \"Starving Venom Fusion Dragon of the Four Heavenly Dragons\" once per turn."
   },
   {
-    "name": "Thunder King, the Lightningstrike Kaiju",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "뇌격파괴수 썬더 더 킹",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/48770333.jpg",
     "card_type": "Monster",
@@ -1546,11 +1546,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 3300,
     "defense": 2100,
-    "description": "You can Special Summon this card (from your hand) to your opponent's side of the field in Attack Position, by Tributing 1 monster they control. If your opponent controls a \"Kaiju\" monster, you can Special Summon this card (from your hand) in Attack Position. You can only control 1 \"Kaiju\" monster. Once per turn: You can remove 3 Kaiju Counters from anywhere on the field; your opponent's cards and effects cannot be activated for the rest of this turn, also this card can make up to 3 attacks on monsters during each Battle Phase this turn."
+    "description": "①: 이 카드는 상대 필드의 몬스터 1장을 릴리스하고, 패에서 상대 필드에 공격 표시로 특수 소환할 수 있다. ②: 상대 필드에 \"파괴수\" 몬스터가 존재할 경우, 이 카드는 패에서 공격 표시로 특수 소환할 수 있다. ③: \"파괴수\" 몬스터는 자신 필드에 1장밖에 앞면 표시로 존재할 수 없다. ④: 1턴에 1번, 자신 / 상대 필드의 파괴수 카운터를 3개 제거하고 발동할 수 있다. 이 턴에, 상대는 마법 / 함정 / 몬스터의 효과를 발동할 수 없으며, 이 카드는 1번의 배틀 페이즈 중에 3회까지 몬스터에 공격할 수 있다."
   },
   {
-    "name": "Zaborg the Mega Monarch",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "웅장한 번개 제왕 자보르그",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/87602890.jpg",
     "card_type": "Monster",
@@ -1558,11 +1558,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 2800,
     "defense": 1000,
-    "description": "You can Tribute Summon this card by Tributing 1 Tribute Summoned monster. If this card is Tribute Summoned: Target 1 monster on the field; destroy it, then, if it was a LIGHT monster, both players send as many cards as possible from their Extra Deck to the GY, but not more than the original Level/Rank of that destroyed monster. If this card was Tribute Summoned by Tributing a LIGHT monster, add this additional effect.\r\n● You choose the cards your opponent sends to the GY."
+    "description": "이 카드는 어드밴스 소환한 몬스터 1장을 릴리스하고 어드밴스 소환할 수 있다. ①: 이 카드를 어드밴스 소환했을 경우, 필드의 몬스터 1장을 대상으로 하고 발동한다. 그 몬스터를 파괴한다. 파괴한 몬스터가 빛 속성이었을 경우, 그 원래의 레벨 / 랭크의 수까지 가능한 한, 양쪽 플레이어는 각각 자신의 엑스트라 덱에서 카드를 묘지로 보낸다(이 카드를 빛 속성 몬스터를 릴리스하고 어드밴스 소환했을 경우, 묘지로 보내는 상대의 카드는 자신이 고른다)."
   },
   {
     "name": "Clear Wing Synchro Dragon of the Four Heavenly Dragons",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/54603525.jpg",
     "card_type": "Monster",
@@ -1574,7 +1574,7 @@ const seedCards = [
   },
   {
     "name": "Crimson Dragon Quetzacoatl",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/29053656.jpg",
     "card_type": "Monster",
@@ -1585,8 +1585,8 @@ const seedCards = [
     "description": "1 Tuner + 1+ non-Tuners\r\nGains ATK equal to the total original ATK of all other Synchro Monsters you control. You can only use each of the following effects of \"Crimson Dragon Quetzacoatl\" once per turn. If this card is Synchro Summoned: You can Special Summon as many Dragon Synchro Monsters from your GY as possible, also you cannot Special Summon for the rest of this turn. When your opponent activates a monster effect (Quick Effect): You can return 1 other Dragon Synchro Monster you control to the Extra Deck, and if you do, negate that activation."
   },
   {
-    "name": "Crystron Quariongandrax",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "크리스트론－그리온간드",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/13455674.jpg",
     "card_type": "Monster",
@@ -1594,11 +1594,11 @@ const seedCards = [
     "attribute": "WATER",
     "attack": 3000,
     "defense": 3000,
-    "description": "2 or more Tuners + 1 non-Tuner monster\r\nIf this card is Synchro Summoned: You can target monsters your opponent controls and/or in their Graveyard, up to the number of Synchro Materials used for the Synchro Summon of this card; banish them. If this Synchro Summoned card is destroyed by battle or card effect: You can target 1 banished monster, except this card; Special Summon it to your field."
+    "description": "튜너 2장 이상 ＋ 튜너 이외의 몬스터 1장\n①: 이 카드를 싱크로 소환했을 경우, 그 싱크로 소재로 한 몬스터의 수까지 상대의 필드 / 묘지의 몬스터를 대상으로 하고 발동할 수 있다. 그 몬스터를 제외한다. ②: 싱크로 소환한 이 카드가 전투 / 효과로 파괴되었을 경우, 이 카드 이외의 자신이나 상대의 제외 상태인 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 자신 필드에 특수 소환한다."
   },
   {
-    "name": "CXyz N.As.Ch. Knight",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "CX－네필 어사일럼 카오스 나이트",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/61374414.jpg",
     "card_type": "Monster",
@@ -1606,11 +1606,11 @@ const seedCards = [
     "attribute": "WATER",
     "attack": 2000,
     "defense": 3000,
-    "description": "3 Level 6 monsters\r\nYou can also Xyz Summon this card by using \"N.As.H. Knight\" you control. (Transfer its materials to this card.) Cannot be destroyed by card effects. You can detach 1 material from this card; Special Summon from your Extra Deck, 1 \"Number\" Xyz Monster that has a number between \"101\" and \"107\" in its name, using this face-up card you control as material, but destroy it during your opponent's next End Phase. (This is treated as an Xyz Summon. Transfer its materials to the Summoned monster.) You can only use this effect of \"CXyz N.As.Ch. Knight\" once per turn."
+    "description": "레벨 6 몬스터 × 3\n이 카드는 자신 필드의 \"네필 어사일럼 헤트 나이트\" 위에 겹쳐 엑시즈 소환할 수도 있다. 이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 필드의 이 카드는 효과로는 파괴되지 않는다. ②: 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. \"No.101\"~\"No.107\" 중 어느 \"No.\" 엑시즈 몬스터 1장을, 자신 필드의 이 카드 위에 겹쳐 엑시즈 소환으로 취급하고 엑스트라 덱에서 특수 소환한다. 이 효과로 특수 소환한 몬스터는 다음 상대 엔드 페이즈에 파괴된다."
   },
   {
     "name": "Dark Rebellion Xyz Dragon of the Four Heavenly Dragons",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/90091224.jpg",
     "card_type": "Monster",
@@ -1622,7 +1622,7 @@ const seedCards = [
   },
   {
     "name": "Dark Tuner Catastrogue",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/15141103.jpg",
     "card_type": "Monster",
@@ -1634,7 +1634,7 @@ const seedCards = [
   },
   {
     "name": "Dark Tuner Nightmare Hand",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/51546708.jpg",
     "card_type": "Monster",
@@ -1645,8 +1645,8 @@ const seedCards = [
     "description": "You can reveal this card in your hand; immediately after this effect resolves, Normal Summon 1 \"Dark Tuner\" monster. You can only use this effect of \"Dark Tuner Nightmare Hand\" once per turn. If this card is Normal Summoned: You can Special Summon 1 Level 2 or lower monster from your hand. Once per turn, if you control this Normal Summoned/Set card: You can Tribute both this face-up card and 1 face-up non-Tuner with a lower Level, and if you do, Special Summon 1 Synchro Monster from your Extra Deck with a Level equal to the difference in Levels of those monsters (this is treated as a Synchro Summon)."
   },
   {
-    "name": "Different Dimension Ground",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "이차원 그랜드",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/31849106.jpg",
     "card_type": "Trap",
@@ -1654,11 +1654,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "This turn, any monster sent to the GY is banished instead."
+    "description": "①: 이 턴에, 묘지로 보내지는 몬스터는 묘지로는 가지 않으며 제외된다."
   },
   {
-    "name": "Dingirsu, the Orcust of the Evening Star",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "시오르페골 딩기르수",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/93854893.jpg",
     "card_type": "Monster",
@@ -1666,11 +1666,11 @@ const seedCards = [
     "attribute": "DARK",
     "attack": 2600,
     "defense": 2100,
-    "description": "2 Level 8 monsters\r\nYou can only Special Summon \"Dingirsu, the Orcust of the Evening Star(s)\" once per turn. You can also Xyz Summon this card by using an \"Orcust\" Link Monster you control as material. If a card(s) you control would be destroyed by battle or card effect, you can detach 1 material from this card instead. If this card is Special Summoned: You can activate 1 of these effects;\r\n● Send 1 card your opponent controls to the GY.\r\n● Attach 1 of your banished Machine monsters to this card as material."
+    "description": "레벨 8 몬스터 × 2\n자신은 \"시오르페골 딩기르수\"를 1턴에 1번밖에 특수 소환할 수 없으며, 이 카드는 자신 필드의 \"오르페골\" 링크 몬스터 위에 겹쳐 엑시즈 소환할 수도 있다. ①: 이 카드를 특수 소환했을 경우, 이하의 효과에서 1개를 선택하고 발동할 수 있다. ●상대 필드의 카드 1장을 묘지로 보낸다. ●자신의 제외 상태인 기계족 몬스터 1장을 이 카드의 엑시즈 소재로 한다. ②: 자신 필드의 카드가 전투 / 효과로 파괴될 경우, 대신에 이 카드의 엑시즈 소재를 1개 제거할 수 있다."
   },
   {
-    "name": "Divine Golden Shadow Dragon Dragluxion",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "신영금룡 드래글룩시온",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/44698398.jpg",
     "card_type": "Monster",
@@ -1678,11 +1678,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 2500,
     "defense": 3000,
-    "description": "2 Level 8 monsters\r\nIf this card is Special Summoned from the Extra Deck: You can add 1 \"Galaxy\" or \"Tachyon\" card from your Deck to your hand. You can detach 2 materials from this card; Special Summon from your Extra Deck, 1 Rank 8 Dragon Xyz Monster with 3000 ATK, using this card you control as material (this is treated as an Xyz Summon, transfer its materials to the Summoned monster), then you can attach 1 \"Galaxy\" monster from your Extra Deck to it. You can only use each effect of \"Divine Golden Shadow Dragon Dragluxion\" once per turn."
+    "description": "레벨 8 몬스터 × 2\n이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 엑스트라 덱에서 특수 소환했을 경우에 발동할 수 있다. 덱에서 \"갤럭시\" 카드나 \"타키온\" 카드 1장을 패에 넣는다. ②: 이 카드의 엑시즈 소재를 2개 제거하고 발동할 수 있다. 공격력 3000 이고 드래곤족 / 랭크 8 인 엑시즈 몬스터 1장을 자신 필드의 이 카드 위에 겹쳐 엑시즈 소환으로 취급하고 엑스트라 덱에서 특수 소환한다. 그 후, 엑스트라 덱에서 \"갤럭시\" 몬스터 1장을 그 엑시즈 소재로 할 수 있다."
   },
   {
-    "name": "Incredible Ecclesia, the Virtuous",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "순백의 성녀 에클레시아",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/55273560.jpg",
     "card_type": "Monster",
@@ -1690,11 +1690,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 1500,
     "defense": 1500,
-    "description": "If your opponent controls more monsters than you do, you can Special Summon this card (from your hand). You can only Special Summon \"Incredible Ecclesia, the Virtuous\" once per turn this way. You can only use each of the following effects of \"Incredible Ecclesia, the Virtuous\" once per turn. During the Main Phase (Quick Effect): You can Tribute this card; Special Summon 1 \"Swordsoul\" monster or 1 \"Fallen of Albaz\" from your hand or Deck. During the End Phase, if a Fusion Monster(s) was sent to your GY this turn: Add this card from the GY to your hand."
+    "description": "이 카드명의, ①의 방법에 의한 특수 소환은 1턴에 1번밖에 할 수 없으며, ②③의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 상대 필드의 몬스터의 수가 자신 필드의 몬스터보다 많을 경우, 이 카드는 패에서 특수 소환할 수 있다. ②: 자신 / 상대의 메인 페이즈에, 이 카드를 릴리스하고 발동할 수 있다. 패 / 덱에서 \"상검\" 몬스터나 \"알버스의 낙윤\" 1장을 특수 소환한다. ③: 이 턴에 융합 몬스터가 자신 묘지로 보내져 있을 경우, 엔드 페이즈에 발동할 수 있다. 묘지의 이 카드를 패에 넣는다."
   },
   {
-    "name": "Lightstorm Dragon",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "라이트스톰 드래곤",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/10515412.jpg",
     "card_type": "Monster",
@@ -1702,11 +1702,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 2700,
     "defense": 3000,
-    "description": "1 Tuner + 1+ non-Tuner monsters\r\nIf this card is Special Summoned: You can target Spells/Traps on the field up to the number of Normal Monsters in your GY +1; destroy them. If this card is destroyed by battle or card effect: You can target 1 Spell/Trap in your GY; Set it, but it cannot be activated unless you control a Normal Monster. You can only use each effect of \"Lightstorm Dragon\" once per turn."
+    "description": "튜너 ＋ 튜너 이외의 몬스터 1장 이상\n이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: 이 카드를 특수 소환했을 경우, 자신 묘지의 일반 몬스터의 수 ＋ 1장까지, 필드의 마법 / 함정 카드를 대상으로 하고 발동할 수 있다. 그 카드를 파괴한다. ②: 이 카드가 전투 / 효과로 파괴되었을 경우, 자신 묘지의 마법 / 함정 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 자신 필드에 세트한다. 이 효과로 세트한 카드는, 자신 필드에 일반 몬스터가 존재하지 않을 경우에는 발동할 수 없다."
   },
   {
-    "name": "N.As.H. Knight",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "네필 어사일럼 헤트 나이트",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/34876719.jpg",
     "card_type": "Monster",
@@ -1714,11 +1714,11 @@ const seedCards = [
     "attribute": "WATER",
     "attack": 1700,
     "defense": 2700,
-    "description": "2 Level 5 monsters\r\nCannot be destroyed by battle while a \"Number\" monster is on the field. During the Main Phase (Quick Effect): You can detach 2 materials from this card; attach 1 \"Number\" Xyz Monster from your Extra Deck to this card as material that has a number between \"101\" and \"107\" in its name, then you can attach 1 other face-up monster on the field to this card as material. You can only use this effect of \"N.As.H. Knight\" once per turn."
+    "description": "레벨 5 몬스터 × 2\n이 카드명의 ②의 효과는 1턴에 1번밖에 사용할 수 없다. ①: 필드에 \"No.\" 몬스터가 존재하는 한, 이 카드는 전투로는 파괴되지 않는다. ②: 자신 / 상대의 메인 페이즈에, 이 카드의 엑시즈 소재를 2개 제거하고 발동할 수 있다. \"No.101\"~\"No.107\" 중 어느 \"No.\" 엑시즈 몬스터 1장을 엑스트라 덱에서 이 카드의 엑시즈 소재로 한다. 그 후, 필드의 다른 앞면 표시 몬스터 1장을 이 카드의 엑시즈 소재로 할 수 있다."
   },
   {
     "name": "Neo Galaxy-Eyes Photon Dragon - Photon Howling",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/28331069.jpg",
     "card_type": "Monster",
@@ -1729,8 +1729,8 @@ const seedCards = [
     "description": "3 Level 8 monsters\r\nOnce per turn, you can also Xyz Summon \"Neo Galaxy-Eyes Photon Dragon - Photon Howling\" by using 1 Rank 8 Xyz Monster you control (transfer its materials). If this card is Xyz Summoned: You can take 1 \"Photon\" monster from your Deck, and either Special Summon it in Defense Position or attach it to this card as material. (Quick Effect): You can detach 3 materials from this card; Tribute 1 other Xyz Monster, and if you do, negate the effects of all other face-up cards currently on the field until the end of this turn."
   },
   {
-    "name": "Number 104: Masquerade",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "No.104 마스커레이드 매지션 샤이닝",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/2061963.jpg",
     "card_type": "Monster",
@@ -1738,11 +1738,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 2700,
     "defense": 1200,
-    "description": "3 Level 4 monsters\nDuring either player's Battle Phase, when an opponent's monster effect is activated: You can detach 1 Xyz Material from this card; negate the activation, and if you do, inflict 800 damage to your opponent. Once per turn: You can send the top card of your opponent's Deck to the Graveyard."
+    "description": "레벨 4 몬스터 × 3\n①: 1턴에 1번, 자신 메인 페이즈에 발동할 수 있다. 상대의 덱 맨 위의 카드를 묘지로 보낸다. ②: 자신 / 상대의 배틀 페이즈에 상대가 몬스터의 효과를 발동했을 때, 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 그 발동을 무효로 하고, 상대에게 800 데미지를 준다."
   },
   {
-    "name": "Number 65: Djinn Buster",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "No.65 재단마인 저지 버스터",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/3790062.jpg",
     "card_type": "Monster",
@@ -1750,11 +1750,11 @@ const seedCards = [
     "attribute": "DARK",
     "attack": 1300,
     "defense": 0,
-    "description": "2 Level 2 DARK monsters\nDuring either player's turn, when an effect of an opponent's monster is activated: You can detach 2 Xyz Materials from this card; negate the activation, and if you do, inflict 500 damage to your opponent."
+    "description": "어둠 속성 레벨 2 몬스터 × 2\n①: 상대가 몬스터의 효과를 발동했을 때, 이 카드의 엑시즈 소재를 2개 제거하고 발동할 수 있다. 그 발동을 무효로 하고, 상대에게 500 데미지를 준다."
   },
   {
-    "name": "Number C104: Umbral Horror Masquerade",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "CNo.104 마스커레이드 매지션 엄브럴",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/49456901.jpg",
     "card_type": "Monster",
@@ -1762,11 +1762,11 @@ const seedCards = [
     "attribute": "DARK",
     "attack": 3000,
     "defense": 1500,
-    "description": "4 Level 5 monsters\nWhen this card is Special Summoned: You can target 1 Spell/Trap Card on the field; destroy that target. If this card has \"Number 104: Masquerade\" as an Xyz material, it gains this effect.\n● Once per turn, during either player's turn, when a monster effect is activated on your opponent's side of the field: You can detach 1 Xyz Material from this card; negate the activation, then you can send 1 random card from your opponent's hand to the Graveyard, and if you do, halve your opponent's Life Points."
+    "description": "레벨 5 몬스터 × 4\n①: 이 카드를 특수 소환했을 때, 필드의 마법 / 함정 카드 1장을 대상으로 하고 발동할 수 있다. 그 카드를 파괴한다. ②: 이 카드가 \"No.104 마스커레이드 매지션 샤이닝\"을 엑시즈 소재로 하고 있을 경우, 이하의 효과를 얻는다. ●1턴에 1번, 상대 필드의 몬스터의 효과가 발동했을 때, 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 그 발동을 무효로 한다. 그 후, 상대의 패를 무작위로 1장 묘지로 보내고, 상대의 LP를 절반으로 할 수 있다."
   },
   {
-    "name": "Primite Drillbeam",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "원석의 천광",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/29095457.jpg",
     "card_type": "Spell",
@@ -1774,11 +1774,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "Reveal 1 \"Primite\" card, or 1 Normal Monster, in your hand, except \"Primite Drillbeam\" (or if you control a Normal Monster or a Level 5 or higher \"Primite\" monster, except a Token, you can activate this effect without revealing a card), then target 1 face-up card on the field; negate its effects, and if you do, banish it. During your Main Phase, if you control a \"Primite\" monster: You can Set this card from your GY. You can only use each effect of \"Primite Drillbeam\" once per turn."
+    "description": "이 카드명의 ①②의 효과는 각각 1턴에 1번밖에 사용할 수 없다. ①: \"원석의 천광\" 이외의 패의 \"원석\" 카드 1장이나 일반 몬스터 1장을 상대에게 보여주고, 필드의 앞면 표시 카드 1장을 대상으로 하여 발동할 수 있다(토큰이 아닌, 일반 몬스터 또는 레벨 5 이상의 \"원석\" 몬스터가 자신 필드에 존재할 경우, 보여주지 않고 발동할 수도 있다). 대상의 카드의 효과를 무효로 하고 제외한다. ②: 자신 필드에 \"원석\" 몬스터가 존재할 경우, 자신 메인 페이즈에 발동할 수 있다. 묘지의 이 카드를 자신 필드에 세트한다."
   },
   {
-    "name": "Primite Roar",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "원석의 명영",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/92501449.jpg",
     "card_type": "Spell",
@@ -1786,11 +1786,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "Pay 2000 LP, then declare 1 Normal Monster Card name; the declared Normal Monsters and \"Primite\" monsters you control cannot be destroyed by battle (until the end of your opponent's turn), then if you control no monsters, you can Special Summon 1 declared Normal Monster from your Deck in Defense Position. If your opponent Normal Summons a monster: You can banish this card from your GY, then target 1 Normal Monster you control or in your GY; banish 1 monster from the field with less ATK than that monster."
+    "description": "①: 2000 LP를 지불하고, 일반 몬스터의 카드명을 1개 선언하여 발동할 수 있다. 상대 턴 종료시까지, 자신의 선언한 일반 몬스터 및 자신의 \"원석\" 몬스터는 전투로는 파괴되지 않는다. 자신 필드에 몬스터가 존재하지 않을 경우, 추가로 선언한 일반 몬스터 1장을 덱에서 수비 표시로 특수 소환할 수 있다. ②: 상대가 몬스터를 일반 소환했을 경우, 묘지의 이 카드를 제외하고, 자신의 필드 / 묘지의 일반 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터보다 낮은 공격력을 가지는 필드의 몬스터 1장을 제외한다."
   },
   {
-    "name": "PSY-Framegear Delta",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "PSY프레임기어 δ",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/74203495.jpg",
     "card_type": "Monster",
@@ -1798,11 +1798,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 1200,
     "defense": 0,
-    "description": "Cannot be Normal Summoned/Set. Must be Special Summoned by a card effect, and cannot be Special Summoned by other ways. During either player's turn, when your opponent activates a Spell Card while you control no monsters: You can Special Summon both this card from your hand and 1 \"PSY-Frame Driver\" from your hand, Deck, or Graveyard, and if you do, negate that activation, and if you do that, destroy that Spell Card. During the End Phase, banish the face-up monsters Special Summoned by this effect."
+    "description": "이 카드는 통상 소환할 수 없으며, 카드의 효과로만 특수 소환할 수 있다. ①: 자신 필드에 몬스터가 존재하지 않으며, 상대가 마법 카드를 발동했을 때에 발동할 수 있다(동일한 체인 위에서는 1번까지). 패의 이 카드와 자신의 패 / 덱 / 묘지의 \"PSY(싸이)프레임 드라이버\" 1장을 특수 소환하고, 그 발동을 무효로 하여 파괴한다. 이 효과로 특수 소환한 몬스터는 전부 엔드 페이즈에 제외된다."
   },
   {
-    "name": "PSY-Framegear Gamma",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "PSY프레임기어 γ",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/38814750.jpg",
     "card_type": "Monster",
@@ -1810,11 +1810,11 @@ const seedCards = [
     "attribute": "LIGHT",
     "attack": 1000,
     "defense": 0,
-    "description": "Cannot be Normal Summoned/Set. Must be Special Summoned by a card effect. When your opponent activates a monster effect while you control no monsters (Quick Effect): You can Special Summon both this card from your hand and 1 \"PSY-Frame Driver\" from your hand, Deck, or GY, and if you do, negate that activation, and if you do that, destroy that monster. During the End Phase, banish the face-up monsters Special Summoned by this effect."
+    "description": "이 카드는 통상 소환할 수 없으며, 카드의 효과로만 특수 소환할 수 있다. ①: 자신 필드에 몬스터가 존재하지 않으며, 상대가 몬스터의 효과를 발동했을 때에 발동할 수 있다(동일한 체인 위에서는 1번까지). 패의 이 카드와 자신의 패 / 덱 / 묘지의 \"PSY(싸이)프레임 드라이버\" 1장을 특수 소환하고, 그 발동을 무효로 하여 파괴한다. 이 효과로 특수 소환한 몬스터는 전부 엔드 페이즈에 제외된다."
   },
   {
     "name": "Red Nova Dragon - Burning Soul",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/65541655.jpg",
     "card_type": "Monster",
@@ -1825,8 +1825,8 @@ const seedCards = [
     "description": "2 Tuners + 1 non-Tuner\r\nMust be either Synchro Summoned, or Special Summoned (from your Extra Deck) by banishing 2 Tuners and 1 \"Red Dragon Archfiend\" from your GY. If this card is Special Summoned: You can add 1 card from your GY to your hand, and if you do, this card gains 2000 ATK. You can only use this effect of \"Red Nova Dragon - Burning Soul\" once per Duel, and only during a Duel you Synchro Summoned \"Red Dragon Archfiend\". Cannot be destroyed by card effects."
   },
   {
-    "name": "Seventh Tachyon",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "세븐스 타키온",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/7477101.jpg",
     "card_type": "Spell",
@@ -1834,11 +1834,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "Reveal 1 \"Number\" Xyz Monster in your Extra Deck that has a number between \"101\" and \"107\" in its name; add 1 monster from your Deck to your hand with the same Type or Attribute as that monster, and the same Level as that monster's Rank, then place 1 card from your hand on top of the Deck, also for the rest of this turn after this card resolves, you cannot Special Summon from the Extra Deck, except Xyz Monsters. You can only activate 1 \"Seventh Tachyon\" per turn."
+    "description": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 엑스트라 덱의 \"No.101\"~\"No.107\" 중 어느 \"No.\" 엑시즈 몬스터 1장을 상대에게 보여주고 발동할 수 있다. 종족이나 속성이 보여준 몬스터와 같고, 그 몬스터의 랭크와 같은 수치의 레벨을 가지는 몬스터 1장을 덱에서 패에 넣는다. 그 후, 자신의 패를 1장 고르고 덱 맨 위로 되돌린다. 이 카드의 발동 후, 턴 종료시까지 자신은 엑시즈 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다."
   },
   {
-    "name": "Songs of the Dominators",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "열왕시편",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/58053438.jpg",
     "card_type": "Trap",
@@ -1846,11 +1846,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "If you have no monsters in your GY, you can activate this card from your hand. When your opponent activates a monster effect on the field: Negate that effect, then if you have a Trap in your GY, you can add 1 \"Dominus\" card from your Deck to your hand. If you activated this card from your hand, you cannot activate the effects of monsters in your hand, GY, and banishment, until the end of the next turn. You can only activate 1 \"Songs of the Dominators\" per turn."
+    "description": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. 자신 묘지에 몬스터가 존재하지 않을 경우, 이 카드의 발동은 패에서도 할 수 있다. ①: 상대가 필드의 몬스터의 효과를 발동했을 때에 발동할 수 있다. 그 효과를 무효로 한다. 자신 묘지에 함정 카드가 존재할 경우, 추가로 덱에서 \"도미나스\" 카드 1장을 패에 넣을 수 있다. 이 카드를 패에서 발동했을 경우, 발동 후, 다음 턴 종료시까지 자신은 패 / 묘지 / 제외 상태인 몬스터의 효과를 발동할 수 없다."
   },
   {
-    "name": "Super Starslayer TY-PHON - Sky Crisis",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "로기어스텔라 티 폰",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/93039339.jpg",
     "card_type": "Monster",
@@ -1858,11 +1858,11 @@ const seedCards = [
     "attribute": "DARK",
     "attack": 2900,
     "defense": 2900,
-    "description": "2 Level 12 monsters\r\nDuring the turn, or turn after, your opponent Special Summoned 2 or more monsters from the Extra Deck, you can also Xyz Summon this card by using 1 monster you control with the highest ATK (your choice, if tied). (Transfer its materials to this card.) If you do, you cannot Normal or Special Summon monsters for the rest of this turn. While this Xyz Summoned monster is on the field, neither player can activate the effects of monsters with 3000 or more ATK. Once per turn: You can detach 1 material from this card; return 1 monster from the field to the hand."
+    "description": "레벨 12 몬스터 × 2\n이 카드는 상대가 엑스트라 덱에서 2장 이상의 몬스터를 특수 소환한 턴 및 그 다음 턴에, 자신 필드의 공격력이 가장 높은 몬스터 위에 겹쳐 엑시즈 소환할 수도 있다. 이 방법으로 특수 소환한 턴에, 자신은 몬스터를 일반 소환 / 특수 소환할 수 없다. ①: 엑시즈 소환한 이 카드가 몬스터 존에 존재하는 한, 서로 공격력 3000 이상의 몬스터의 효과를 발동할 수 없다. ②: 1턴에 1번, 이 카드의 엑시즈 소재를 1개 제거하고 발동할 수 있다. 필드의 몬스터 1장을 패로 되돌린다."
   },
   {
-    "name": "Synchro Rumble",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "싱크로 럼블",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/88901994.jpg",
     "card_type": "Spell",
@@ -1870,11 +1870,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "Target 1 Tuner or 1 Level 7 or 8 Dragon Synchro Monster in your GY; Special Summon it in Defense Position, also for the rest of this turn after this card resolves, you cannot Special Summon from the Extra Deck, except Synchro Monsters. If a Level 7 or 8 Dragon Synchro Monster(s) or \"Crimson Dragon\" you control would be destroyed by battle or card effect, you can banish this card from your GY instead. You can only activate 1 \"Synchro Rumble\" per turn."
+    "description": "이 카드명의 카드는 1턴에 1장밖에 발동할 수 없다. ①: 자신 묘지의 튜너 1장 또는 레벨 7 / 8 의 드래곤족 싱크로 몬스터 1장을 대상으로 하고 발동할 수 있다. 그 몬스터를 수비 표시로 특수 소환한다. 이 카드의 발동 후, 턴 종료시까지 자신은 싱크로 몬스터밖에 엑스트라 덱에서 특수 소환할 수 없다. ②: 자신 필드의 \"붉은 용\" 또는 레벨 7 / 8 의 드래곤족 싱크로 몬스터가 전투 / 효과로 파괴될 경우, 대신에 묘지의 이 카드를 제외할 수 있다."
   },
   {
     "name": "The Flute of Guiding Dragon",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/93871599.jpg",
     "card_type": "Spell",
@@ -1886,7 +1886,7 @@ const seedCards = [
   },
   {
     "name": "Triple Borrel Launch",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/89875646.jpg",
     "card_type": "Spell",
@@ -1897,8 +1897,8 @@ const seedCards = [
     "description": "Activate 1 of these effects (but you can only use each effect of \"Triple Borrel Launch\" once per turn);\r\n● Shuffle 1 Dragon monster from your GY into the Deck, then you can Special Summon 1 \"Rokket\" monster with a different name from your Deck.\r\n● Shuffle 2 Dragon monsters from your GY into the Deck, then add 1 Field Spell from your GY to your hand.\r\n● Shuffle 3 Dragon monsters from your GY into the Deck, then shuffle up to 3 monsters from your opponent's GY into the Deck."
   },
   {
-    "name": "Ultimate Slayer",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "아르테미트 슬레이",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/2263869.jpg",
     "card_type": "Spell",
@@ -1906,11 +1906,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "Your opponent cannot activate monster effects in response to this card's activation. Send 1 monster from your Extra Deck to the GY, then target 1 monster your opponent controls with the same card type (Fusion, Synchro, Xyz, Pendulum, or Link); shuffle it into the Deck."
+    "description": "이 카드의 발동에 대하여 상대는 몬스터의 효과를 발동할 수 없다. ①: 엑스트라 덱에서 몬스터 1장을 묘지로 보내고, 그 몬스터와 같은 종류(융합 / 싱크로 / 엑시즈 / 펜듈럼 / 링크)의 상대 필드의 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터를 덱으로 되돌린다."
   },
   {
-    "name": "Welcome Labrynth",
-    "rarity": "아종 시크릿 레어 / 홀로그래픽 레어**",
+    "name": "빅웰컴 라뷰린스",
+    "rarity": "Prismatic Secret Rare",
     "booster_pack": "Limit Over Collection -THE RIVALS-",
     "image_url": "https://images.ygoprodeck.com/images/cards/5380979.jpg",
     "card_type": "Trap",
@@ -1918,11 +1918,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "Special Summon 1 \"Labrynth\" monster from your Deck, also until the end of the next turn after this card resolves, you cannot Special Summon monsters from the Deck or Extra Deck, except Fiend monsters. If a monster leaves the field by your Normal Trap effect, while this card is in your GY, except the turn it was sent there: You can Set this card. You can only use each effect of \"Welcome Labrynth\" once per turn."
+    "description": "이 카드명의 ①②의 효과는 1턴에 1번, 어느 쪽이든 1개밖에 사용할 수 없다. ①: 자신의 패 / 덱 / 묘지에서 \"라뷰린스\" 몬스터 1장을 특수 소환한다. 그 후, 자신 필드의 몬스터 1장을 패로 되돌린다. ②: 묘지의 이 카드를 제외하고, 자신 필드의 악마족 몬스터 1장을 대상으로 하여 발동할 수 있다(자신 필드에 레벨 8 이상의 악마족 몬스터가 존재할 경우, 대신에 상대 필드의 카드 1장을 대상으로 할 수도 있다). 그 카드를 패로 되돌린다."
   },
   {
     "name": "Aleister the Reminiscent",
-    "rarity": "시크릿 레어",
+    "rarity": "Secret Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/57294268.jpg",
     "card_type": "Monster",
@@ -1934,7 +1934,7 @@ const seedCards = [
   },
   {
     "name": "Annihilating Retrolight",
-    "rarity": "시크릿 레어",
+    "rarity": "Secret Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/83319154.jpg",
     "card_type": "Trap",
@@ -1946,7 +1946,7 @@ const seedCards = [
   },
   {
     "name": "Astrolasma Urania",
-    "rarity": "시크릿 레어",
+    "rarity": "Secret Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/18738846.jpg",
     "card_type": "Monster",
@@ -1958,7 +1958,7 @@ const seedCards = [
   },
   {
     "name": "Black Chaos the Ultimate Magical Swordsman",
-    "rarity": "시크릿 레어",
+    "rarity": "Secret Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/98684220.jpg",
     "card_type": "Monster",
@@ -1970,7 +1970,7 @@ const seedCards = [
   },
   {
     "name": "Black Luster Soldier - Soldier of Light and Darkness",
-    "rarity": "시크릿 레어",
+    "rarity": "Secret Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/70405001.jpg",
     "card_type": "Monster",
@@ -1982,7 +1982,7 @@ const seedCards = [
   },
   {
     "name": "Blitzclique - Alternator",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/59921227.jpg",
     "card_type": "Trap",
@@ -1994,7 +1994,7 @@ const seedCards = [
   },
   {
     "name": "Blitzclique - Breakaway",
-    "rarity": "레어*",
+    "rarity": "Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/64049762.jpg",
     "card_type": "Spell",
@@ -2006,7 +2006,7 @@ const seedCards = [
   },
   {
     "name": "Blitzclique - Return Stroke",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/23526128.jpg",
     "card_type": "Trap",
@@ -2018,7 +2018,7 @@ const seedCards = [
   },
   {
     "name": "Blitzclique - Stepped Leader",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/433377.jpg",
     "card_type": "Spell",
@@ -2030,7 +2030,7 @@ const seedCards = [
   },
   {
     "name": "Clown Crew Drish",
-    "rarity": "레어*",
+    "rarity": "Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/30109445.jpg",
     "card_type": "Monster",
@@ -2042,7 +2042,7 @@ const seedCards = [
   },
   {
     "name": "Corrupted Ritual Records",
-    "rarity": "레어*",
+    "rarity": "Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/24461358.jpg",
     "card_type": "Spell",
@@ -2054,7 +2054,7 @@ const seedCards = [
   },
   {
     "name": "Crack Blitzclique",
-    "rarity": "시크릿 레어",
+    "rarity": "Secret Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/58916810.jpg",
     "card_type": "Monster",
@@ -2066,7 +2066,7 @@ const seedCards = [
   },
   {
     "name": "Divine Abyss of the Sacred Beast",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/86132414.jpg",
     "card_type": "Trap",
@@ -2078,7 +2078,7 @@ const seedCards = [
   },
   {
     "name": "Elfnotes: Quatrain of Succession",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/58809685.jpg",
     "card_type": "Trap",
@@ -2090,7 +2090,7 @@ const seedCards = [
   },
   {
     "name": "Grain Blitzclique",
-    "rarity": "레어*",
+    "rarity": "Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/84401954.jpg",
     "card_type": "Monster",
@@ -2102,7 +2102,7 @@ const seedCards = [
   },
   {
     "name": "Gray Layer",
-    "rarity": "노멀 레어*",
+    "rarity": "Normal Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/18616294.jpg",
     "card_type": "Monster",
@@ -2114,7 +2114,7 @@ const seedCards = [
   },
   {
     "name": "Griffoh",
-    "rarity": "레어*",
+    "rarity": "Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/97462632.jpg",
     "card_type": "Monster",
@@ -2126,7 +2126,7 @@ const seedCards = [
   },
   {
     "name": "Hamon, Lord of Striking Thunder - Sacred Beast of Sinful Catastrophe",
-    "rarity": "시크릿 레어",
+    "rarity": "Secret Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/50251045.jpg",
     "card_type": "Monster",
@@ -2138,7 +2138,7 @@ const seedCards = [
   },
   {
     "name": "Invocation \"Sword\"",
-    "rarity": "시크릿 레어",
+    "rarity": "Secret Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/37432075.jpg",
     "card_type": "Spell",
@@ -2150,7 +2150,7 @@ const seedCards = [
   },
   {
     "name": "Invoked Sorath",
-    "rarity": "레어*",
+    "rarity": "Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/43989315.jpg",
     "card_type": "Monster",
@@ -2162,7 +2162,7 @@ const seedCards = [
   },
   {
     "name": "Invoked Transcendence Aeon",
-    "rarity": "시크릿 레어",
+    "rarity": "Secret Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/33166263.jpg",
     "card_type": "Monster",
@@ -2174,7 +2174,7 @@ const seedCards = [
   },
   {
     "name": "June Pride - Elfnotes",
-    "rarity": "시크릿 레어",
+    "rarity": "Secret Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/5559570.jpg",
     "card_type": "Monster",
@@ -2186,7 +2186,7 @@ const seedCards = [
   },
   {
     "name": "Lane Restriction",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/47914440.jpg",
     "card_type": "Trap",
@@ -2198,7 +2198,7 @@ const seedCards = [
   },
   {
     "name": "Magician of Dark Chaos - Black Chaos",
-    "rarity": "시크릿 레어",
+    "rarity": "Secret Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/44001993.jpg",
     "card_type": "Monster",
@@ -2210,7 +2210,7 @@ const seedCards = [
   },
   {
     "name": "Martyr of the Sacred Beasts",
-    "rarity": "레어*",
+    "rarity": "Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/59138498.jpg",
     "card_type": "Monster",
@@ -2222,7 +2222,7 @@ const seedCards = [
   },
   {
     "name": "Melffy God Mommy",
-    "rarity": "레어*",
+    "rarity": "Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/5833929.jpg",
     "card_type": "Monster",
@@ -2234,7 +2234,7 @@ const seedCards = [
   },
   {
     "name": "Melffy Rabbys",
-    "rarity": "시크릿 레어",
+    "rarity": "Secret Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/46955132.jpg",
     "card_type": "Monster",
@@ -2246,7 +2246,7 @@ const seedCards = [
   },
   {
     "name": "Melffy Statues Game",
-    "rarity": "레어*",
+    "rarity": "Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/25687946.jpg",
     "card_type": "Spell",
@@ -2258,7 +2258,7 @@ const seedCards = [
   },
   {
     "name": "Mind Shuffle",
-    "rarity": "레어*",
+    "rarity": "Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/24749710.jpg",
     "card_type": "Trap",
@@ -2270,7 +2270,7 @@ const seedCards = [
   },
   {
     "name": "Pasto-Ral Theorealize",
-    "rarity": "레어*",
+    "rarity": "Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/36709484.jpg",
     "card_type": "Spell",
@@ -2282,7 +2282,7 @@ const seedCards = [
   },
   {
     "name": "Phantasmal Sacred Beasts of Chaos",
-    "rarity": "시크릿 레어",
+    "rarity": "Secret Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/7894706.jpg",
     "card_type": "Monster",
@@ -2294,7 +2294,7 @@ const seedCards = [
   },
   {
     "name": "Phara, the Goddess of the Beginning",
-    "rarity": "시크릿 레어",
+    "rarity": "Secret Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/82344137.jpg",
     "card_type": "Monster",
@@ -2306,7 +2306,7 @@ const seedCards = [
   },
   {
     "name": "Plasma Blast",
-    "rarity": "레어*",
+    "rarity": "Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/51869363.jpg",
     "card_type": "Spell",
@@ -2318,7 +2318,7 @@ const seedCards = [
   },
   {
     "name": "Pot of Sloth",
-    "rarity": "시크릿 레어",
+    "rarity": "Secret Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/98476659.jpg",
     "card_type": "Spell",
@@ -2330,7 +2330,7 @@ const seedCards = [
   },
   {
     "name": "Power Patron Envoy of Pure Prayers",
-    "rarity": "레어*",
+    "rarity": "Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/31822037.jpg",
     "card_type": "Monster",
@@ -2342,7 +2342,7 @@ const seedCards = [
   },
   {
     "name": "Protective Stone Gardenscaping",
-    "rarity": "노멀 레어*",
+    "rarity": "Normal Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/10307853.jpg",
     "card_type": "Trap",
@@ -2354,7 +2354,7 @@ const seedCards = [
   },
   {
     "name": "Raviel, Lord of Phantasms - Sacred Beast of Endless Eternity",
-    "rarity": "시크릿 레어",
+    "rarity": "Secret Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/96345184.jpg",
     "card_type": "Monster",
@@ -2366,7 +2366,7 @@ const seedCards = [
   },
   {
     "name": "S-Force Mystify",
-    "rarity": "레어*",
+    "rarity": "Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/4611341.jpg",
     "card_type": "Monster",
@@ -2378,7 +2378,7 @@ const seedCards = [
   },
   {
     "name": "S-Force Nightslayer",
-    "rarity": "시크릿 레어",
+    "rarity": "Secret Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/67216732.jpg",
     "card_type": "Monster",
@@ -2390,7 +2390,7 @@ const seedCards = [
   },
   {
     "name": "Skull Archfiend of Chaos",
-    "rarity": "레어*",
+    "rarity": "Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/24088928.jpg",
     "card_type": "Monster",
@@ -2402,7 +2402,7 @@ const seedCards = [
   },
   {
     "name": "Skyfire of the Sacred Beast",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/1259915.jpg",
     "card_type": "Spell",
@@ -2413,8 +2413,8 @@ const seedCards = [
     "description": "During your Main Phase: You can place 2 \"Skyfire of the Sacred Beast\" from your hand, Deck, and/or GY face-up on your field, then you can reveal 1 Level 10 \"Sacred Beast\" monster in your hand, then place 1 \"Fallen Paradise of the Sacred Beasts\" from your Deck face-up in your Field Zone. During your opponent's End Phase, if this card is in your GY: You can add it to your hand. You can only use each effect of \"Skyfire of the Sacred Beast\" once per turn."
   },
   {
-    "name": "Summer",
-    "rarity": "노멀 레어*",
+    "name": "상하의 번개썸머",
+    "rarity": "Normal Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/97254001.jpg",
     "card_type": "Spell",
@@ -2422,11 +2422,11 @@ const seedCards = [
     "attribute": null,
     "attack": null,
     "defense": null,
-    "description": "Once per turn: You can place Season Counters on this card equal to the number of your opponent's unused Main Monster Zones. Once per turn, when your monster declares an attack: You can inflict 400 damage to your opponent for each Season Counter on this card, and for each \"Spring\" in your GY. Once per turn, during your opponent's End Phase: You can take 1 Field Spell from your hand or Deck that you can place a Season Counter on, and place it face-up on your field (but neither player can activate its effects this turn), and if you do, place all Season Counters on this card on that card."
+    "description": "번개족 몬스터 2장\n①: 상대 턴에 1번, 패를 1장 버리고, 링크 몬스터 이외의 자신 묘지의 번개족 몬스터 1장을 대상으로 하여 발동할 수 있다. 그 몬스터를 이 카드의 링크 앞이 되는 자신 필드에 특수 소환한다."
   },
   {
     "name": "Surge Blitzclique",
-    "rarity": "시크릿 레어",
+    "rarity": "Secret Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/22912101.jpg",
     "card_type": "Monster",
@@ -2438,7 +2438,7 @@ const seedCards = [
   },
   {
     "name": "The Phantom Knights of Decayed Cloak",
-    "rarity": "레어*",
+    "rarity": "Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/46072770.jpg",
     "card_type": "Monster",
@@ -2450,7 +2450,7 @@ const seedCards = [
   },
   {
     "name": "The Phantom Knights of Malevolent Scythe",
-    "rarity": "시크릿 레어",
+    "rarity": "Secret Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/78449284.jpg",
     "card_type": "Monster",
@@ -2462,7 +2462,7 @@ const seedCards = [
   },
   {
     "name": "Unleashing the Sacred Beasts",
-    "rarity": "레어*",
+    "rarity": "Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/38776201.jpg",
     "card_type": "Spell",
@@ -2474,7 +2474,7 @@ const seedCards = [
   },
   {
     "name": "Uria, Lord of Searing Flames - Sacred Beast of Cataclysmic Fire",
-    "rarity": "시크릿 레어",
+    "rarity": "Secret Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/23856331.jpg",
     "card_type": "Monster",
@@ -2486,7 +2486,7 @@ const seedCards = [
   },
   {
     "name": "Virakam the Artificial Spirit",
-    "rarity": "레어*",
+    "rarity": "Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/10673071.jpg",
     "card_type": "Monster",
@@ -2498,7 +2498,7 @@ const seedCards = [
   },
   {
     "name": "Wisca Blitzclique",
-    "rarity": "시크릿 레어",
+    "rarity": "Secret Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/85523502.jpg",
     "card_type": "Monster",
@@ -2510,7 +2510,7 @@ const seedCards = [
   },
   {
     "name": "Zenna-no-Tsuinagihime",
-    "rarity": "시크릿 레어",
+    "rarity": "Secret Rare",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/7594154.jpg",
     "card_type": "Monster",
@@ -2522,7 +2522,7 @@ const seedCards = [
   },
   {
     "name": "Aiwass the Spirit of the Law",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/84288367.jpg",
     "card_type": "Monster",
@@ -2534,7 +2534,7 @@ const seedCards = [
   },
   {
     "name": "Chaos Hats",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/2372506.jpg",
     "card_type": "Spell",
@@ -2546,7 +2546,7 @@ const seedCards = [
   },
   {
     "name": "Clown Crew Finale",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/84031736.jpg",
     "card_type": "Trap",
@@ -2558,7 +2558,7 @@ const seedCards = [
   },
   {
     "name": "Dead-End Power Patron Realm - Viraia",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/99311889.jpg",
     "card_type": "Spell",
@@ -2570,7 +2570,7 @@ const seedCards = [
   },
   {
     "name": "Destruction Chant of the Sacred Beast",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/50147815.jpg",
     "card_type": "Trap",
@@ -2582,7 +2582,7 @@ const seedCards = [
   },
   {
     "name": "Emi Blitzclique",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/11895663.jpg",
     "card_type": "Monster",
@@ -2594,7 +2594,7 @@ const seedCards = [
   },
   {
     "name": "Excited Melffys",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/79561872.jpg",
     "card_type": "Monster",
@@ -2606,7 +2606,7 @@ const seedCards = [
   },
   {
     "name": "Exciting Melffy Time",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/58036097.jpg",
     "card_type": "Trap",
@@ -2618,7 +2618,7 @@ const seedCards = [
   },
   {
     "name": "Fallen Paradise of the Sacred Beasts",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/65861210.jpg",
     "card_type": "Spell",
@@ -2630,7 +2630,7 @@ const seedCards = [
   },
   {
     "name": "Glitch Clutch Nullgainer",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/32044675.jpg",
     "card_type": "Monster",
@@ -2642,7 +2642,7 @@ const seedCards = [
   },
   {
     "name": "Invoked Babalon",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/70383419.jpg",
     "card_type": "Monster",
@@ -2654,7 +2654,7 @@ const seedCards = [
   },
   {
     "name": "Invoked Okeanos",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/6772168.jpg",
     "card_type": "Monster",
@@ -2666,7 +2666,7 @@ const seedCards = [
   },
   {
     "name": "Kowloon, Citadel of the Sky",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/37654623.jpg",
     "card_type": "Spell",
@@ -2678,7 +2678,7 @@ const seedCards = [
   },
   {
     "name": "Magical King of the Swamp",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/45223540.jpg",
     "card_type": "Monster",
@@ -2690,7 +2690,7 @@ const seedCards = [
   },
   {
     "name": "Magical Name - \"Rosa Mundi\"",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/86319972.jpg",
     "card_type": "Trap",
@@ -2702,7 +2702,7 @@ const seedCards = [
   },
   {
     "name": "Mystic Box of Chaos",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/75983808.jpg",
     "card_type": "Spell",
@@ -2714,7 +2714,7 @@ const seedCards = [
   },
   {
     "name": "Mystical Celtic Sage",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/50073633.jpg",
     "card_type": "Monster",
@@ -2726,7 +2726,7 @@ const seedCards = [
   },
   {
     "name": "Oh my Trap Hole!",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/10529441.jpg",
     "card_type": "Trap",
@@ -2738,7 +2738,7 @@ const seedCards = [
   },
   {
     "name": "Power Patron Shadows of the End Times",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/22404570.jpg",
     "card_type": "Trap",
@@ -2750,7 +2750,7 @@ const seedCards = [
   },
   {
     "name": "Rayrage, the Twilight Fiend",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/71222649.jpg",
     "card_type": "Monster",
@@ -2762,7 +2762,7 @@ const seedCards = [
   },
   {
     "name": "Ritual of Light and Darkness",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/33599853.jpg",
     "card_type": "Spell",
@@ -2774,7 +2774,7 @@ const seedCards = [
   },
   {
     "name": "S-Force Origin",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/99199231.jpg",
     "card_type": "Spell",
@@ -2786,7 +2786,7 @@ const seedCards = [
   },
   {
     "name": "S-Force Signus",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/19951423.jpg",
     "card_type": "Monster",
@@ -2798,7 +2798,7 @@ const seedCards = [
   },
   {
     "name": "S-Force Sorted World",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/11642993.jpg",
     "card_type": "Trap",
@@ -2810,7 +2810,7 @@ const seedCards = [
   },
   {
     "name": "Spirit Sword Aiwass",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/63926180.jpg",
     "card_type": "Spell",
@@ -2822,7 +2822,7 @@ const seedCards = [
   },
   {
     "name": "Spiritual Power Recovery Potion",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/61082944.jpg",
     "card_type": "Spell",
@@ -2834,7 +2834,7 @@ const seedCards = [
   },
   {
     "name": "The Orchestrator of the Sacred Beasts",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/22734799.jpg",
     "card_type": "Monster",
@@ -2846,7 +2846,7 @@ const seedCards = [
   },
   {
     "name": "The Phantom Knights of Doomed Solleret",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/83566725.jpg",
     "card_type": "Monster",
@@ -2858,7 +2858,7 @@ const seedCards = [
   },
   {
     "name": "The Phantom Knights of Umbrage Veil",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/85257384.jpg",
     "card_type": "Trap",
@@ -2870,7 +2870,7 @@ const seedCards = [
   },
   {
     "name": "The Phantom Knights' Rank-Up-Magic Requiem",
-    "rarity": "노멀",
+    "rarity": "Common",
     "booster_pack": "Chaos Origins",
     "image_url": "https://images.ygoprodeck.com/images/cards/62104532.jpg",
     "card_type": "Spell",

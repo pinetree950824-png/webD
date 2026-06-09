@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { getCachedCardImage } from '../utils/indexedDB';
 
-export default function Card({ card, isUncollected = false, isFaceDown = false, onClick = null }) {
+export default function Card({ card, isUncollected = false, isFaceDown = false, onClick = null, size = 'normal' }) {
   const cardRef = useRef(null);
   const [cachedSrc, setCachedSrc] = useState('');
   const [tiltStyle, setTiltStyle] = useState({});
@@ -57,7 +57,31 @@ export default function Card({ card, isUncollected = false, isFaceDown = false, 
   if (!card) return null;
 
   // Determine rarity css class
-  const rarityClass = card.rarity.toLowerCase().replace(/\s+/g, '-');
+  const getRarityClass = (rarity) => {
+    const r = (rarity || '').toLowerCase().trim();
+    if (r.includes('common') || r === 'normal') return 'common';
+    if (r === 'rare') return 'rare';
+    if (r.includes('super')) return 'super';
+    if (r.includes('ultra')) return 'ultra';
+    if (
+      r.includes('secret') || 
+      r.includes('holographic') || 
+      r.includes('ghost') || 
+      r.includes('prismatic') || 
+      r.includes('quarter century') || 
+      r.includes('starlight') || 
+      r.includes('ultimate') || 
+      r.includes('collector')
+    ) {
+      return 'prismatic';
+    }
+    if (r.includes('overframe') || r.includes('ace')) {
+      return 'overframe';
+    }
+    return 'common';
+  };
+
+  const rarityClass = getRarityClass(card.rarity);
 
   // Render stars helper
   const renderStars = (level) => {
@@ -69,7 +93,7 @@ export default function Card({ card, isUncollected = false, isFaceDown = false, 
 
   return (
     <div 
-      className={`card-wrapper ${isUncollected ? 'uncollected' : ''}`}
+      className={`card-wrapper ${size === 'large' ? 'large' : ''} ${isUncollected ? 'uncollected' : ''}`}
       onClick={() => onClick && onClick(card)}
     >
       <div 
@@ -89,60 +113,20 @@ export default function Card({ card, isUncollected = false, isFaceDown = false, 
           </div>
         ) : (
           /* Card Front */
-          <div className="card-front card-inner">
-            <div className="card-top-bar">
-              <span className="card-name" title={card.name}>{card.name}</span>
-              {card.card_type === 'Monster' ? (
-                <span className="card-attribute">{card.attribute}</span>
-              ) : (
-                <span className="card-attribute" style={{ backgroundColor: card.card_type === 'Spell' ? '#007200' : '#800080' }}>
-                  {card.card_type === 'Spell' ? '魔' : '陷'}
-                </span>
-              )}
-            </div>
-
-            {card.card_type === 'Monster' && (
-              <div className="card-stars">
-                {renderStars(card.level)}
-              </div>
+          <div className="card-front" style={{ padding: 0, overflow: 'hidden', height: '100%', borderRadius: 'inherit' }}>
+            {cachedSrc && (
+              <img 
+                src={cachedSrc} 
+                alt={card.name} 
+                draggable="false"
+                style={{ 
+                  width: '100%', 
+                  height: '100%', 
+                  objectFit: 'fill',
+                  display: 'block'
+                }}
+              />
             )}
-
-            <div className="card-image-box" style={{ marginTop: card.card_type !== 'Monster' ? '12px' : '0' }}>
-              {cachedSrc && (
-                <img 
-                  src={cachedSrc} 
-                  alt={card.name} 
-                  className="card-image"
-                  draggable="false"
-                />
-              )}
-            </div>
-
-            <div className="card-info-box">
-              <p className="card-description" title={card.description}>{card.description}</p>
-              
-              <div className="card-stats">
-                {card.card_type === 'Monster' ? (
-                  <>
-                    <span>공 {card.attack !== null ? card.attack : '?'}</span>
-                    <span>수 {card.defense !== null ? card.defense : '?'}</span>
-                  </>
-                ) : (
-                  <span style={{ color: card.card_type === 'Spell' ? '#00f5d4' : '#ff007f' }}>
-                    [{card.card_type} Card]
-                  </span>
-                )}
-                <span 
-                  className="rarity-tag"
-                  style={{ 
-                    color: `var(--rarity-${rarityClass})`,
-                    border: `1px solid var(--rarity-${rarityClass})` 
-                  }}
-                >
-                  {card.rarity.replace(' Rare', '')}
-                </span>
-              </div>
-            </div>
           </div>
         )}
       </div>

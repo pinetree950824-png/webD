@@ -129,13 +129,11 @@ router.post('/buy', authenticateToken, async (req, res) => {
     return res.status(400).json({ error: '잘못된 요청입니다.' });
   }
 
-  const db = await getDB();
-
-  // 1. Start Transaction
-  const tx = await getTransactionDB();
-  const txDb = tx.db;
-
+  let tx = null;
   try {
+    tx = await getTransactionDB();
+    const txDb = tx.db;
+
     await tx.client.query('BEGIN');
 
     // Get active listing using SELECT ... FOR UPDATE (in SQLite we do standard select within tx)
@@ -148,12 +146,14 @@ router.post('/buy', authenticateToken, async (req, res) => {
     if (!listing) {
       await tx.client.query('ROLLBACK');
       tx.release();
+      tx = null;
       return res.status(404).json({ error: '판매 중인 상품이 아니거나 이미 판매된 카드입니다.' });
     }
 
     if (listing.seller_id === buyerId) {
       await tx.client.query('ROLLBACK');
       tx.release();
+      tx = null;
       return res.status(400).json({ error: '자신이 등록한 카드는 구매할 수 없습니다.' });
     }
 
@@ -162,12 +162,14 @@ router.post('/buy', authenticateToken, async (req, res) => {
     if (!buyer) {
       await tx.client.query('ROLLBACK');
       tx.release();
+      tx = null;
       return res.status(404).json({ error: '구매자 정보를 찾을 수 없습니다.' });
     }
 
     if (buyer.gold < listing.price) {
       await tx.client.query('ROLLBACK');
       tx.release();
+      tx = null;
       return res.status(400).json({ error: '골드가 부족합니다.' });
     }
 
@@ -189,6 +191,7 @@ router.post('/buy', authenticateToken, async (req, res) => {
     // Fetch buyer's updated gold to return
     const updatedBuyer = await txDb.get('SELECT gold FROM users WHERE id = ?', [buyerId]);
     tx.release();
+    tx = null;
 
     res.json({
       success: true,
@@ -196,16 +199,17 @@ router.post('/buy', authenticateToken, async (req, res) => {
       updatedGold: updatedBuyer.gold
     });
 
-  } catch (txError) {
-    await tx.client.query('ROLLBACK');
-    tx.release();
-    console.error('Buy transaction failed, rolled back:', txError);
-    res.status(500).json({ error: '카드 구매 거래 처리 중 오류가 발생했습니다.' });
-  }
-
   } catch (error) {
+    if (tx) {
+      try {
+        await tx.client.query('ROLLBACK');
+      } catch (rollbackErr) {
+        console.error('Rollback failed:', rollbackErr);
+      }
+      tx.release();
+    }
     console.error('Buy card API error:', error);
-    res.status(500).json({ error: '서버 오류가 발생했습니다.' });
+    res.status(500).json({ error: '카드 구매 거래 처리 중 오류가 발생했습니다.' });
   }
 });
 

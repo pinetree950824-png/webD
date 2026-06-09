@@ -1,6 +1,30 @@
 import React, { useState, useEffect } from 'react';
 import Card from './Card';
 
+const getRarityClass = (rarity) => {
+  const r = (rarity || '').toLowerCase().trim();
+  if (r.includes('common') || r === 'normal') return 'common';
+  if (r === 'rare') return 'rare';
+  if (r.includes('super')) return 'super';
+  if (r.includes('ultra')) return 'ultra';
+  if (
+    r.includes('secret') || 
+    r.includes('holographic') || 
+    r.includes('ghost') || 
+    r.includes('prismatic') || 
+    r.includes('quarter century') || 
+    r.includes('starlight') || 
+    r.includes('ultimate') || 
+    r.includes('collector')
+  ) {
+    return 'prismatic';
+  }
+  if (r.includes('overframe') || r.includes('ace')) {
+    return 'overframe';
+  }
+  return 'common';
+};
+
 export default function Album({ token, user, refreshUser, addNotification }) {
   const [cards, setCards] = useState([]);
   const [inventory, setInventory] = useState([]);
@@ -263,25 +287,40 @@ export default function Album({ token, user, refreshUser, addNotification }) {
         const { totalOwned, activeSelling, available, availableIds } = getCardStatus(selectedCard.id);
         return (
           <div className="modal-overlay" onClick={() => { setSelectedCard(null); setIsSellingMode(false); }}>
-            <div className="modal-content glass-panel glass-panel-glow" onClick={(e) => e.stopPropagation()} style={{ maxWidth: '650px' }}>
-              <div className="modal-header">
-                <h3 style={{ fontSize: '1.25rem', fontWeight: 800 }}>카드 상세 보기</h3>
-                <button className="modal-close-btn" onClick={() => { setSelectedCard(null); setIsSellingMode(false); }}>×</button>
+            <div className="modal-wrapper-layout" onClick={(e) => e.stopPropagation()}>
+              {/* Left Column: Massive Floating Card */}
+              <div className="modal-card-left">
+                <Card card={selectedCard} size="large" />
               </div>
               
-              <div className="card-detail-modal-layout">
-                <Card card={selectedCard} />
+              {/* Right Column: Glass Details Panel */}
+              <div className="modal-content glass-panel glass-panel-glow" style={{ width: '420px', margin: 0 }}>
+                <div className="modal-header">
+                  <h3 style={{ fontSize: '1.25rem', fontWeight: 800 }}>카드 상세 보기</h3>
+                  <button className="modal-close-btn" onClick={() => { setSelectedCard(null); setIsSellingMode(false); }}>×</button>
+                </div>
                 
                 <div className="card-metadata-info">
                   <h4 className="card-title-name glow-text-cyan">{selectedCard.name}</h4>
-                  <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
-                    <strong>수집 팩:</strong> {selectedCard.booster_pack === 'Chaos Origins' ? '카오스 오리진즈' : 
-                                           selectedCard.booster_pack.includes('HEROES') ? '리미트 오버 컬렉션 -더 히어로즈-' : 
-                                           '리미트 오버 컬렉션 -더 라이벌즈-'}
-                  </p>
-                  <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
-                    <strong>등급:</strong> <span style={{ color: `var(--rarity-${selectedCard.rarity.toLowerCase().replace(/\s+/g, '-')})` }}>{selectedCard.rarity}</span>
-                  </p>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem', fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
+                    <p>
+                      <strong>수집 팩:</strong> {selectedCard.booster_pack === 'Chaos Origins' ? '카오스 오리진즈' : 
+                                             selectedCard.booster_pack.includes('HEROES') ? '리미트 오버 컬렉션 -더 히어로즈-' : 
+                                             '리미트 오버 컬렉션 -더 라이벌즈-'}
+                    </p>
+                    <p>
+                      <strong>등급:</strong> <span style={{ color: `var(--rarity-${getRarityClass(selectedCard.rarity)})`, fontWeight: 700 }}>{selectedCard.rarity}</span>
+                    </p>
+                    <p>
+                      <strong>카드 종류:</strong> {selectedCard.card_type === 'Monster' ? '몬스터 카드' : selectedCard.card_type === 'Spell' ? '마법 카드' : '함정 카드'}
+                      {selectedCard.card_type === 'Monster' && ` / ${selectedCard.attribute}속성 / 레벨 ${selectedCard.level}`}
+                    </p>
+                    {selectedCard.card_type === 'Monster' && (
+                      <p>
+                        <strong>공격력:</strong> {selectedCard.attack !== null ? selectedCard.attack : '?'} / <strong>수비력:</strong> {selectedCard.defense !== null ? selectedCard.defense : '?'}
+                      </p>
+                    )}
+                  </div>
                   <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', background: 'rgba(0,0,0,0.3)', padding: '0.8rem', borderRadius: '8px', border: '1px solid var(--border-color)', minHeight: '80px', whiteSpace: 'pre-line' }}>
                     {selectedCard.description}
                   </p>

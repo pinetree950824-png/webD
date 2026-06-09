@@ -200,6 +200,11 @@ body {
   height: 350px;
 }
 
+.card-wrapper.large {
+  width: 420px;
+  height: 590px;
+}
+
 .card-3d {
   position: relative;
   width: 100%;
@@ -980,6 +985,37 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+}
+
+.modal-wrapper-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+  max-width: 900px;
+  width: 100%;
+}
+
+.modal-card-left {
+  flex-shrink: 0;
+  perspective: 1000px;
+}
+
+@media (max-width: 1000px) {
+  .modal-wrapper-layout {
+    flex-direction: column;
+    gap: 1.5rem;
+    overflow-y: auto;
+    max-height: 95vh;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .card-wrapper.large {
+    width: 280px;
+    height: 395px;
+  }
 }
 
 .modal-header {

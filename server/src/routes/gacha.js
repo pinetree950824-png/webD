@@ -91,6 +91,26 @@ router.post('/draw', authenticateToken, async (req, res) => {
       "Common": 35
     };
 
+    const getRarityCategory = (rarity) => {
+      const r = (rarity || '').toLowerCase().trim();
+      if (r.includes('quarter century') || r.includes('holographic') || r.includes('ghost') || r.includes('overframe')) {
+        return 'Overframe Rare';
+      }
+      if (r.includes('secret') || r.includes('prismatic') || r.includes('ultimate') || r.includes('collector')) {
+        return 'Prismatic Secret Rare';
+      }
+      if (r.includes('ultra')) {
+        return 'Ultra Rare';
+      }
+      if (r.includes('super')) {
+        return 'Super Rare';
+      }
+      if (r === 'rare') {
+        return 'Rare';
+      }
+      return 'Common';
+    };
+
     const rollRarity = () => {
       const rand = Math.random() * 100;
       let cumulative = 0;
@@ -106,7 +126,7 @@ router.post('/draw', authenticateToken, async (req, res) => {
     // Helper to get card of a specific rarity or fallback
     const drawSingleCard = (cards) => {
       const rolledRarity = rollRarity();
-      let candidates = cards.filter(c => c.rarity === rolledRarity);
+      let candidates = cards.filter(c => getRarityCategory(c.rarity) === rolledRarity);
       
       // Fallback if no cards of rolled rarity exist in this pack
       if (candidates.length === 0) {
