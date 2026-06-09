@@ -25,7 +25,7 @@ COPY server/ ./
 COPY --from=frontend-builder /app/dist /usr/share/nginx/html
 
 # Overwrite Nginx configuration with our custom reverse proxy rules
-COPY nginx/nginx.conf /etc/nginx/sites-available/default
+COPY nginx/nginx.prod.conf /etc/nginx/sites-available/default
 
 # Create SQLite persistent data folder
 RUN mkdir -p /app/data

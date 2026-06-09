@@ -5,6 +5,7 @@ const { initDB } = require('./db');
 const authRouter = require('./routes/auth');
 const gachaRouter = require('./routes/gacha');
 const albumRouter = require('./routes/album');
+const marketRouter = require('./routes/market');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -22,6 +23,7 @@ app.use(express.json());
 app.use('/auth', authRouter);
 app.use('/gacha', gachaRouter);
 app.use('/album', albumRouter);
+app.use('/market', marketRouter);
 
 // Health Check
 app.get('/health', (req, res) => {

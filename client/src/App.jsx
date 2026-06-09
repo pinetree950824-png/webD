@@ -4,6 +4,7 @@ import Dashboard from './components/Dashboard';
 import Shop from './components/Shop';
 import Album from './components/Album';
 import GachaReveal from './components/GachaReveal';
+import Marketplace from './components/Marketplace';
 
 export default function App() {
   const [token, setToken] = useState(localStorage.getItem('duelverse_token') || '');
@@ -116,6 +117,15 @@ export default function App() {
             addNotification={addNotification} 
           />
         );
+      case 'market':
+        return (
+          <Marketplace 
+            token={token} 
+            user={user} 
+            refreshUser={refreshUserGold}
+            addNotification={addNotification} 
+          />
+        );
       default:
         return <Dashboard user={user} token={token} setView={setView} />;
     }
@@ -132,6 +142,7 @@ export default function App() {
             <span className={`nav-item ${view === 'dashboard' ? 'active' : ''}`} onClick={() => setView('dashboard')}>대시보드</span>
             <span className={`nav-item ${view === 'shop' ? 'active' : ''}`} onClick={() => setView('shop')}>부스터 상점</span>
             <span className={`nav-item ${view === 'album' ? 'active' : ''}`} onClick={() => setView('album')}>도감 앨범</span>
+            <span className={`nav-item ${view === 'market' ? 'active' : ''}`} onClick={() => setView('market')}>카드 거래소</span>
           </nav>
 
           <div className="user-info-bar">
