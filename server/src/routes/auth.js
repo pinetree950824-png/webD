@@ -8,6 +8,11 @@ const { authenticateToken, JWT_SECRET } = require('../middleware/auth');
 const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID || '325492193582-example.apps.googleusercontent.com';
 const client = new OAuth2Client(GOOGLE_CLIENT_ID);
 
+// GET /google-client-id - Retrieve public Google Client ID for frontend initialization
+router.get('/google-client-id', (req, res) => {
+  res.json({ clientId: GOOGLE_CLIENT_ID });
+});
+
 // POST /guest - Guest login or registration
 router.post('/guest', async (req, res) => {
   const { nickname } = req.body;
