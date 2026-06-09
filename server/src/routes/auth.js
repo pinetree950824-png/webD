@@ -26,9 +26,9 @@ router.post('/guest', async (req, res) => {
       // Create new guest
       const result = await db.run(
         'INSERT INTO users (nickname, gold) VALUES (?, ?)',
-        [cleanNickname, 10000] // Start with 10,000 gold
+        [cleanNickname, 100000] // Start with 100,000 gold
       );
-      user = { id: result.lastID, nickname: cleanNickname, gold: 10000 };
+      user = { id: result.lastID, nickname: cleanNickname, gold: 100000 };
     }
 
     // Generate JWT
@@ -84,9 +84,9 @@ router.post('/google', async (req, res) => {
 
       const result = await db.run(
         'INSERT INTO users (nickname, google_id, gold) VALUES (?, ?, ?)',
-        [finalNickname, googleId, 10000]
+        [finalNickname, googleId, 100000]
       );
-      user = { id: result.lastID, nickname: finalNickname, gold: 10000 };
+      user = { id: result.lastID, nickname: finalNickname, gold: 100000 };
     }
 
     const token = jwt.sign({ id: user.id, nickname: user.nickname }, JWT_SECRET, { expiresIn: '7d' });
