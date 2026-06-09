@@ -11,7 +11,7 @@ export default function Login({ onLoginSuccess }) {
     if (window.google) {
       try {
         window.google.accounts.id.initialize({
-          client_id: '325492193582-example.apps.googleusercontent.com', // Match backend client id placeholder
+          client_id: import.meta.env.VITE_GOOGLE_CLIENT_ID || '325492193582-example.apps.googleusercontent.com',
           callback: handleGoogleCallback,
         });
 
