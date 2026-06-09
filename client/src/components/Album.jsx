@@ -294,15 +294,15 @@ export default function Album({ token, user, refreshUser, addNotification }) {
               </div>
               
               {/* Right Column: Glass Details Panel */}
-              <div className="modal-content glass-panel glass-panel-glow" style={{ width: '460px', margin: 0, padding: '2.2rem' }}>
+              <div className="modal-content glass-panel glass-panel-glow" style={{ width: '500px', margin: 0, padding: '2.2rem' }}>
                 <div className="modal-header">
-                  <h3 style={{ fontSize: '1.55rem', fontWeight: 800 }}>카드 상세 보기</h3>
+                  <h3 style={{ fontSize: '1.86rem', fontWeight: 800 }}>카드 상세 보기</h3>
                   <button className="modal-close-btn" onClick={() => { setSelectedCard(null); setIsSellingMode(false); }}>×</button>
                 </div>
                 
                 <div className="card-metadata-info" style={{ gap: '1.2rem' }}>
-                  <h4 className="card-title-name glow-text-cyan" style={{ fontSize: '2.1rem' }}>{selectedCard.name}</h4>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem', fontSize: '1.15rem', color: 'var(--text-secondary)' }}>
+                  <h4 className="card-title-name glow-text-cyan" style={{ fontSize: '2.41rem' }}>{selectedCard.name}</h4>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem', fontSize: '1.46rem', color: 'var(--text-secondary)' }}>
                     <p>
                       <strong>수집 팩:</strong> {selectedCard.booster_pack === 'Chaos Origins' ? '카오스 오리진즈' : 
                                              selectedCard.booster_pack.includes('HEROES') ? '리미트 오버 컬렉션 -더 히어로즈-' : 
@@ -321,12 +321,12 @@ export default function Album({ token, user, refreshUser, addNotification }) {
                       </p>
                     )}
                   </div>
-                  <p style={{ fontSize: '1.15rem', lineHeight: '1.6', color: 'var(--text-secondary)', background: 'rgba(0,0,0,0.3)', padding: '1.2rem', borderRadius: '8px', border: '1px solid var(--border-color)', minHeight: '80px', whiteSpace: 'pre-line' }}>
+                  <p style={{ fontSize: '1.46rem', lineHeight: '1.6', color: 'var(--text-secondary)', background: 'rgba(0,0,0,0.3)', padding: '1.2rem', borderRadius: '8px', border: '1px solid var(--border-color)', minHeight: '80px', whiteSpace: 'pre-line' }}>
                     {selectedCard.description}
                   </p>
 
                   <div style={{ marginTop: '1.2rem', borderTop: '1px dashed var(--border-color)', paddingTop: '1.2rem' }}>
-                    <p style={{ fontSize: '1.2rem', fontWeight: 700, color: 'var(--accent-gold)' }}>
+                    <p style={{ fontSize: '1.51rem', fontWeight: 700, color: 'var(--accent-gold)' }}>
                       보유 수량: {totalOwned} 장 {activeSelling > 0 && `(거래소 판매 중: ${activeSelling} 장)`}
                     </p>
                     {available > 0 ? (
@@ -334,7 +334,7 @@ export default function Album({ token, user, refreshUser, addNotification }) {
                         {!isSellingMode ? (
                           <button 
                             className="btn btn-cyan" 
-                            style={{ width: '100%', fontSize: '1.2rem', padding: '0.8rem' }}
+                            style={{ width: '100%', fontSize: '1.51rem', padding: '0.8rem' }}
                             onClick={() => {
                               setIsSellingMode(true);
                               setSellPrice('');
@@ -345,7 +345,7 @@ export default function Album({ token, user, refreshUser, addNotification }) {
                           </button>
                         ) : (
                           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.7rem', background: 'rgba(255,255,255,0.05)', padding: '1.2rem', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.1)' }}>
-                            <label style={{ fontSize: '1.1rem', fontWeight: 600 }}>판매 가격 설정 (Gold)</label>
+                            <label style={{ fontSize: '1.41rem', fontWeight: 600 }}>판매 가격 설정 (Gold)</label>
                             <div style={{ display: 'flex', gap: '0.7rem' }}>
                               <input 
                                 type="number" 
@@ -353,29 +353,29 @@ export default function Album({ token, user, refreshUser, addNotification }) {
                                 placeholder="예: 500" 
                                 value={sellPrice}
                                 onChange={(e) => setSellPrice(e.target.value)}
-                                style={{ flexGrow: 1, padding: '0.6rem', fontSize: '1.15rem' }}
+                                style={{ flexGrow: 1, padding: '0.6rem', fontSize: '1.46rem' }}
                               />
                               <button 
                                 className="btn btn-cyan" 
                                 onClick={() => handleRegisterSale(availableIds[0], selectedCard.name)}
-                                style={{ padding: '0.6rem 1.2rem', fontSize: '1.15rem' }}
+                                style={{ padding: '0.6rem 1.2rem', fontSize: '1.46rem' }}
                               >
                                 등록
                               </button>
                               <button 
                                 className="btn btn-secondary" 
                                 onClick={() => setIsSellingMode(false)}
-                                style={{ padding: '0.6rem 1.2rem', fontSize: '1.15rem' }}
+                                style={{ padding: '0.6rem 1.2rem', fontSize: '1.46rem' }}
                               >
                                 취소
                               </button>
                             </div>
-                            {sellingError && <p style={{ color: 'var(--accent-red)', fontSize: '1.05rem', marginTop: '0.3rem' }}>{sellingError}</p>}
+                            {sellingError && <p style={{ color: 'var(--accent-red)', fontSize: '1.36rem', marginTop: '0.3rem' }}>{sellingError}</p>}
                           </div>
                         )}
                       </div>
                     ) : (
-                      <p style={{ fontSize: '1.05rem', color: 'var(--text-muted)', marginTop: '0.7rem', fontStyle: 'italic' }}>
+                      <p style={{ fontSize: '1.36rem', color: 'var(--text-muted)', marginTop: '0.7rem', fontStyle: 'italic' }}>
                         {activeSelling > 0 ? '보유한 카드가 모두 판매 등록되어 추가 판매할 수 없습니다.' : '보유 수량이 없어 판매할 수 없습니다.'}
                       </p>
                     )}
