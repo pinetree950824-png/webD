@@ -13,6 +13,9 @@ function getPool() {
     throw new Error('[DuelVerse DB] DATABASE_URL environment variable is missing!');
   }
 
+  // Print prefix for safety but diagnostic purposes
+  console.log(`[DuelVerse DB] DATABASE_URL detected: ${connectionString.substring(0, 25)}...`);
+
   pool = new Pool({
     connectionString,
     ssl: {
