@@ -5,28 +5,49 @@ export default function Login({ onLoginSuccess }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
-  // Initialize Google Sign-in button
+  // Initialize Google Sign-in button by fetching client ID dynamically from backend
   useEffect(() => {
-    /* global google */
-    if (window.google) {
+    const initGoogle = async () => {
       try {
-        window.google.accounts.id.initialize({
-          client_id: import.meta.env.VITE_GOOGLE_CLIENT_ID || '325492193582-example.apps.googleusercontent.com',
-          callback: handleGoogleCallback,
-        });
+        const apiHost = import.meta.env.VITE_API_URL || '/api';
+        const res = await fetch(`${apiHost}/auth/google-client-id`);
+        if (!res.ok) throw new Error('Failed to fetch client ID');
+        const data = await res.json();
+        const clientId = data.clientId;
 
-        const btnElement = document.getElementById('google-signin-button');
-        if (btnElement) {
-          window.google.accounts.id.renderButton(btnElement, {
-            theme: 'filled_blue',
-            size: 'large',
-            text: 'signin_with',
-            shape: 'rectangular',
+        /* global google */
+        if (window.google && clientId) {
+          window.google.accounts.id.initialize({
+            client_id: clientId,
+            callback: handleGoogleCallback,
           });
+
+          const btnElement = document.getElementById('google-signin-button');
+          if (btnElement) {
+            window.google.accounts.id.renderButton(btnElement, {
+              theme: 'filled_blue',
+              size: 'large',
+              text: 'signin_with',
+              shape: 'rectangular',
+            });
+          }
         }
       } catch (err) {
         console.error('Google API init failed:', err);
       }
+    };
+
+    if (window.google) {
+      initGoogle();
+    } else {
+      // In case Google Identity Services script is still loading
+      const checkGoogleInterval = setInterval(() => {
+        if (window.google) {
+          clearInterval(checkGoogleInterval);
+          initGoogle();
+        }
+      }, 300);
+      return () => clearInterval(checkGoogleInterval);
     }
   }, []);
 
