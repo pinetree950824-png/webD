@@ -8,13 +8,21 @@ export default function Login({ onLoginSuccess }) {
   // Initialize Google Sign-in button by fetching client ID dynamically from backend
   useEffect(() => {
     const initGoogle = async () => {
+      let clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID || '828379853018-lao505vhi37b57a7n1g7pgu9hsn0p9rr.apps.googleusercontent.com';
       try {
         const apiHost = import.meta.env.VITE_API_URL || '/api';
         const res = await fetch(`${apiHost}/auth/google-client-id`);
-        if (!res.ok) throw new Error('Failed to fetch client ID');
-        const data = await res.json();
-        const clientId = data.clientId;
+        if (res.ok) {
+          const data = await res.json();
+          if (data.clientId) {
+            clientId = data.clientId;
+          }
+        }
+      } catch (err) {
+        console.error('Google API client-id fetch failed, falling back to environment/hardcoded client ID:', err);
+      }
 
+      try {
         /* global google */
         if (window.google && clientId) {
           window.google.accounts.id.initialize({
